@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
      public Animator animator;
      
      [Header("Player Speed")]
-     public float speed = 6;
+     private float speed = 2.2f;
 
      [Header("Gravity Jumping")]
      public float gravity = -9.81f;
@@ -20,7 +20,8 @@ public class PlayerController : MonoBehaviour
      public LayerMask groundMask;
      public float groundDistance = 0.05f;
      public bool isGrounded;
-     
+     public bool groundedBool;
+
      private float jumpingTime;
      private Vector3 velocity;
      private float turnSmoothVelocity;
@@ -38,7 +39,7 @@ public class PlayerController : MonoBehaviour
              velocity.y = -lowJumpMultiplier;
          }
 
-         if (Input.GetButtonDown("Jump") && isGrounded)
+         if (Input.GetButtonDown("Jump") && isGrounded && !groundedBool)
          {
              StartCoroutine(JumpingAnimationTime());
          }
@@ -69,9 +70,15 @@ public class PlayerController : MonoBehaviour
      IEnumerator JumpingAnimationTime()
      {
          animator.SetBool(Jumping,true);
+         groundedBool = true;
+         speed = 0.1f;
          yield return new WaitForSeconds(0.5f);
+         speed = 1f;
+         SoundManager.instance.JumpEffect();
          velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
-         yield return new WaitForSeconds(1f);
+         yield return new WaitForSeconds(1.3f);
+         speed = 2.2f;
          animator.SetBool(Jumping,false);
+         groundedBool = false;
      }
 }
