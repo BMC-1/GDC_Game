@@ -9,23 +9,26 @@ public class QuestReminderCollision : MonoBehaviour
     [Header("Enter the description of the quest")]
     public string questText;
     
-    //MISSING : LEAN TWEEN ANIM - On Open and Close this gameobject
     public void OnTriggerEnter(Collider other)
     {
         StartCoroutine(QuestEnumerator(questText));
     }
 
-    public void QuestInfo(string questInfo)
+    private void OpenQuestInfo(string questInfo,bool value)
     {
-        questPanel.transform.GetChild(0).GetChild(1).GetComponent<TextMeshProUGUI>().text = questInfo;
+        if (value)
+        {
+            LeanTween.scale(questPanel, Vector3.one * 2, 1f).setEasePunch();
+            questPanel.transform.GetChild(0).GetChild(1).GetComponent<TextMeshProUGUI>().text = questInfo;
+        }
+        questPanel.SetActive(value);
     }
 
     IEnumerator QuestEnumerator(string questInfo)
     {
         yield return new WaitForSeconds(0.1f);
-        questPanel.gameObject.SetActive(true);
-        QuestInfo(questInfo);
+        OpenQuestInfo(questInfo, true);
         yield return new WaitForSeconds(5f);
-        questPanel.gameObject.SetActive(false);
+        OpenQuestInfo(questInfo, false);
     }
 }

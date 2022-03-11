@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - QuestReminder
+  - NPC_Quest
+  - Quest_Finish
   layers:
   - Default
   - TransparentFX
