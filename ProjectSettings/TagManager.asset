@@ -7,6 +7,7 @@ TagManager:
   - QuestReminder
   - NPC_Quest
   - Quest_Finish
+  - PoliceCaught
   layers:
   - Default
   - TransparentFX

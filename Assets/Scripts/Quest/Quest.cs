@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Quest : MonoBehaviour
 {
     [Header("Create a new scriptableObject with the quest information")]
-    public NPC_Quest questInfo;
+    public QuestInfo questInfo;
     [Header("Enter Canvas quest dialogue gameobject")]
     public GameObject questDialogue;
 
@@ -41,26 +41,15 @@ public class Quest : MonoBehaviour
 
         if (questInfo.questGivingObject != null && !questItemReceived)
         {
-            if(InventoryManager.instance.item1.GetComponent<Image>().sprite == null)
+            for (int i = 0; i < InventoryManager.instance.inventoryItems.Count; i++)
             {
-                InventoryManager.instance.item1.GetComponent<Image>().color = new Color(1, 1, 1, 0.8f);
-                InventoryManager.instance.item1.GetComponent<Image>().sprite = questInfo.questGivingObject;
-                questItemReceived = true;
-                return;
-            }
-            if(InventoryManager.instance.item2.GetComponent<Image>().sprite == null)
-            {
-                InventoryManager.instance.item2.GetComponent<Image>().color = new Color(1, 1, 1, 0.8f);
-                InventoryManager.instance.item2.GetComponent<Image>().sprite = questInfo.questGivingObject;
-                questItemReceived = true;
-                return;
-            }
-            if(InventoryManager.instance.item3.GetComponent<Image>().sprite == null)
-            {
-                InventoryManager.instance.item3.GetComponent<Image>().color = new Color(1, 1, 1, 0.8f);
-                InventoryManager.instance.item3.GetComponent<Image>().sprite = questInfo.questGivingObject;
-                questItemReceived = true;
-                return;
+                if (InventoryManager.instance.inventoryItems[i].GetComponent<Image>().sprite == null)
+                {
+                    InventoryManager.instance.inventoryItems[i].GetComponent<Image>().color = new Color(1, 1, 1, 0.8f);
+                    InventoryManager.instance.inventoryItems[i].GetComponent<Image>().sprite = questInfo.questGivingObject;
+                    questItemReceived = true;
+                    return;
+                }
             }
         }
     }

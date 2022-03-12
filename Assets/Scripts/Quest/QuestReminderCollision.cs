@@ -24,7 +24,7 @@ public class QuestReminderCollision : MonoBehaviour
         questPanel.SetActive(value);
     }
 
-    IEnumerator QuestEnumerator(string questInfo)
+    private IEnumerator QuestEnumerator(string questInfo)
     {
         yield return new WaitForSeconds(0.1f);
         OpenQuestInfo(questInfo, true);

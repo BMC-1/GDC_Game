@@ -22,19 +22,19 @@ public class PlayerController : MonoBehaviour
      public bool isGrounded;
      public bool groundedBool;
 
-     [Header("Freeze Player")]
-     public static bool freezePlayer;
-     
+     [Header("Geneder Picker")] 
+     [Tooltip("If male is UnTick , then female is selected")]
+     public bool Male;
+
      private float jumpingTime;
      private Vector3 velocity;
      private float turnSmoothVelocity;
      private float turnSmoothTime = 0.1f;
-     private static readonly int Forward = Animator.StringToHash("Forward");
-     private static readonly int Jumping = Animator.StringToHash("Jumping");
+
 
      void Update()
      {
-         if (!freezePlayer)
+         if (!StaticHelper.freezePlayer)
          {
              //jump
              isGrounded = Physics.CheckSphere(playerCheck.position, groundDistance, groundMask);
@@ -46,7 +46,7 @@ public class PlayerController : MonoBehaviour
 
              if (Input.GetButtonDown("Jump") && isGrounded && !groundedBool)
              {
-                 StartCoroutine(JumpingAnimationTime());
+                 StartCoroutine(JumpingAnimation());
              }
              //gravity
              velocity.y += gravity * Time.deltaTime;
@@ -58,7 +58,7 @@ public class PlayerController : MonoBehaviour
      
              if(direction.magnitude >= 0.1f)
              {
-                 animator.SetBool(Forward,true);
+                 animator.SetBool(StaticHelper.Forward,true);
                  float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
                  float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
                  transform.rotation = Quaternion.Euler(0f, angle, 0f);
@@ -68,23 +68,31 @@ public class PlayerController : MonoBehaviour
              }
              else
              {
-                 animator.SetBool(Forward,false);
+                 animator.SetBool(StaticHelper.Forward,false);
              }
          }
      }
 
-     IEnumerator JumpingAnimationTime()
+     IEnumerator JumpingAnimation()
      {
-         animator.SetBool(Jumping,true);
+         animator.SetBool(StaticHelper.Jumping,true);
          groundedBool = true;
          speed = 0.1f;
-         yield return new WaitForSeconds(0.5f);
-         speed = 1f;
+         if (Male)
+         {
+             yield return new WaitForSeconds(1f);
+         }
+         else
+         {
+             yield return new WaitForSeconds(0.5f);
+         }
+         speed = 0f;
          SoundManager.instance.JumpEffect();
          velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
-         yield return new WaitForSeconds(1.3f);
+         yield return new WaitForSeconds(0.9f);
          speed = 2.2f;
-         animator.SetBool(Jumping,false);
+         animator.SetBool(StaticHelper.Jumping,false);
          groundedBool = false;
      }
+    
 }
