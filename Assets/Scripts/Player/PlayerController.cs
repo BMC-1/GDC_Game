@@ -1,15 +1,14 @@
-using System;
 using System.Collections;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-     public CharacterController controller;
-     public Transform cam;
-     public Animator animator;
+     private CharacterController controller;
+     private Animator animator;
+     private Transform cam;
      
      [Header("Player Speed")]
-     [SerializeField]private float speed = 2.2f;
+     private float speed = 2.2f;
 
      [Header("Gravity Jumping")]
      public float gravity = -9.81f;
@@ -37,6 +36,9 @@ public class PlayerController : MonoBehaviour
 
      public void Start()
      {
+         controller = GetComponent<CharacterController>();
+         animator = GetComponent<Animator>();
+         if (Camera.main is { }) cam = Camera.main.transform;
          StaticHelper.freezePlayer = false;
      }
 
@@ -44,14 +46,16 @@ public class PlayerController : MonoBehaviour
      {
          if (!StaticHelper.freezePlayer)
          {
-             //jump
+             //Check if character Collider is OnGround
              isGrounded = Physics.CheckSphere(playerCheck.position, groundDistance, groundMask);
 
+             //Low jumpMultiplier functionality, smooths out jump
              if (isGrounded && velocity.y < 0)
              {
                  velocity.y = -lowJumpMultiplier;
              }
 
+             //Jump functionality
              if (Input.GetButtonDown("Jump") && isGrounded && !isRunning && !jumpOnce)
              {
                  jumpOnce = true;
@@ -59,6 +63,7 @@ public class PlayerController : MonoBehaviour
                  StartCoroutine(JumpingAnimation());
              }
 
+             //Run functionality
              if (Input.GetButton("Run") && isGrounded)
              {
                  speed = 3.8f;
@@ -72,14 +77,17 @@ public class PlayerController : MonoBehaviour
                  animator.SetBool(StaticHelper.Running,false);
                  speed = 2.2f;
              }
-             //gravity
+             
+             //Gravity functionality
              velocity.y += gravity * Time.deltaTime;
              controller.Move(velocity * Time.deltaTime);
-             //walk
+             
+             //Walk functionality
              float horizontal = Input.GetAxisRaw("Horizontal");
              float vertical = Input.GetAxisRaw("Vertical");
              Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
      
+             //Camera turning and moving character functionality
              if(direction.magnitude >= 0.01f)
              {
                  animator.SetBool(StaticHelper.Forward,true);
@@ -95,11 +103,13 @@ public class PlayerController : MonoBehaviour
              }
              else
              {
+                 //Idle functionality -> Go to idle animation
                  animator.SetBool(StaticHelper.Forward,false);
              }
          }
      }
 
+     //Coroutine between male and female jumping functionality
      IEnumerator JumpingAnimation()
      {
          animator.SetBool(StaticHelper.Jumping,true);
