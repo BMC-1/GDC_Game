@@ -40,12 +40,19 @@ public class PlayerController : MonoBehaviour
          animator = GetComponent<Animator>();
          if (Camera.main is { }) cam = Camera.main.transform;
          StaticHelper.freezePlayer = false;
+         StaticHelper.CaughtBool = false;
      }
 
      void Update()
      {
          if (!StaticHelper.freezePlayer)
          {
+             
+             //Walk functionality
+             float horizontal = Input.GetAxisRaw("Horizontal");
+             float vertical = Input.GetAxisRaw("Vertical");
+             Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
+             
              //Check if character Collider is OnGround
              isGrounded = Physics.CheckSphere(playerCheck.position, groundDistance, groundMask);
 
@@ -64,12 +71,12 @@ public class PlayerController : MonoBehaviour
              }
 
              //Run functionality
-             if (Input.GetButton("Run") && isGrounded)
+             if (Input.GetButton("Run") && isGrounded && direction.magnitude >= 0.01f)
              {
                  speed = 3.8f;
                  isRunning = true;
-                 animator.SetBool(StaticHelper.Running,true);
-                 animator.SetBool(StaticHelper.Jumping,false);
+                 animator.SetBool(StaticHelper.Running, true);
+                 animator.SetBool(StaticHelper.Jumping, false);
              }
              else
              {
@@ -82,11 +89,7 @@ public class PlayerController : MonoBehaviour
              velocity.y += gravity * Time.deltaTime;
              controller.Move(velocity * Time.deltaTime);
              
-             //Walk functionality
-             float horizontal = Input.GetAxisRaw("Horizontal");
-             float vertical = Input.GetAxisRaw("Vertical");
-             Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
-     
+        
              //Camera turning and moving character functionality
              if(direction.magnitude >= 0.01f)
              {
@@ -121,7 +124,7 @@ public class PlayerController : MonoBehaviour
          {
              yield return new WaitForSeconds(0.5f);
          }
-         SoundManager.instance.JumpEffect();
+         //SoundManager.instance.JumpEffect();
          velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
          yield return new WaitForSeconds(0.9f);
          animator.SetBool(StaticHelper.Jumping,false);

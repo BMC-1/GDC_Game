@@ -21,6 +21,7 @@ public class PoliceOfficerAttack : MonoBehaviour
     private AudioSource audioSource;
     private void Start()
     {
+        mainCharacter = GameManager.instance.spawnedChar.transform.GetChild(0).gameObject;
         policeAnimator = transform.GetChild(0).GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
     }
