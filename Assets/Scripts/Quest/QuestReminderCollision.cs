@@ -4,7 +4,14 @@ using UnityEngine;
 
 public class QuestReminderCollision : MonoBehaviour
 {
-    public GameObject questPanel;
+    /// <summary>
+    /// This script pops up a notification of a quest.
+    /// Parameters : questNotification -> Ready-made canvas panel for the questNotification, drag it from your scene,
+    /// if for any reason you don't have this panel on your scene, drag it from prefabs folder to your scene, Unpack it completely
+    /// and drag it to the questNotification object.
+    /// Parameters : questText -> Pass the text you like when the popup notification comes into the screen.
+    /// </summary>
+    public GameObject questNotification;
     
     [Header("Enter the description of the quest")]
     public string questText;
@@ -18,10 +25,10 @@ public class QuestReminderCollision : MonoBehaviour
     {
         if (value)
         {
-            LeanTween.scale(questPanel, Vector3.one * 2, 1f).setEasePunch();
-            questPanel.transform.GetChild(0).GetChild(1).GetComponent<TextMeshProUGUI>().text = questInfo;
+            LeanTween.scale(questNotification, Vector3.one * 2, 1f).setEasePunch();
+            questNotification.transform.GetChild(0).GetChild(1).GetComponent<TextMeshProUGUI>().text = questInfo;
         }
-        questPanel.SetActive(value);
+        questNotification.SetActive(value);
     }
 
     private IEnumerator QuestEnumerator(string questInfo)

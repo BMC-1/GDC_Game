@@ -1,7 +1,4 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
-using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,6 +10,10 @@ public class InventoryManager : MonoBehaviour
         instance = this;
     }
 
+    /// <summary>
+    /// Inventory Items -> If you open this list from the inspector
+    /// You must see the 3 items on the inventoryPanel you have- Looks like [item1/item2/item3]
+    /// </summary>
     public List<GameObject> inventoryItems = new List<GameObject>();
 
     public Sprite Check_If_Sprite_Exist_In_Inventory(Sprite item)

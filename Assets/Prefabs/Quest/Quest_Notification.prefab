@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 342995505028971530}
   - component: {fileID: 7190030123656575350}
   m_Layer: 5
-  m_Name: Quest_Panel
+  m_Name: Quest_Notification
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
@@ -5,12 +6,19 @@ using TMPro;
 
 public class TypeWriter : MonoBehaviour
 {
+    /// <summary>
+    /// This script it can be used on text components - TMP || Normal text.
+    /// It makes the letters to be shown one by one, you can manipulate the timeBtwChars
+    /// which is the speed of the character
+    /// Lower value - Faster (timeBtwChars)
+    /// Higher value - Slower (timeBtwChars)
+    /// </summary>
     Text _text;
     TMP_Text _tmpProText;
     string writer;
 
     [SerializeField] float delayBeforeStart = 0f;
-    [SerializeField] float timeBtwChars = 0.1f;
+    [SerializeField] float timeBtwChars = 0.08f;
     [SerializeField] string leadingChar = "";
     [SerializeField] bool leadingCharBeforeDelay = false;
 
@@ -58,6 +66,7 @@ public class TypeWriter : MonoBehaviour
         {
             _text.text = _text.text.Substring(0, _text.text.Length - leadingChar.Length);
         }
+        timeBtwChars = 0.08f;
     }
 
     IEnumerator TypeWriterTMP()
@@ -80,6 +89,16 @@ public class TypeWriter : MonoBehaviour
         if (leadingChar != "")
         {
             _tmpProText.text = _tmpProText.text.Substring(0, _tmpProText.text.Length - leadingChar.Length);
+        }
+        timeBtwChars = 0.08f;
+    }
+
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            timeBtwChars = 0.01f;
         }
     }
 }
