@@ -19,6 +19,7 @@ public class PoliceOfficerAttack : MonoBehaviour
     private bool getClosed;
     private Animator policeAnimator;
     private AudioSource audioSource;
+    
     private void Start()
     {
         mainCharacter = GameManager.instance.spawnedChar.transform.GetChild(0).gameObject;
@@ -36,7 +37,7 @@ public class PoliceOfficerAttack : MonoBehaviour
 
     private void Update()
     {
-        if (getClosed)
+        if (getClosed && StaticHelper.PoliceOnCall)
         {
             //This code makes the police officer to run straight forward to our player
             Quaternion targetRotation = Quaternion.LookRotation(mainCharacter.transform.position - transform.position);
