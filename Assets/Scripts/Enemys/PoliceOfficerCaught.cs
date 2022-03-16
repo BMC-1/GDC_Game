@@ -12,7 +12,7 @@ public class PoliceOfficerCaught : MonoBehaviour
 
    private void OnTriggerEnter(Collider other)
    {
-      if (!StaticHelper.CaughtBool)
+      if (!StaticHelper.CaughtBool && StaticHelper.PoliceOnCall)
       {
          CaughtByPolice();
       }
@@ -23,6 +23,6 @@ public class PoliceOfficerCaught : MonoBehaviour
       Debug.Log("You get Caught");
       policePanel.SetActive(true);
       StaticHelper.CaughtBool = true;
-      StaticHelper.freezePlayer = true;
+      StaticHelper.FreezePlayer = true;
    }
 }

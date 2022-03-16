@@ -11,7 +11,8 @@ public static class StaticHelper
     public static readonly int Jumping = Animator.StringToHash("Jumping");
     public static readonly int Caught = Animator.StringToHash("Caught");
 
+    public static bool PoliceOnCall = true;
     public static bool CaughtBool = false;
-    public static bool freezePlayer = false;
+    public static bool FreezePlayer = false;
 
 }

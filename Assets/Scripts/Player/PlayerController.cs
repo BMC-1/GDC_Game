@@ -39,13 +39,13 @@ public class PlayerController : MonoBehaviour
          controller = GetComponent<CharacterController>();
          animator = GetComponent<Animator>();
          if (Camera.main is { }) cam = Camera.main.transform;
-         StaticHelper.freezePlayer = false;
+         StaticHelper.FreezePlayer = false;
          StaticHelper.CaughtBool = false;
      }
 
      void Update()
      {
-         if (!StaticHelper.freezePlayer)
+         if (!StaticHelper.FreezePlayer)
          {
              
              //Walk functionality

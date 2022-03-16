@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
 
     [Header("Characters")] [SerializeField]
     private List<GameObject> characters = new List<GameObject>();
-    
+
     [Header("Don't apply any changes")]
     public string characterGender = "male";
     public GameObject spawnedChar = null;
@@ -46,12 +46,6 @@ public class GameManager : MonoBehaviour
     public void InstantiateCharacter()
     {
         SceneManager.LoadSceneAsync(1);
-        // var spawnPoint = GameObject.FindGameObjectWithTag("SpawnPoint");
-        // var characterSpawned = Instantiate(CharacterSpawn(),spawnPoint.transform);
-        // var cam = FindObjectOfType<Camera>();
-        //var cinemachineCam = FindObjectOfType<CinemachineFreeLook>();
-
-        //cinemachineCam.m_Follow = characterSpawned.transform;
-
     }
+
 }
