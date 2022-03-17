@@ -23,8 +23,9 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDilaogue(Dialogue currentDialogue)
     {
-        foreach(string dialogue in currentDialogue.Dialogues())
+        foreach (string dialogue in currentDialogue.Dialogues())
         {
+            dialogueLines.Enqueue(dialogue);
             dialogueLines.Enqueue(dialogue);
         }
     }

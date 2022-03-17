@@ -30,4 +30,9 @@ public class Dialogue : MonoBehaviour
 
     }
 
+    public string[] Dialogues()
+    {
+        return dialogues;
+    }
+
 }
