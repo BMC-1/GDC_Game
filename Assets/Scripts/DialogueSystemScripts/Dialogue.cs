@@ -9,6 +9,10 @@ public class Dialogue : MonoBehaviour
     [TextArea]
     public string[] dialogues;
 
+    [TextArea]
+    [Tooltip("apply choices for each dialog if there are no choices leave it empty,seperate multiple choices with ,")]
+    public string[] dialogueChoices;
+
     public Sprite characterImage;
 
     DialogueManager dialogueManager;

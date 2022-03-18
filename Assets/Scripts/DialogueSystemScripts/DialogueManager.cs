@@ -5,8 +5,9 @@ using UnityEngine;
 
 public class DialogueManager : MonoBehaviour
 {
-    [SerializeField] Text dialogueText;
+    [SerializeField] ChoicesDisplayer choicesDisplayer;
 
+    [SerializeField] Text dialogueText;
     [SerializeField] Text characterName;
 
     [SerializeField] GameObject dialogueBackround;
@@ -16,7 +17,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] float dialogueDisplaySpeed;
 
     Queue<string> dialogueLines = new Queue<string>();
-
+    Queue<string> dialogueChoices = new Queue<string>();
 
     bool isTheDialogueBeingDisplayed;
     // Start is called before the first frame update
@@ -33,9 +34,12 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDilaogue(Dialogue currentDialogue)
     {
-        foreach (string dialogue in currentDialogue.dialogues)
+        for (int i=0; i< currentDialogue.dialogues.Length; i++)
         {
-            dialogueLines.Enqueue(dialogue);
+            dialogueLines.Enqueue(currentDialogue.dialogues[i]);
+
+            dialogueChoices.Enqueue(currentDialogue.dialogueChoices[i]);
+
         }
 
         characterName.text = currentDialogue.nameOfCharacter;
@@ -71,7 +75,7 @@ public class DialogueManager : MonoBehaviour
             }
             isTheDialogueBeingDisplayed = false;
 
-
+            choicesDisplayer.SpawnTheChoices(dialogueChoices.Dequeue());
         }
         else
         {
@@ -85,7 +89,7 @@ public class DialogueManager : MonoBehaviour
     {
         if(isTheDialogueBeingDisplayed==false)
         {
-            print("works");
+            choicesDisplayer.ActivateOrNotTheContinueButton(false);
 
             StartCoroutine("DisplayNextDialogueLinesCoroutine");
         }
