@@ -1,13 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class Dialogue : MonoBehaviour
 {
-    [SerializeField] string nameOfCharacter;
+    public  string nameOfCharacter;
     [TextArea]
-    [SerializeField] string[] dialogues;
+    public string[] dialogues;
 
+    public Sprite characterImage;
+
+    DialogueManager dialogueManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,19 +24,8 @@ public class Dialogue : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.transform.parent.gameObject.tag == "Player")
-        {
-            print("triggered dialogue");
 
-        }
 
-    }
-
-    public string[] Dialogues()
-    {
-        return dialogues;
-    }
+ 
 
 }
