@@ -6,8 +6,7 @@ using UnityEngine;
 
 public class ChoicesDisplayer : MonoBehaviour
 {
-    static int number = 0;
-
+    
     [SerializeField] Button choiceButtonToSpawn;
     [SerializeField] Button continueButton;
 
