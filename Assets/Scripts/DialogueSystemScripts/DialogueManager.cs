@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System;
 using UnityEngine.UI;
 using UnityEngine;
 
@@ -16,8 +17,7 @@ public class DialogueManager : MonoBehaviour
 
     [SerializeField] float dialogueDisplaySpeed;
 
-    Queue<string> dialogueLines = new Queue<string>();
-    Queue<string> dialogueChoices = new Queue<string>();
+    Dialogue currentDialogue;
 
     bool isTheDialogueBeingDisplayed;
     // Start is called before the first frame update
@@ -32,55 +32,64 @@ public class DialogueManager : MonoBehaviour
         
     }
 
-    public void StartDilaogue(Dialogue currentDialogue)
+    public void SetUpTheDialogueBox(Dialogue currentDialogue)
     {
-        for (int i=0; i< currentDialogue.dialogues.Length; i++)
+        if(currentDialogue!=null)
         {
-            dialogueLines.Enqueue(currentDialogue.dialogues[i]);
 
-            dialogueChoices.Enqueue(currentDialogue.dialogueChoices[i]);
+            this.currentDialogue = currentDialogue;
 
-        }
+            characterName.text = currentDialogue.nameOfCharacter;
 
-        characterName.text = currentDialogue.nameOfCharacter;
-
-        characteterImage.sprite = currentDialogue.characterImage;
-
-         dialogueBackround.SetActive(true);
-
-        StartCoroutine("DisplayNextDialogueLinesCoroutine");
-    }
-
-    IEnumerator DisplayNextDialogueLinesCoroutine()
-    {
-        string lineToDisplay;
-
-        dialogueText.text = "";
-
-
-        if (dialogueLines.Count>0)
-        {
-            isTheDialogueBeingDisplayed = true;
-
-            lineToDisplay = dialogueLines.Dequeue();
+            characteterImage.sprite = currentDialogue.characterImage;
 
             dialogueBackround.SetActive(true);
 
-            foreach (char letter in lineToDisplay)
-            {
-                dialogueText.text += letter;
-
-                yield return new WaitForSeconds(dialogueDisplaySpeed);
-
-            }
-            isTheDialogueBeingDisplayed = false;
-
-            choicesDisplayer.SpawnTheChoices(dialogueChoices.Dequeue());
+            StartCoroutine("DisplayDialogueLineCoroutine");
         }
         else
         {
             EndTheDialogue();
         }
+      
+    }
+
+    IEnumerator DisplayDialogueLineCoroutine()
+    {
+        string lineToDisplay="";
+
+        dialogueText.text = "";
+
+        isTheDialogueBeingDisplayed = true;
+
+        choicesDisplayer.DeletePreviousChoices();
+
+
+        try
+        {
+            lineToDisplay = currentDialogue.CurrentLine();
+        }
+        catch(Exception e)
+        {
+            throw new Exception("next line not set");
+        }
+           
+
+        dialogueBackround.SetActive(true);
+
+        foreach (char letter in lineToDisplay)
+        {
+            dialogueText.text += letter;
+
+            yield return new WaitForSeconds(dialogueDisplaySpeed);
+
+        }
+        isTheDialogueBeingDisplayed = false;
+
+        choicesDisplayer.SpawnTheChoices(currentDialogue, currentDialogue.Choices().Length);
+
+        
+      
 
    
     }
@@ -91,9 +100,10 @@ public class DialogueManager : MonoBehaviour
         {
             choicesDisplayer.ActivateOrNotTheContinueButton(false);
 
-            StartCoroutine("DisplayNextDialogueLinesCoroutine");
+            SetUpTheDialogueBox(currentDialogue.NextDialogue());
+
         }
-    
+
 
     }
 

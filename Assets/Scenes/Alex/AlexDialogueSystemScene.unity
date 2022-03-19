@@ -324,7 +324,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 193194834}
-  m_LocalRotation: {x: 0.21699116, y: -0.00000001879242, z: 0.0000000041713353, w: 0.9761736}
+  m_LocalRotation: {x: 0.21699116, y: 0.00000001879242, z: -0.0000000041713353, w: 0.9761736}
   m_LocalPosition: {x: 0, y: 2.8, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1039,7 +1039,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 452563289}
-  m_LocalRotation: {x: 0.21699116, y: -0.00000001877896, z: 0.0000000041743276, w: 0.9761736}
+  m_LocalRotation: {x: 0.21699116, y: 0.00000001877896, z: -0.0000000041743276, w: 0.9761736}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1306,6 +1306,73 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 589209930}
   m_CullTransparentMesh: 1
+--- !u!1 &683552740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 683552741}
+  - component: {fileID: 683552743}
+  - component: {fileID: 683552742}
+  m_Layer: 0
+  m_Name: AsimOreDialogue (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &683552741
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 683552740}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -761.9936, y: -298.76987, z: 365.2214}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1671796498}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &683552742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 683552740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fb6ee6c4ffe1ce43bcfc86434ecf44e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameOfCharacter: Assim
+  characterImage: {fileID: 21300000, guid: fd6e4fc32c78509458fc45ea4a478ba8, type: 3}
+  dialogues:
+  - Trading is not available now
+  - Come here another time
+  nextDialogue:
+  - {fileID: 683552742}
+  - {fileID: 0}
+  choices: []
+  choicesOutComeDialogues: []
+--- !u!65 &683552743
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 683552740}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &724935327
 GameObject:
   m_ObjectHideFlags: 0
@@ -1654,7 +1721,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 855662845}
-  m_LocalRotation: {x: 0.24504551, y: 1.0332699e-15, z: -2.2876431e-17, w: 0.96951157}
+  m_LocalRotation: {x: 0.24504548, y: -0.0000000288937, z: 0.000000007302925, w: 0.9695116}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2619,11 +2686,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 178f049e03587c4449b056012cd02af7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  choiceButton: {fileID: 4548714394888738253, guid: 704fbfff8a5480e4cb8b5da438cecfb6, type: 3}
+  choiceButtonToSpawn: {fileID: 7202283298872712540, guid: 704fbfff8a5480e4cb8b5da438cecfb6, type: 3}
   continueButton: {fileID: 911924871}
   choicesParent: {fileID: 808942918}
   choicesOnPanelPosition: {fileID: 1042582150835136887}
   distanceBetweenButtonsX: 192
+  dialogueManager: {fileID: 831776133}
 --- !u!1 &1452050438
 GameObject:
   m_ObjectHideFlags: 0
@@ -2758,6 +2826,71 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1452050438}
   m_CullTransparentMesh: 1
+--- !u!1 &1670034150
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1670034151}
+  - component: {fileID: 1670034153}
+  - component: {fileID: 1670034152}
+  m_Layer: 0
+  m_Name: PlayerNothingDialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1670034151
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670034150}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -761.9936, y: -298.76987, z: 365.2214}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1671796498}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1670034152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670034150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fb6ee6c4ffe1ce43bcfc86434ecf44e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameOfCharacter: Player
+  characterImage: {fileID: 21300000, guid: 5d9ba4e7d0964044ea54abe409d81dfd, type: 3}
+  dialogues:
+  - I am sorry for you time
+  nextDialogue:
+  - {fileID: 0}
+  choices: []
+  choicesOutComeDialogues: []
+--- !u!65 &1670034153
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670034150}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1671796497
 GameObject:
   m_ObjectHideFlags: 0
@@ -2786,6 +2919,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2047415301}
+  - {fileID: 683552741}
+  - {fileID: 1670034151}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2959,18 +3094,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameOfCharacter: Assim
-  dialogues:
-  - 'There is rare stone in a vault in the museum and i fi you bring it to me i will
-
-    give
-    you the key for the plane'
-  - Do you Accept his offer?
-  - Choose an option
-  dialogueChoices:
-  - 
-  - Agree to go,Dicline the request,do nothing
-  - yes,no
   characterImage: {fileID: 21300000, guid: fd6e4fc32c78509458fc45ea4a478ba8, type: 3}
+  dialogues:
+  - Hallo why did you come here
+  nextDialogue:
+  - {fileID: 0}
+  choices:
+  - I want to trade
+  - I made a mistake
+  choicesOutComeDialogues:
+  - {fileID: 683552742}
+  - {fileID: 1670034152}
 --- !u!4 &2047415301
 Transform:
   m_ObjectHideFlags: 0
@@ -3055,7 +3189,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Paragraph
+  m_Text: 
 --- !u!222 &2069133912
 CanvasRenderer:
   m_ObjectHideFlags: 0

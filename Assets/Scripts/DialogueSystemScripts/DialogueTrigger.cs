@@ -25,7 +25,7 @@ public class DialogueTrigger : MonoBehaviour
         {
             print("triggered dialogue");
 
-            dialogueManager.StartDilaogue(dialogueToTrigger);
+            dialogueManager.SetUpTheDialogueBox(dialogueToTrigger);
 
         }
 

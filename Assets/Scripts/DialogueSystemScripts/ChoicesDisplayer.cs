@@ -6,14 +6,18 @@ using UnityEngine;
 
 public class ChoicesDisplayer : MonoBehaviour
 {
+    static int number = 0;
 
-    [SerializeField] Button choiceButton;
+    [SerializeField] Button choiceButtonToSpawn;
     [SerializeField] Button continueButton;
 
     [SerializeField] Transform choicesParent;
     [SerializeField] Transform choicesOnPanelPosition;
 
     [SerializeField] float distanceBetweenButtonsX;
+
+    [SerializeField] DialogueManager dialogueManager;
+
 
     List<Button> choiceButtonsSpawned = new List<Button>();
     // Start is called before the first frame update
@@ -28,21 +32,30 @@ public class ChoicesDisplayer : MonoBehaviour
         
     }
 
-    public void SpawnTheChoices(string choices)
+    public void SpawnTheChoices(Dialogue currentDialogue,int numberOfChoices)
     {
-        if(CheckIfChoicesShouldAppear(choices))
-        {
-            string[] seperatedChoices = choices.Split(',');
+        
 
+        if (currentDialogue.NextDialogue()==null && numberOfChoices>0)
+        {
+           
             Vector2 spawningButtonPos = Vector2.zero;
 
-            DeletePreviousChoices();
 
-            for (int i = 0; i < seperatedChoices.Length; i++)
+            for (int i = 0; i < currentDialogue.Choices().Length; i++)
             {
-                Button choiceButtonClone = Instantiate(choiceButton, spawningButtonPos, Quaternion.identity);
 
-                choiceButtonClone.transform.GetComponentInChildren<Text>().text = seperatedChoices[i];
+                Button choiceButtonClone = Instantiate(choiceButtonToSpawn, spawningButtonPos, Quaternion.identity);
+
+                ChoiceButton choiceButton = choiceButtonClone.GetComponent<ChoiceButton>();
+
+                choiceButton.buttonId = i;
+
+                choiceButtonClone.name = i.ToString();
+
+                choiceButtonClone.onClick.AddListener(delegate { dialogueManager.SetUpTheDialogueBox(currentDialogue.ChoicesOutComeDialogue()[choiceButton.buttonId]); });
+
+                choiceButtonClone.transform.GetComponentInChildren<Text>().text = currentDialogue.Choices()[i];
 
                 choiceButtonClone.name = "Choice:" + i;
 
@@ -97,7 +110,7 @@ public class ChoicesDisplayer : MonoBehaviour
         choiceButtonsSpawned.Clear();
     }
 
-    void DeletePreviousChoices()
+    public void DeletePreviousChoices()
     {
         for(int i=0; i<choicesParent.childCount; i++)
         {
@@ -106,18 +119,6 @@ public class ChoicesDisplayer : MonoBehaviour
         }
     }
 
-    bool CheckIfChoicesShouldAppear(string choices)
-    {
-        if(choices!="")
-        {
-
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-    }
 
     public void ActivateOrNotTheContinueButton(bool shouldItBeActive)
     {
