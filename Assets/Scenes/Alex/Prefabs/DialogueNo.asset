@@ -12,41 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fb6ee6c4ffe1ce43bcfc86434ecf44e, type: 3}
   m_Name: DialogueNo
   m_EditorClassIdentifier: 
-  charactersConversation:
-  - characterName: PlayerOne
-    dialogueLines:
-    - 'hello
-
-'
-    - 'hello11
-
-'
+  charactersConversations:
+  - characterName: Alex
+    mainDialogueLines:
+    - Hello what is you name
     choiceOneDialogues:
-    - 1
-    - 3
-    - 5
-    - 7
-    choiceTwoDialogues:
-    - 2
+    - My name is Alex  now tell me yours
+    - Now tell me yours
+    choiceTwoDialogues: []
     activeDialogueLines:
-    - 'hello
-
-'
-    - 'hello11
-
-'
-  - characterName: PlayerTwo
-    dialogueLines:
-    - hello2
+    - 1111111111111
+  - characterName: Bot
+    mainDialogueLines:
+    - Tell me yours first
     choiceOneDialogues:
-    - 11
-    - 22
-    - 33
-    - 44
-    choiceTwoDialogues:
-    - 22
+    - mmmmmmmmmmmmmmmmmmm
+    - i wont
+    choiceTwoDialogues: []
     activeDialogueLines:
-    - hello2
+    - 1111111111111
   choices:
-  - 1
-  - 2
+  - Alex
+  - Fish

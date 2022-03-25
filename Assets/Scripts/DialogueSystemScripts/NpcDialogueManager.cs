@@ -11,11 +11,7 @@ public class NpcDialogueManager : MonoBehaviour
 
     [SerializeField] Transform dialogueBox;
 
-    [SerializeField] Transform buttonsParent;
-
-    [SerializeField] TMP_Text dialogueText;
-    [SerializeField] TMP_Text dialogueNameText;
-
+    [Range(0.03f,1)]
     [SerializeField] float speedOfDialogue;
 
     Coroutine displayDialogue;
@@ -59,9 +55,9 @@ public class NpcDialogueManager : MonoBehaviour
 
         wasChoicesShown = false;
 
-        for (int i = 0; i < buttonsParent.childCount; i++)
+        for (int i = 0; i < dialogueBox.GetChild(3).childCount; i++)
         {
-            buttonsParent.GetChild(i).gameObject.SetActive(false);
+            dialogueBox.GetChild(3).GetChild(i).gameObject.SetActive(false);
         }
 
     }
@@ -89,18 +85,17 @@ public class NpcDialogueManager : MonoBehaviour
 
     IEnumerator DisplayConversation()
     {
-        print(dialogue.name);
+        dialogueBox.GetChild(1).GetComponent<TextMeshProUGUI>().text = "";
+       
 
-        dialogueText.text = "";
-
-        dialogueNameText.text = dialogue.charactersConversation[dialogue.currentSpeakerIndex].characterName;
+        dialogueBox.GetChild(2).GetComponent<TextMeshProUGUI>().text = dialogue.charactersConversations[dialogue.currentSpeakerIndex].characterName;
 
         isALineBeingShown = true;
 
-        foreach (char letter in dialogue.charactersConversation[dialogue.currentSpeakerIndex].
+        foreach (char letter in dialogue.charactersConversations[dialogue.currentSpeakerIndex].
             activeDialogueLines[dialogue.currentDialogueLineIndex])
         {
-            dialogueText.text += letter;
+            dialogueBox.GetChild(1).GetComponent<TextMeshProUGUI>().text += letter;
 
             yield return new WaitForSeconds(speedOfDialogue);
         }
@@ -116,7 +111,7 @@ public class NpcDialogueManager : MonoBehaviour
             {
                 dialogue.currentSpeakerIndex++;
 
-                if(dialogue.currentSpeakerIndex>=dialogue.charactersConversation.Count)
+                if(dialogue.currentSpeakerIndex>=dialogue.charactersConversations.Count)
                 {
                     dialogue.currentSpeakerIndex = 0;
 
@@ -124,7 +119,7 @@ public class NpcDialogueManager : MonoBehaviour
                 }
              
 
-                if (dialogue.currentDialogueLineIndex < dialogue.charactersConversation[dialogue.currentSpeakerIndex].
+                if (dialogue.currentDialogueLineIndex < dialogue.charactersConversations[dialogue.currentSpeakerIndex].
                 activeDialogueLines.Count)
                 {
                     displayDialogue= StartCoroutine("DisplayConversation");
@@ -159,15 +154,15 @@ public class NpcDialogueManager : MonoBehaviour
         {
             int index = i;
 
-            buttonsParent.GetChild(i).gameObject.SetActive(buttonsState);
+            dialogueBox.GetChild(3).GetChild(i).gameObject.SetActive(buttonsState);
 
-            buttonsParent.GetChild(i).name = i.ToString();
+            dialogueBox.GetChild(3).GetChild(i).name = i.ToString();
 
-            buttonsParent.GetChild(i).GetComponentInChildren<TextMeshProUGUI>().text = dialogue.choices[i];
+            dialogueBox.GetChild(3).GetChild(i).GetComponentInChildren<TextMeshProUGUI>().text = dialogue.choices[i];
 
-            buttonsParent.GetChild(i).GetComponent<Button>().onClick.RemoveAllListeners();
+            dialogueBox.GetChild(3).GetChild(i).GetComponent<Button>().onClick.RemoveAllListeners();
 
-            buttonsParent.GetChild(i).GetComponent<Button>().onClick.AddListener(delegate 
+            dialogueBox.GetChild(3).GetChild(i).GetComponent<Button>().onClick.AddListener(delegate 
             { 
                 ChangeDialogue(index);
                 
@@ -184,16 +179,16 @@ public class NpcDialogueManager : MonoBehaviour
 
         dialogue.currentDialogueLineIndex = 0;
 
-        foreach (Dialogue.CharactersConversation charactersConversation in dialogue.charactersConversation)
+        foreach (Dialogue.CharactersConversation charactersConversation in dialogue.charactersConversations)
         {
             charactersConversation.ChangeDialogue(index);
         }
 
         wasChoicesShown = true;
 
-        for(int i=0; i<buttonsParent.childCount; i++)
+        for(int i=0; i< dialogueBox.GetChild(3).childCount; i++)
         {
-            buttonsParent.GetChild(i).gameObject.SetActive(false);
+            dialogueBox.GetChild(3).GetChild(i).gameObject.SetActive(false);
         }
 
         displayDialogue = StartCoroutine("DisplayConversation");
@@ -201,9 +196,9 @@ public class NpcDialogueManager : MonoBehaviour
 
     private void SetMainDialogue()
     {
-        foreach (Dialogue.CharactersConversation charactersConversation in dialogue.charactersConversation)
+        foreach (Dialogue.CharactersConversation charactersConversation in dialogue.charactersConversations)
         {
-            charactersConversation.SetActiveDialogue(charactersConversation.dialogueLines);
+            charactersConversation.SetActiveDialogue(charactersConversation.mainDialogueLines);
         }
 
     }
