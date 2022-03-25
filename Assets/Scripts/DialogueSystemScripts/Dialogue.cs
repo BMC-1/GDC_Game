@@ -1,69 +1,75 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.UI;
+using System;
 using UnityEngine;
 
-public class Dialogue : MonoBehaviour
+
+[CreateAssetMenu(fileName = "DialogueNo", menuName = "Dialogue/DialogueInfo", order = 2)]
+public class Dialogue : ScriptableObject
 {
+    public List<CharactersConversation> charactersConversation = new List<CharactersConversation>();
 
-    public string nameOfCharacter;
+    public int currentSpeakerIndex{ get; set; }
 
-    public Sprite characterImage;
+    public int currentDialogueLineIndex { get; set; }
 
+    [Header("Choices(optional)")]
+    public List<string> choices = new List<string>();
 
-    [TextArea]
-    [SerializeField] string[] dialogues;
-
-    [Header("Apply a next dialogue for every dialogue if there is no dialogue to go to leave it empty")]
-    [SerializeField] Dialogue[] nextDialogue;
-
-    [TextArea]
-
-    [Header("The Choices will apply only at the last dialogue")]
-    [SerializeField] string[] choices;
-
-    [SerializeField] Dialogue[] choicesOutComeDialogues;
-
-
-    int currentDialogueLine = -1;
-
-    // Start is called before the first frame update
-    void Start()
+    [Serializable]
+    public class CharactersConversation
     {
+        public string characterName;
+
+        [TextArea]
+        public List<string> dialogueLines=new List<string>();
+
+  
+        [Header("optional")]
+        [TextArea]
+        public List<string> choiceOneDialogues = new List<string>();
+
+        [Header("optional")]
+        [TextArea]
+        public List<string> choiceTwoDialogues = new List<string>();
+
+        public List<string> activeDialogueLines = new List<string>();
+
         
+
+        public void ChangeDialogue(int buttonIndex)
+        {
+            if(buttonIndex==0)
+            {
+                SetActiveDialogue(choiceOneDialogues);
+
+            }
+            else
+            {
+                SetActiveDialogue(choiceTwoDialogues);
+
+            }
+        }
+
+        public void SetActiveDialogue(List<string> dialogueList)
+        {
+            activeDialogueLines.Clear();
+
+            foreach(string dialogue in dialogueList)
+            {
+                activeDialogueLines.Add(dialogue);
+
+                Debug.Log(dialogue);
+
+            }
+        }
+
+
+
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public string CurrentLine()
-    {
-        currentDialogueLine++;
-
-        return dialogues[currentDialogueLine];
-    }
-
-    public Dialogue NextDialogue()
-    {
-        return nextDialogue[currentDialogueLine];
-    }
-
-    public string [] Choices()
-    {
-        return choices;
-    }
-
-    public Dialogue[] ChoicesOutComeDialogue()
-    {
-        return choicesOutComeDialogues;
-    }
-
-
-
-
-
-
 }
+
+
+
+
+
