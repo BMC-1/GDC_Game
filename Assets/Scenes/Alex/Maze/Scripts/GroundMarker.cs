@@ -1,47 +1,61 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class GroundMarker : MonoBehaviour
 {
+    [SerializeField] MazeConstructor mazeConstructor;
+
     [SerializeField] GameObject groundMark;
 
-    [SerializeField] Transform startingMarkPos;
+    [SerializeField] Transform startingPos;
 
-    [SerializeField] float distanceBetweenMark;
+    [SerializeField] Transform parentOfGroundMarks;
+
+
+    [SerializeField] float distanceBetweenGroundMark;
 
     [SerializeField] int[] dimensionsOfGround;
 
+    List<Transform> marksSpanwed = new List<Transform>();
     // Start is called before the first frame update
     void Start()
     {
-        SpawnTheMarks();
+        MarkTheGround();
     }
+
 
     // Update is called once per frame
     void Update()
     {
-        
+     
     }
 
-    void SpawnTheMarks()
+    void MarkTheGround()
     {
-        Vector2 posOfMark = startingMarkPos.position;
+        Vector2 positionOfGroundPieces = startingPos.position;
 
-        for(int i=0; i< dimensionsOfGround[0]; i++)
+        for (int i = 0; i < dimensionsOfGround[0]; i++)
         {
             for (int j = 0; j < dimensionsOfGround[1]; j++)
             {
-                GameObject markClone = Instantiate(groundMark, posOfMark, Quaternion.identity);
+                GameObject markClone = Instantiate(groundMark, positionOfGroundPieces, Quaternion.identity);
 
-                markClone.transform.parent = this.transform;
+                markClone.transform.parent = parentOfGroundMarks;
 
-                posOfMark.x += distanceBetweenMark;
+                positionOfGroundPieces.x += distanceBetweenGroundMark;
+
+                marksSpanwed.Add(markClone.transform);
             }
 
-            posOfMark.x = startingMarkPos.position.x;
+            positionOfGroundPieces.x = startingPos.position.x;
 
-            posOfMark.y -= distanceBetweenMark;
+            positionOfGroundPieces.y -= distanceBetweenGroundMark;
         }
+
+        mazeConstructor.FindTheSolutionPath(marksSpanwed, distanceBetweenGroundMark);
     }
+
+
 }
