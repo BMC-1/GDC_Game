@@ -19,18 +19,17 @@ MonoBehaviour:
     choiceOneDialogues:
     - My name is Alex  now tell me yours
     - Now tell me yours
-    choiceTwoDialogues: []
-    activeDialogueLines:
-    - 1111111111111
+    choiceTwoDialogues:
+    - My name is Jonh  now tell me yours
+    - Are you serious
   - characterName: Bot
     mainDialogueLines:
     - Tell me yours first
     choiceOneDialogues:
     - mmmmmmmmmmmmmmmmmmm
     - i wont
-    choiceTwoDialogues: []
-    activeDialogueLines:
-    - 1111111111111
+    choiceTwoDialogues:
+    - I wont tell you mine though
   choices:
   - Alex
-  - Fish
+  - John

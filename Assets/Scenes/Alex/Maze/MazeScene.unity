@@ -319,7 +319,7 @@ MonoBehaviour:
   groundMark: {fileID: 550397478994863769, guid: a63be1a1bbcee2241a5f851d5ab8c299, type: 3}
   startingMarkPos: {fileID: 334412124}
   distanceBetweenMark: 0.479
-  dimensionsOfGround: 1e0000002a000000
+  dimensionsOfGround: 190000002c000000
 --- !u!4 &659213301
 Transform:
   m_ObjectHideFlags: 0

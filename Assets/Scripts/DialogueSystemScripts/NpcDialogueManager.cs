@@ -88,12 +88,12 @@ public class NpcDialogueManager : MonoBehaviour
         dialogueBox.GetChild(1).GetComponent<TextMeshProUGUI>().text = "";
        
 
-        dialogueBox.GetChild(2).GetComponent<TextMeshProUGUI>().text = dialogue.charactersConversations[dialogue.currentSpeakerIndex].characterName;
+        dialogueBox.GetChild(2).GetComponent<TextMeshProUGUI>().text = dialogue.charactersTalking[dialogue.currentSpeakerIndex].characterName;
 
         isALineBeingShown = true;
 
-        foreach (char letter in dialogue.charactersConversations[dialogue.currentSpeakerIndex].
-            activeDialogueLines[dialogue.currentDialogueLineIndex])
+        foreach (char letter in dialogue.charactersTalking[dialogue.currentSpeakerIndex].
+            ActiveDialogueLines()[dialogue.currentDialogueLineIndex])
         {
             dialogueBox.GetChild(1).GetComponent<TextMeshProUGUI>().text += letter;
 
@@ -111,7 +111,7 @@ public class NpcDialogueManager : MonoBehaviour
             {
                 dialogue.currentSpeakerIndex++;
 
-                if(dialogue.currentSpeakerIndex>=dialogue.charactersConversations.Count)
+                if(dialogue.currentSpeakerIndex>=dialogue.charactersTalking.Count)
                 {
                     dialogue.currentSpeakerIndex = 0;
 
@@ -119,8 +119,8 @@ public class NpcDialogueManager : MonoBehaviour
                 }
              
 
-                if (dialogue.currentDialogueLineIndex < dialogue.charactersConversations[dialogue.currentSpeakerIndex].
-                activeDialogueLines.Count)
+                if (dialogue.currentDialogueLineIndex < dialogue.charactersTalking[dialogue.currentSpeakerIndex].
+                ActiveDialogueLines().Count)
                 {
                     displayDialogue= StartCoroutine("DisplayConversation");
                 }
@@ -179,7 +179,7 @@ public class NpcDialogueManager : MonoBehaviour
 
         dialogue.currentDialogueLineIndex = 0;
 
-        foreach (Dialogue.CharactersConversation charactersConversation in dialogue.charactersConversations)
+        foreach (Dialogue.CharactersConversation charactersConversation in dialogue.charactersTalking)
         {
             charactersConversation.ChangeDialogue(index);
         }
@@ -196,7 +196,7 @@ public class NpcDialogueManager : MonoBehaviour
 
     private void SetMainDialogue()
     {
-        foreach (Dialogue.CharactersConversation charactersConversation in dialogue.charactersConversations)
+        foreach (Dialogue.CharactersConversation charactersConversation in dialogue.charactersTalking)
         {
             charactersConversation.SetActiveDialogue(charactersConversation.mainDialogueLines);
         }
