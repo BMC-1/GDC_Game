@@ -6,6 +6,7 @@ using UnityEngine;
 public class GroundMarker : MonoBehaviour
 {
     [SerializeField] MazeConstructor mazeConstructor;
+    [SerializeField] PlayerSpawner playerSpawner;
 
     [SerializeField] GameObject groundMark;
 
@@ -53,6 +54,9 @@ public class GroundMarker : MonoBehaviour
 
             positionOfGroundPieces.y -= distanceBetweenGroundMark;
         }
+
+
+        playerSpawner.SpawnPlayer(marksSpanwed[marksSpanwed.Count - 1].position);
 
         mazeConstructor.FindTheSolutionPath(marksSpanwed, distanceBetweenGroundMark);
     }

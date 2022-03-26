@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class MazeConstructor : MonoBehaviour
 {
-    
-    // Start is called before the first frame update
+    [SerializeField] TreasureSpawner treasureSpawner;
+
     [SerializeField] int[] minAndMaxMarksToMoveToPerStep;
     [SerializeField] int[] minAndMaxObsticlesToAppear;
     [SerializeField] int[] minAndMaxLengthOfObsticles;
@@ -58,6 +58,8 @@ public class MazeConstructor : MonoBehaviour
 
 
         } while (currentPos.x != marks[0].position.x);
+
+        treasureSpawner.SetTreasuresPosition(solutionPath[solutionPath.Count-1].position);
 
         SpawnTheMazeWalls(marks, distanceBetweenMarks);
     }

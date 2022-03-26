@@ -12,7 +12,7 @@ public class PlayerMovement2D : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         MoveThePlayer();
     }
