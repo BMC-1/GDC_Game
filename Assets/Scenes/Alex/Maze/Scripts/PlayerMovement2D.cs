@@ -39,4 +39,9 @@ public class PlayerMovement2D : MonoBehaviour
 
         }
     }
+
+    public void SetPlayerSpeedToZero()
+    {
+        playerSpeed = 0;
+    }
 }
