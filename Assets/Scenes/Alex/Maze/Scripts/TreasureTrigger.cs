@@ -27,7 +27,7 @@ public class TreasureTrigger : MonoBehaviour
 
             playerMovement2D.SetPlayerSpeedToZero();
 
-            print("works");
+            
         }
     }
 
