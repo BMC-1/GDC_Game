@@ -9,13 +9,7 @@ public class PlayerMovement2D : MonoBehaviour
     [SerializeField] PlayerAnimationPlayer playerAnimationPlayer;
 
     [SerializeField] int[] roationY;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    
     void FixedUpdate()
     {
         MoveThePlayer();
@@ -29,24 +23,25 @@ public class PlayerMovement2D : MonoBehaviour
             if (Input.GetKey(KeyCode.W))
             {
                 this.transform.position += (Vector3)Vector2.up * Time.deltaTime * playerSpeed;
+                RotateThePlayerZ(90);
             }
             else if (Input.GetKey(KeyCode.S))
             {
-                this.transform.position -= (Vector3)Vector2.up * Time.deltaTime * playerSpeed;
-
+                this.transform.position += (Vector3)Vector2.down * Time.deltaTime * playerSpeed;
+                RotateThePlayerZ(-90);
             }
             if (Input.GetKey(KeyCode.A))
             {
-                this.transform.position -= (Vector3)Vector2.right * Time.deltaTime * playerSpeed;
+                this.transform.position += (Vector3)Vector2.left * Time.deltaTime * playerSpeed;
 
-                RotateThePlayer(roationY[0]);
+                RotateThePlayerY(roationY[0]);
 
             }
             else if (Input.GetKey(KeyCode.D))
             {
                 this.transform.position += (Vector3)Vector2.right * Time.deltaTime * playerSpeed;
 
-                RotateThePlayer(roationY[1]);
+                RotateThePlayerY(roationY[1]);
             }
 
             playerAnimationPlayer.SetTheMovingAnimation();
@@ -64,8 +59,12 @@ public class PlayerMovement2D : MonoBehaviour
         playerSpeed = 0;
     }
 
-    void RotateThePlayer(int yRotation)
+    void RotateThePlayerY(int yRotation)
     {
         this.transform.rotation = Quaternion.Euler(0, yRotation, 0);
+    }
+    void RotateThePlayerZ(int zRotation)
+    {
+        this.transform.rotation = Quaternion.Euler(0, 0,zRotation);
     }
 }

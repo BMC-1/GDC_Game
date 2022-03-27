@@ -5,28 +5,15 @@ using UnityEngine;
 public class PlayerAnimationPlayer : MonoBehaviour
 {
     [SerializeField] Animator animator;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    private static readonly int IsThePlayerMoving = Animator.StringToHash("IsThePlayerMoving");
 
     public void SetTheMovingAnimation()
     {
-        animator.SetBool("IsThePlayerMoving", true);
+        animator.SetBool(IsThePlayerMoving, true);
     }
-
-
+    
     public void SetTheIdleAnimation()
     {
-
-        animator.SetBool("IsThePlayerMoving", false);
-
+        animator.SetBool(IsThePlayerMoving, false);
     }
 }

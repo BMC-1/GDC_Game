@@ -23,6 +23,7 @@ public class TreasureTrigger : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            Debug.Log("FINISHED GAME");
             timer.StopTimer();
 
             playerMovement2D.SetPlayerSpeedToZero();
