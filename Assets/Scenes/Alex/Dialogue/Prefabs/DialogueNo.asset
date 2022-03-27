@@ -13,14 +13,17 @@ MonoBehaviour:
   m_Name: DialogueNo
   m_EditorClassIdentifier: 
   charactersTalking:
-  - characterName: 
-    mainDialogueLines: []
+  - characterName: Loizos
+    mainDialogueLines:
+    - Hello Alex!
+    - Everything good?
+    - See you!
     choiceOneDialogues: []
     choiceTwoDialogues: []
-  - characterName: 
-    mainDialogueLines: []
+  - characterName: Alex
+    mainDialogueLines:
+    - Hello Loizos!
+    - yes.
     choiceOneDialogues: []
     choiceTwoDialogues: []
-  choices:
-  - Alex
-  - John
+  choices: []
