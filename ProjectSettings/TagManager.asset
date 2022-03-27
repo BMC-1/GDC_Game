@@ -9,6 +9,7 @@ TagManager:
   - Quest_Finish
   - PoliceCaught
   - SpawnPoint
+  - DilaogueBox
   layers:
   - Default
   - TransparentFX
