@@ -21,6 +21,8 @@ public class MazeConstructor : MonoBehaviour
 
     List<Transform> solutionPath = new List<Transform>();
 
+
+
     public void FindTheSolutionPath(List<Transform> marks,float distanceBetweenMarks)
     {
         int numberOfSteps = Random.Range(minAndMaxMarksToMoveToPerStep[0], minAndMaxMarksToMoveToPerStep[1]);
@@ -177,5 +179,5 @@ public class MazeConstructor : MonoBehaviour
 
     }
 
-
+   
 }
