@@ -9,10 +9,16 @@ public class NpcShop : MonoBehaviour
     [SerializeField] ItemsInShop itemsInShop;
 
     [SerializeField] Transform shopUi;
+
+    CoinSystem coinSystem;
+
+    List<Transform> activeSlots=new List<Transform>();
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        coinSystem = FindObjectOfType<CoinSystem>();
     }
 
     // Update is called once per frame
@@ -24,6 +30,11 @@ public class NpcShop : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         DisplayShop();
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        CloseTheShop();
     }
 
     void DisplayShop()
@@ -39,8 +50,23 @@ public class NpcShop : MonoBehaviour
             itemSlot.gameObject.SetActive(true);
 
             SetTheItemDetails(itemSlot, i);
+
+            activeSlots.Add(itemSlot);
         }
     }
+
+    void CloseTheShop()
+    {
+        shopUi.gameObject.SetActive(false);
+
+        foreach(Transform slot in activeSlots)
+        {
+            slot.gameObject.SetActive(false);
+        }
+
+        activeSlots.Clear();
+    }
+
 
     void SetTheItemDetails(Transform itemSlot,int itemIndex)
     {
@@ -53,5 +79,18 @@ public class NpcShop : MonoBehaviour
             transform.
             GetComponentInChildren<TextMeshProUGUI>().
             text= itemsInShop.items[itemIndex].price.ToString();
+
+        itemSlot.GetChild(2).GetComponent<Button>().
+            onClick.AddListener(delegate { PurchaseItem(itemsInShop.items[itemIndex]); });
+
+
+
+    }
+
+    void PurchaseItem(ItemsInShop.Item item)
+    {
+        coinSystem.RemoveCoins(item.price);
     }
 }
+
+
