@@ -4,11 +4,12 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Bark_Grey
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
+  m_ShaderKeywords: _NORMALMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -19,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 8f80a4e136ce4244e8c2ebe9f3bb4aae, type: 3}
+        m_Texture: {fileID: 2800000, guid: a10bf70091ad7b84496ab05c8112d1a2, type: 3}
         m_Scale: {x: 4, y: 4}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -39,11 +40,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 3f2eecefbf7d5f44984eb80814ae8f24, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2f015f66972f10b40a03beeb7e1e1272, type: 3}
         m_Scale: {x: 4, y: 4}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: a94ce357ed0012e4fa139af6829d593b, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -51,7 +52,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: 2d88a8a58b86d3c42a673e1d9034409a, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -62,13 +63,13 @@ Material:
     - _EdgeLength: 50
     - _EmissionScaleUI: 0
     - _Fresnel: 3
-    - _GlossMapScale: 1
-    - _Glossiness: 0
+    - _GlossMapScale: 0.66
+    - _Glossiness: 0.68
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _Parallax: 0.0169
+    - _Parallax: 0.02
     - _RimPower: 2.330357
     - _Shininess: 0.55402684
     - _SmoothnessTextureChannel: 0
@@ -82,3 +83,4 @@ Material:
     - _EmissionColorUI: {r: 1, g: 1, b: 1, a: 1}
     - _RimColor: {r: 0.09411765, g: 0.09803922, b: 0.101960786, a: 0}
     - _SpecColor: {r: 0.3602941, g: 0.3602941, b: 0.3602941, a: 1}
+  m_BuildTextureStacks: []
