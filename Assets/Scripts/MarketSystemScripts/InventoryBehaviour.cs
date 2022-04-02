@@ -29,10 +29,12 @@ public class InventoryBehaviour : MonoBehaviour
         {
             itemFrame = itemFramesParent.GetChild(i).GetChild(0);
 
-            print(itemFrame.GetComponent<Image>().sprite);
 
             if (itemFrame.GetComponent<Image>().sprite==null)
             {
+                print(itemFrame.GetComponent<Image>().sprite);
+
+
                 itemFrame.GetComponent<Image>().sprite = itemImage;
 
                 itemFrame.gameObject.SetActive(true);
