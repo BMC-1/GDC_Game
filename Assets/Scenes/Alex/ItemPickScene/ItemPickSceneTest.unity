@@ -1361,6 +1361,7 @@ GameObject:
   - component: {fileID: 463324271}
   - component: {fileID: 463324270}
   - component: {fileID: 463324274}
+  - component: {fileID: 463324275}
   m_Layer: 0
   m_Name: PickableItem
   m_TagString: Pickable
@@ -1457,6 +1458,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemToPick: {fileID: 21300000, guid: 172774604c1bee84185a69041576525b, type: 3}
+--- !u!114 &463324275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463324269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecc93cf8fa7f23540859cc61f6fcbce3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnTime: 3
 --- !u!1 &465196309
 GameObject:
   m_ObjectHideFlags: 3
@@ -2933,7 +2947,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemFramesParent: {fileID: 1123598710}
-  coinSystem: {fileID: 576856301}
 --- !u!4 &1097232224
 Transform:
   m_ObjectHideFlags: 0
@@ -4373,6 +4386,7 @@ GameObject:
   - component: {fileID: 1485513350}
   - component: {fileID: 1485513349}
   - component: {fileID: 1485513353}
+  - component: {fileID: 1485513354}
   m_Layer: 0
   m_Name: PickableItem (1)
   m_TagString: Pickable
@@ -4469,6 +4483,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemToPick: {fileID: 21300000, guid: ae496f5dad56ea645b72d374a0376368, type: 3}
+--- !u!114 &1485513354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485513348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecc93cf8fa7f23540859cc61f6fcbce3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnTime: 3
 --- !u!1 &1518563170
 GameObject:
   m_ObjectHideFlags: 0

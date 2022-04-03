@@ -18,6 +18,8 @@ public class NpcShop : MonoBehaviour
 
     InventoryBehaviour inventoryBehaviour;
 
+    CoinSystem coinSystem;
+
     List<Transform> activeSlots=new List<Transform>();
 
 
@@ -25,6 +27,8 @@ public class NpcShop : MonoBehaviour
     void Start()
     {
         inventoryBehaviour = FindObjectOfType<InventoryBehaviour>();
+
+        coinSystem = FindObjectOfType<CoinSystem>();
 
         SetTheBuyingAndSellingButtons();
 
@@ -90,7 +94,9 @@ public class NpcShop : MonoBehaviour
             GetComponentInChildren<TextMeshProUGUI>().
             text= itemsInShop.items[itemIndex].price.ToString();
 
-        itemSlot.GetChild(2).GetComponent<Button>().
+        itemSlot.GetChild(2).GetComponent<Button>().onClick.RemoveAllListeners();
+
+       itemSlot.GetChild(2).GetComponent<Button>().
             onClick.AddListener(delegate { PurchaseOrSellItem(itemsInShop.items[itemIndex]); });
 
 
@@ -101,12 +107,26 @@ public class NpcShop : MonoBehaviour
     {
         if(isTheBuyingOptionEnabled==true)
         {
-            inventoryBehaviour.AddItemToInventory(item.image, item.price);
+            if(inventoryBehaviour.AreThereEmptySlots()==true)
+            {
+                inventoryBehaviour.AddItemToInventory(item.image);
+
+                coinSystem.RemoveCoins(item.price);
+
+                print("works purchase");
+            }
 
         }
         else
         {
-            inventoryBehaviour.RemoveItemFromInventory(item.image, item.price);
+            if(inventoryBehaviour.DoesItemExistInInvenotry(item.image))
+            {
+                inventoryBehaviour.RemoveItemFromInventory(item.image);
+
+
+                coinSystem.AddCoins(item.price);
+
+            }
         }
     }
 

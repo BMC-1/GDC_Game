@@ -61,11 +61,19 @@ public class ItemPicker : MonoBehaviour
     {
         if(itemToPickUp!=null && Input.GetKeyDown(KeyCode.Q))
         {
-            inventoryBehaviour.AddItemToInventory(itemToPickUp.GetComponent<PickableItem>().itemToPick, 0);
+            if(inventoryBehaviour.AreThereEmptySlots()==true)
+            {
+                inventoryBehaviour.AddItemToInventory(itemToPickUp.GetComponent<PickableItem>().itemToPick);
 
-            itemToPickUp.gameObject.SetActive(false);
+                itemToPickUp.GetComponent<RespawnableItemBehaviour>().ActivateStartTheRespondTimer();
 
-            ClosePickUpMessage();
+                itemToPickUp.GetComponent<MeshRenderer>().enabled = false;
+
+                itemToPickUp.GetComponent<BoxCollider>().enabled = false;
+
+                ClosePickUpMessage();
+            }
+          
         }
     }
 
