@@ -20,6 +20,8 @@ public class ItemPicker : MonoBehaviour
     void Start()
     {
         inventoryBehaviour = FindObjectOfType<InventoryBehaviour>();
+
+        pickUpMessage.text = "";
     }
 
     // Update is called once per frame

@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_dock
       objectReference: {fileID: 0}
+    - target: {fileID: 1932873321206794, guid: 0ab5bd23794f44ff192c537291179223, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4342666707088880, guid: 0ab5bd23794f44ff192c537291179223, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -196,6 +200,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 855939969}
     m_Modifications:
+    - target: {fileID: 1000013239581964, guid: 79c5ef9a988048c488045c56407768ce, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010649076558, guid: 79c5ef9a988048c488045c56407768ce, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -257,6 +265,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -332,6 +344,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -406,6 +422,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pyramid_Thin_Base (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010285526238, guid: 847ad21e052823640b649f294605afb2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011488240504, guid: 847ad21e052823640b649f294605afb2, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -464,6 +484,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1153895548}
     m_Modifications:
+    - target: {fileID: 1000012287201764, guid: 1de93a9fdb990db4ca7f2fe5c2cc7b59, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014091459346, guid: 1de93a9fdb990db4ca7f2fe5c2cc7b59, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -513,6 +537,10 @@ PrefabInstance:
     - target: {fileID: 1375530196496570, guid: 892659dbc7d1e4e178738dbf50cd4bd5, type: 3}
       propertyPath: m_Name
       value: island_bush_palm
+      objectReference: {fileID: 0}
+    - target: {fileID: 1375530196496570, guid: 892659dbc7d1e4e178738dbf50cd4bd5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4947090025357322, guid: 892659dbc7d1e4e178738dbf50cd4bd5, type: 3}
       propertyPath: m_RootOrder
@@ -574,7 +602,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 28619047}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -605,6 +633,10 @@ PrefabInstance:
     - target: {fileID: 1375530196496570, guid: 892659dbc7d1e4e178738dbf50cd4bd5, type: 3}
       propertyPath: m_Name
       value: island_bush_palm (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1375530196496570, guid: 892659dbc7d1e4e178738dbf50cd4bd5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4947090025357322, guid: 892659dbc7d1e4e178738dbf50cd4bd5, type: 3}
       propertyPath: m_RootOrder
@@ -680,6 +712,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -754,6 +790,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_bush_palm
       objectReference: {fileID: 0}
+    - target: {fileID: 1375530196496570, guid: 892659dbc7d1e4e178738dbf50cd4bd5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4947090025357322, guid: 892659dbc7d1e4e178738dbf50cd4bd5, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -814,7 +854,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 43119302}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -849,6 +889,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -985,8 +1029,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9384ab8608cdc3d479fe89cd51eed48f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_BindingMode: 5
-  m_FollowOffset: {x: 0, y: 2.5, z: -3}
+  m_BindingMode: 4
+  m_FollowOffset: {x: 0, y: 2.7, z: -5}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -1049,6 +1093,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -1124,6 +1172,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1197,6 +1249,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -1272,6 +1328,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1345,6 +1405,10 @@ PrefabInstance:
     - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_Name
       value: island_crate
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4454744264546142, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_RootOrder
@@ -1420,6 +1484,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_palm_2
       objectReference: {fileID: 0}
+    - target: {fileID: 1528076046171058, guid: b927eb5baaeeb40dd921a69a3b8e51f3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4953265466779392, guid: b927eb5baaeeb40dd921a69a3b8e51f3, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1494,6 +1562,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cactus (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2245210219892188125, guid: 390a35c513c1d1b4fa6003fb237f0b34, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2245210219892686845, guid: 390a35c513c1d1b4fa6003fb237f0b34, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -1566,7 +1638,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 116957648}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trees (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1597,6 +1669,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1040225491}
     m_Modifications:
+    - target: {fileID: 1000011894741232, guid: a0304cd1c89ed5f47b1c609d88092942, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010998463236, guid: a0304cd1c89ed5f47b1c609d88092942, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1646,6 +1722,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -1710,6 +1790,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
   m_PrefabInstance: {fileID: 120605599}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &127218851 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2750912908029432238, guid: 49c2577712b224f409a37c8af9efb3c0, type: 3}
+  m_PrefabInstance: {fileID: 1148126581}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &127569186
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1720,6 +1805,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -1791,6 +1880,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1604673280}
     m_Modifications:
+    - target: {fileID: 1000013239581964, guid: 79c5ef9a988048c488045c56407768ce, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010649076558, guid: 79c5ef9a988048c488045c56407768ce, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1839,7 +1932,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 137433544}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1907,7 +2000,7 @@ Transform:
   - {fileID: 667081811}
   - {fileID: 855939969}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &141992918
 GameObject:
@@ -1960,8 +2053,8 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.1
-  far clip plane: 5000
-  field of view: 40
+  far clip plane: 500
+  field of view: 60
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1986,8 +2079,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 141992918}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.21699116, y: -0.00000001879242, z: 0.0000000041713353, w: 0.9761736}
+  m_LocalPosition: {x: -12.796547, y: 2.7, z: -3.8094115}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2037,6 +2130,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -2112,6 +2209,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2184,7 +2285,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 145266625}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Paths
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2255,7 +2356,7 @@ Transform:
   - {fileID: 2125054729}
   - {fileID: 1785000586}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &158422707
 PrefabInstance:
@@ -2267,6 +2368,10 @@ PrefabInstance:
     - target: {fileID: 1375530196496570, guid: 892659dbc7d1e4e178738dbf50cd4bd5, type: 3}
       propertyPath: m_Name
       value: island_bush_palm (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1375530196496570, guid: 892659dbc7d1e4e178738dbf50cd4bd5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4947090025357322, guid: 892659dbc7d1e4e178738dbf50cd4bd5, type: 3}
       propertyPath: m_RootOrder
@@ -2342,6 +2447,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2414,7 +2523,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 158759619}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2437,7 +2546,7 @@ Transform:
   - {fileID: 1805818986}
   - {fileID: 116957648}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &160491414
 PrefabInstance:
@@ -2449,6 +2558,10 @@ PrefabInstance:
     - target: {fileID: 1000010390738104, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_Name
       value: Desert_Obelisk_Stand
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010390738104, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_RootOrder
@@ -2498,7 +2611,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 166415697}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2537,6 +2650,10 @@ PrefabInstance:
     - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_Name
       value: island_crate
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4454744264546142, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_RootOrder
@@ -2612,6 +2729,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2685,6 +2806,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -2760,6 +2885,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_palm_2
       objectReference: {fileID: 0}
+    - target: {fileID: 1528076046171058, guid: b927eb5baaeeb40dd921a69a3b8e51f3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4953265466779392, guid: b927eb5baaeeb40dd921a69a3b8e51f3, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2830,6 +2959,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1962867882}
     m_Modifications:
+    - target: {fileID: 1000013520451200, guid: 3f77420e3ad8b0e46afcc1d8a07e9a9e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013294878224, guid: 3f77420e3ad8b0e46afcc1d8a07e9a9e, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2886,7 +3019,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 184535145}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2921,6 +3054,10 @@ PrefabInstance:
     - target: {fileID: 1000014058142462, guid: ab440feedacbd0d40aaac5abd4acd8fd, type: 3}
       propertyPath: m_Name
       value: Pyramid_Thin_Tip (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014058142462, guid: ab440feedacbd0d40aaac5abd4acd8fd, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4000010945598816, guid: ab440feedacbd0d40aaac5abd4acd8fd, type: 3}
       propertyPath: m_RootOrder
@@ -2983,6 +3120,10 @@ PrefabInstance:
     - target: {fileID: 1528076046171058, guid: b927eb5baaeeb40dd921a69a3b8e51f3, type: 3}
       propertyPath: m_Name
       value: island_palm_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528076046171058, guid: b927eb5baaeeb40dd921a69a3b8e51f3, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4953265466779392, guid: b927eb5baaeeb40dd921a69a3b8e51f3, type: 3}
       propertyPath: m_RootOrder
@@ -3056,7 +3197,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 190733039}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3081,7 +3222,7 @@ Transform:
   - {fileID: 1102992970}
   - {fileID: 166415697}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &198154896
 PrefabInstance:
@@ -3093,6 +3234,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -3168,7 +3313,7 @@ GameObject:
   - component: {fileID: 204168529}
   - component: {fileID: 204168531}
   - component: {fileID: 204168530}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EventSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3230,6 +3375,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1503501194}
     m_Modifications:
+    - target: {fileID: 1000010780680120, guid: 3e21f0d87380e8a4ab812ed8ecaf90be, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012489837478, guid: 3e21f0d87380e8a4ab812ed8ecaf90be, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -3279,6 +3428,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -3354,6 +3507,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: vase_A_S5
       objectReference: {fileID: 0}
+    - target: {fileID: 1180669087212174, guid: 4109b3168856786478684a665517c52b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4803028929079060, guid: 4109b3168856786478684a665517c52b, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -3412,6 +3569,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 839484788}
     m_Modifications:
+    - target: {fileID: 1000013736168662, guid: 7678334d479da9f4db360c7af983357d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010536569918, guid: 7678334d479da9f4db360c7af983357d, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -3469,6 +3630,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -3542,7 +3707,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 247174943}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3577,6 +3742,10 @@ PrefabInstance:
     - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_Name
       value: island_crate
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4454744264546142, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_RootOrder
@@ -3648,6 +3817,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1040225491}
     m_Modifications:
+    - target: {fileID: 1000011035781986, guid: 3d609541b623cc24a85fcc89ee9fa9e6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011095560932, guid: 3d609541b623cc24a85fcc89ee9fa9e6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -3697,6 +3870,10 @@ PrefabInstance:
     - target: {fileID: 1087813529480260, guid: 45cfc45f67722478b893ef7451c340b4, type: 3}
       propertyPath: m_Name
       value: island_canopy_slanted
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087813529480260, guid: 45cfc45f67722478b893ef7451c340b4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4808327371817080, guid: 45cfc45f67722478b893ef7451c340b4, type: 3}
       propertyPath: m_RootOrder
@@ -3763,6 +3940,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -3838,6 +4019,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -3908,6 +4093,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1503501194}
     m_Modifications:
+    - target: {fileID: 1000014058142462, guid: ab440feedacbd0d40aaac5abd4acd8fd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010945598816, guid: ab440feedacbd0d40aaac5abd4acd8fd, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -4019,8 +4208,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9384ab8608cdc3d479fe89cd51eed48f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_BindingMode: 5
-  m_FollowOffset: {x: 0, y: 2.5, z: -3}
+  m_BindingMode: 4
+  m_FollowOffset: {x: 0, y: 2.7, z: -5}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -4083,6 +4272,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -4158,6 +4351,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -4230,7 +4427,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 286943444}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4265,6 +4462,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -4336,6 +4537,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1703032659}
     m_Modifications:
+    - target: {fileID: 1000010564498848, guid: c9a1d73a420e7e14daf6d9bb2a2708fb, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010163780642, guid: c9a1d73a420e7e14daf6d9bb2a2708fb, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -4382,6 +4587,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1708362889}
     m_Modifications:
+    - target: {fileID: 1000012089989546, guid: ce2146ce387403f49849aab35d406dbd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012181423232, guid: ce2146ce387403f49849aab35d406dbd, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -4431,6 +4640,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -4506,6 +4719,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -4579,6 +4796,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -4710,6 +4931,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palm-1
       objectReference: {fileID: 0}
+    - target: {fileID: 3813580134335082295, guid: 738d1fd89fca58d4ba682561f57f2fc8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 738d1fd89fca58d4ba682561f57f2fc8, type: 3}
 --- !u!4 &311914242 stripped
@@ -4726,7 +4951,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 331402266}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4761,6 +4986,10 @@ PrefabInstance:
     - target: {fileID: 1087813529480260, guid: 45cfc45f67722478b893ef7451c340b4, type: 3}
       propertyPath: m_Name
       value: island_canopy_slanted
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087813529480260, guid: 45cfc45f67722478b893ef7451c340b4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4808327371817080, guid: 45cfc45f67722478b893ef7451c340b4, type: 3}
       propertyPath: m_RootOrder
@@ -4827,6 +5056,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -4902,6 +5135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -4975,6 +5212,10 @@ PrefabInstance:
     - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_Name
       value: island_crate
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4454744264546142, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_RootOrder
@@ -5050,6 +5291,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -5123,6 +5368,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -5198,6 +5447,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -5272,6 +5525,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_canopy_slanted
       objectReference: {fileID: 0}
+    - target: {fileID: 1087813529480260, guid: 45cfc45f67722478b893ef7451c340b4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4808327371817080, guid: 45cfc45f67722478b893ef7451c340b4, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -5337,6 +5594,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -5468,6 +5729,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palm-1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3813580134335082295, guid: 738d1fd89fca58d4ba682561f57f2fc8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 738d1fd89fca58d4ba682561f57f2fc8, type: 3}
 --- !u!4 &355075037 stripped
@@ -5482,6 +5747,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1604673280}
     m_Modifications:
+    - target: {fileID: 1000012128009412, guid: b667959c85aac0840abd65af9a3e1517, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013496182864, guid: b667959c85aac0840abd65af9a3e1517, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -5530,7 +5799,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 372223863}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5565,6 +5834,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -5640,6 +5913,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -5714,6 +5991,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_dock
       objectReference: {fileID: 0}
+    - target: {fileID: 1932873321206794, guid: 0ab5bd23794f44ff192c537291179223, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4342666707088880, guid: 0ab5bd23794f44ff192c537291179223, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -5779,6 +6060,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -5850,6 +6135,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 667081811}
     m_Modifications:
+    - target: {fileID: 1000014058142462, guid: ab440feedacbd0d40aaac5abd4acd8fd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010945598816, guid: ab440feedacbd0d40aaac5abd4acd8fd, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -5911,6 +6200,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -5986,6 +6279,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -6058,7 +6355,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 428605144}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6093,6 +6390,10 @@ PrefabInstance:
     - target: {fileID: 1163609636771650, guid: f5790d089661b42e6885abaf9b527037, type: 3}
       propertyPath: m_Name
       value: island_crate_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163609636771650, guid: f5790d089661b42e6885abaf9b527037, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4281322700054384, guid: f5790d089661b42e6885abaf9b527037, type: 3}
       propertyPath: m_RootOrder
@@ -6158,7 +6459,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 435182591}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6193,6 +6494,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -6268,6 +6573,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -6342,6 +6651,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Path_Post (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013518663082, guid: 46fef82a1bf92374096a89660fd2a186, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011143004732, guid: 46fef82a1bf92374096a89660fd2a186, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -6391,6 +6704,10 @@ PrefabInstance:
     - target: {fileID: 2245210219892188125, guid: 390a35c513c1d1b4fa6003fb237f0b34, type: 3}
       propertyPath: m_Name
       value: cactus (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2245210219892188125, guid: 390a35c513c1d1b4fa6003fb237f0b34, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2245210219892686845, guid: 390a35c513c1d1b4fa6003fb237f0b34, type: 3}
       propertyPath: m_RootOrder
@@ -6466,6 +6783,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_bush_palm
       objectReference: {fileID: 0}
+    - target: {fileID: 1375530196496570, guid: 892659dbc7d1e4e178738dbf50cd4bd5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4947090025357322, guid: 892659dbc7d1e4e178738dbf50cd4bd5, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -6527,6 +6848,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -6602,6 +6927,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -6674,7 +7003,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 501500150}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6709,6 +7038,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -6784,6 +7117,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_crate_2
       objectReference: {fileID: 0}
+    - target: {fileID: 1163609636771650, guid: f5790d089661b42e6885abaf9b527037, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4281322700054384, guid: f5790d089661b42e6885abaf9b527037, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -6846,6 +7183,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1962867882}
     m_Modifications:
+    - target: {fileID: 1000013736168662, guid: 7678334d479da9f4db360c7af983357d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010536569918, guid: 7678334d479da9f4db360c7af983357d, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -6900,6 +7241,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1040225491}
     m_Modifications:
+    - target: {fileID: 1000013553030096, guid: d6238962ede8add4b877e688a0620c24, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012789593826, guid: d6238962ede8add4b877e688a0620c24, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -6949,6 +7294,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -7024,6 +7373,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -7094,6 +7447,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1277341592}
     m_Modifications:
+    - target: {fileID: 1000013518663082, guid: 46fef82a1bf92374096a89660fd2a186, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011143004732, guid: 46fef82a1bf92374096a89660fd2a186, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -7143,6 +7500,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -7218,6 +7579,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -7291,6 +7656,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -7366,6 +7735,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -7440,6 +7813,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_crate (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4454744264546142, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -7501,6 +7878,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -7572,6 +7953,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1277341592}
     m_Modifications:
+    - target: {fileID: 1000012046549718, guid: e59189dc53391154ba8d5468f263e319, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012447238448, guid: e59189dc53391154ba8d5468f263e319, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -7620,7 +8005,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 542305269}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7655,6 +8040,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -7728,7 +8117,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 554767307}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7763,6 +8152,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -7838,6 +8231,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -7911,6 +8308,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -8042,6 +8443,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: balcony (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3022358360345038534, guid: e6f747a32df33b64cabe1e4c1ce11857, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6f747a32df33b64cabe1e4c1ce11857, type: 3}
 --- !u!4 &561820690 stripped
@@ -8059,6 +8464,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -8130,6 +8539,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 855939969}
     m_Modifications:
+    - target: {fileID: 1000012128009412, guid: b667959c85aac0840abd65af9a3e1517, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013496182864, guid: b667959c85aac0840abd65af9a3e1517, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -8190,7 +8603,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 584958399}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8225,6 +8638,10 @@ PrefabInstance:
     - target: {fileID: 1528076046171058, guid: b927eb5baaeeb40dd921a69a3b8e51f3, type: 3}
       propertyPath: m_Name
       value: island_palm_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528076046171058, guid: b927eb5baaeeb40dd921a69a3b8e51f3, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4953265466779392, guid: b927eb5baaeeb40dd921a69a3b8e51f3, type: 3}
       propertyPath: m_RootOrder
@@ -8298,7 +8715,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 596930099}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8333,6 +8750,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -8408,6 +8829,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_canopy_slanted
       objectReference: {fileID: 0}
+    - target: {fileID: 1087813529480260, guid: 45cfc45f67722478b893ef7451c340b4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4808327371817080, guid: 45cfc45f67722478b893ef7451c340b4, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -8472,7 +8897,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 609996512}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8504,6 +8929,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 839484788}
     m_Modifications:
+    - target: {fileID: 1000013520451200, guid: 3f77420e3ad8b0e46afcc1d8a07e9a9e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013294878224, guid: 3f77420e3ad8b0e46afcc1d8a07e9a9e, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -8561,6 +8990,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -8634,7 +9067,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 620858931}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8678,6 +9111,10 @@ PrefabInstance:
     - target: {fileID: 1180669087212174, guid: 4109b3168856786478684a665517c52b, type: 3}
       propertyPath: m_Name
       value: vase_A_S5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180669087212174, guid: 4109b3168856786478684a665517c52b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4803028929079060, guid: 4109b3168856786478684a665517c52b, type: 3}
       propertyPath: m_RootOrder
@@ -8740,6 +9177,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -8815,6 +9256,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cactus (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2245210219892188125, guid: 390a35c513c1d1b4fa6003fb237f0b34, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2245210219892686845, guid: 390a35c513c1d1b4fa6003fb237f0b34, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -8888,6 +9333,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -8963,6 +9412,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -9035,7 +9488,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 648687928}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9070,6 +9523,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -9143,7 +9600,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 667081811}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Desert_Kit_Structures (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9183,6 +9640,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -9258,6 +9719,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 38
@@ -9332,6 +9797,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_crate (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4454744264546142, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -9392,7 +9861,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 687242146}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trees (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9426,6 +9895,10 @@ PrefabInstance:
     - target: {fileID: 1375530196496570, guid: 892659dbc7d1e4e178738dbf50cd4bd5, type: 3}
       propertyPath: m_Name
       value: island_bush_palm (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1375530196496570, guid: 892659dbc7d1e4e178738dbf50cd4bd5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4947090025357322, guid: 892659dbc7d1e4e178738dbf50cd4bd5, type: 3}
       propertyPath: m_RootOrder
@@ -9501,6 +9974,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_crate (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4454744264546142, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -9563,6 +10040,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Path_End (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013795940460, guid: 9cb1558577980be4280eaf6fc9c9f3bf, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010903740720, guid: 9cb1558577980be4280eaf6fc9c9f3bf, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -9611,7 +10092,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 697900037}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9646,6 +10127,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -9721,6 +10206,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -9795,6 +10284,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: vase_A_S5
       objectReference: {fileID: 0}
+    - target: {fileID: 1180669087212174, guid: 4109b3168856786478684a665517c52b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4803028929079060, guid: 4109b3168856786478684a665517c52b, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -9853,6 +10346,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 839484788}
     m_Modifications:
+    - target: {fileID: 1000012423379628, guid: 6e659ebd79ad8c5408cd18c2a0e534eb, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012314331726, guid: 6e659ebd79ad8c5408cd18c2a0e534eb, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -9901,7 +10398,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 714450302}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9936,6 +10433,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -10011,6 +10512,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -10084,6 +10589,10 @@ PrefabInstance:
     - target: {fileID: 106322, guid: 14109c6f26a2be34c8ac4c0eb01f3aec, type: 3}
       propertyPath: m_Name
       value: Desert_Building_V3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 106322, guid: 14109c6f26a2be34c8ac4c0eb01f3aec, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 465504, guid: 14109c6f26a2be34c8ac4c0eb01f3aec, type: 3}
       propertyPath: m_RootOrder
@@ -10159,6 +10668,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -10233,6 +10746,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_dock
       objectReference: {fileID: 0}
+    - target: {fileID: 1932873321206794, guid: 0ab5bd23794f44ff192c537291179223, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4342666707088880, guid: 0ab5bd23794f44ff192c537291179223, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -10298,6 +10815,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -10372,6 +10893,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -10527,7 +11052,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &789332095
 GameObject:
@@ -10538,7 +11063,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 789332096}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10580,6 +11105,10 @@ PrefabInstance:
     - target: {fileID: 1087813529480260, guid: 45cfc45f67722478b893ef7451c340b4, type: 3}
       propertyPath: m_Name
       value: island_canopy_slanted
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087813529480260, guid: 45cfc45f67722478b893ef7451c340b4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4808327371817080, guid: 45cfc45f67722478b893ef7451c340b4, type: 3}
       propertyPath: m_RootOrder
@@ -10643,6 +11172,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1703032659}
     m_Modifications:
+    - target: {fileID: 1000012046549718, guid: e59189dc53391154ba8d5468f263e319, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012447238448, guid: e59189dc53391154ba8d5468f263e319, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -10692,6 +11225,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -10767,6 +11304,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -10841,6 +11382,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -10913,7 +11458,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 813209287}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10948,6 +11493,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -11079,6 +11628,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palm-1
       objectReference: {fileID: 0}
+    - target: {fileID: 3813580134335082295, guid: 738d1fd89fca58d4ba682561f57f2fc8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 738d1fd89fca58d4ba682561f57f2fc8, type: 3}
 --- !u!4 &825175075 stripped
@@ -11096,6 +11649,10 @@ PrefabInstance:
     - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_Name
       value: island_crate (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4454744264546142, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_RootOrder
@@ -11157,7 +11714,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 839484788}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Desert_Kit_Boulders (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11192,6 +11749,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -11267,6 +11828,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_palm_2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1528076046171058, guid: b927eb5baaeeb40dd921a69a3b8e51f3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4953265466779392, guid: b927eb5baaeeb40dd921a69a3b8e51f3, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -11337,6 +11902,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 667081811}
     m_Modifications:
+    - target: {fileID: 1000010285526238, guid: 847ad21e052823640b649f294605afb2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011488240504, guid: 847ad21e052823640b649f294605afb2, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -11397,7 +11966,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 855939969}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Desert_Kit_Temple (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11489,6 +12058,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palm-1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3813580134335082295, guid: 738d1fd89fca58d4ba682561f57f2fc8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 738d1fd89fca58d4ba682561f57f2fc8, type: 3}
 --- !u!4 &856077017 stripped
@@ -11503,6 +12076,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1703032659}
     m_Modifications:
+    - target: {fileID: 1000013518663082, guid: 46fef82a1bf92374096a89660fd2a186, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011143004732, guid: 46fef82a1bf92374096a89660fd2a186, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -11553,6 +12130,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Desert_SandPlateMedium (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012287201764, guid: 1de93a9fdb990db4ca7f2fe5c2cc7b59, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014091459346, guid: 1de93a9fdb990db4ca7f2fe5c2cc7b59, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -11602,6 +12183,10 @@ PrefabInstance:
     - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_Name
       value: island_crate (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4454744264546142, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_RootOrder
@@ -11695,14 +12280,14 @@ MonoBehaviour:
   m_LockStageInInspector: 00000000
   m_StreamingVersion: 20170927
   m_Priority: 10
-  m_StandbyUpdate: 2
+  m_StandbyUpdate: 0
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 40
+    FieldOfView: 60
     OrthographicSize: 10
     NearClipPlane: 0.1
-    FarClipPlane: 5000
+    FarClipPlane: 500
     Dutch: 0
     LensShift: {x: 0, y: 0}
   m_Transitions:
@@ -11720,8 +12305,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 892109228}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.4485106, y: 4.4895735, z: 0.6937709}
+  m_LocalRotation: {x: 0.18894352, y: -1e-45, z: -0, w: 0.98198795}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 278817724}
@@ -11738,6 +12323,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -11809,6 +12398,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 667081811}
     m_Modifications:
+    - target: {fileID: 1000010736078000, guid: a02009fcc6168a84d8ba0808a16e31d2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014065311354, guid: a02009fcc6168a84d8ba0808a16e31d2, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -11870,6 +12463,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -11944,6 +12541,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -12075,6 +12676,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palm-1
       objectReference: {fileID: 0}
+    - target: {fileID: 3813580134335082295, guid: 738d1fd89fca58d4ba682561f57f2fc8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 738d1fd89fca58d4ba682561f57f2fc8, type: 3}
 --- !u!4 &938287360 stripped
@@ -12092,6 +12697,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -12167,6 +12776,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -12241,6 +12854,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Path_Post (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013518663082, guid: 46fef82a1bf92374096a89660fd2a186, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011143004732, guid: 46fef82a1bf92374096a89660fd2a186, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -12290,6 +12907,10 @@ PrefabInstance:
     - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_Name
       value: island_crate (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4454744264546142, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_RootOrder
@@ -12349,6 +12970,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1503501194}
     m_Modifications:
+    - target: {fileID: 1000010285526238, guid: 847ad21e052823640b649f294605afb2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011488240504, guid: 847ad21e052823640b649f294605afb2, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -12398,6 +13023,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -12473,6 +13102,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -12547,6 +13180,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -12617,6 +13254,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1962867882}
     m_Modifications:
+    - target: {fileID: 1000011285132168, guid: b324ebca6c0fde34a993f348c9a1c464, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011208106806, guid: b324ebca6c0fde34a993f348c9a1c464, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -12674,6 +13315,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -12747,7 +13392,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1019609603}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12781,7 +13426,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1024533797}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12816,6 +13461,10 @@ PrefabInstance:
     - target: {fileID: 1000013795940460, guid: 9cb1558577980be4280eaf6fc9c9f3bf, type: 3}
       propertyPath: m_Name
       value: Path_End (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013795940460, guid: 9cb1558577980be4280eaf6fc9c9f3bf, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4000010903740720, guid: 9cb1558577980be4280eaf6fc9c9f3bf, type: 3}
       propertyPath: m_RootOrder
@@ -12923,6 +13572,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palm-1
       objectReference: {fileID: 0}
+    - target: {fileID: 3813580134335082295, guid: 738d1fd89fca58d4ba682561f57f2fc8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 738d1fd89fca58d4ba682561f57f2fc8, type: 3}
 --- !u!4 &1038255430 stripped
@@ -12939,7 +13592,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1040225491}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Desert_Kit_Columns
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12974,7 +13627,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1047289865}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13006,6 +13659,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1277341592}
     m_Modifications:
+    - target: {fileID: 1000013795940460, guid: 9cb1558577980be4280eaf6fc9c9f3bf, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010903740720, guid: 9cb1558577980be4280eaf6fc9c9f3bf, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -13055,6 +13712,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -13128,7 +13789,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1053821423}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13163,6 +13824,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -13236,7 +13901,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1071400422}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Desert_Kit_Sphynx (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13265,6 +13930,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1703032659}
     m_Modifications:
+    - target: {fileID: 1000013795940460, guid: 9cb1558577980be4280eaf6fc9c9f3bf, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010903740720, guid: 9cb1558577980be4280eaf6fc9c9f3bf, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -13314,6 +13983,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -13389,6 +14062,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -13461,7 +14138,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1102992970}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13598,6 +14275,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_dock
       objectReference: {fileID: 0}
+    - target: {fileID: 1932873321206794, guid: 0ab5bd23794f44ff192c537291179223, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4342666707088880, guid: 0ab5bd23794f44ff192c537291179223, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -13663,6 +14344,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -13738,6 +14423,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_bush_palm
       objectReference: {fileID: 0}
+    - target: {fileID: 1375530196496570, guid: 892659dbc7d1e4e178738dbf50cd4bd5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4947090025357322, guid: 892659dbc7d1e4e178738dbf50cd4bd5, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -13796,6 +14485,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1277341592}
     m_Modifications:
+    - target: {fileID: 1000010564498848, guid: c9a1d73a420e7e14daf6d9bb2a2708fb, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010163780642, guid: c9a1d73a420e7e14daf6d9bb2a2708fb, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -13846,6 +14539,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PyramidStepsUpperHalf (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010736078000, guid: a02009fcc6168a84d8ba0808a16e31d2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014065311354, guid: a02009fcc6168a84d8ba0808a16e31d2, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -13895,6 +14592,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -13968,7 +14669,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1138084989}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14002,7 +14703,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1147894977}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14027,6 +14728,63 @@ Transform:
   m_Father: {fileID: 145266625}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1148126581
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2425062823111519714, guid: 49c2577712b224f409a37c8af9efb3c0, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2425062823111519714, guid: 49c2577712b224f409a37c8af9efb3c0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12.796547
+      objectReference: {fileID: 0}
+    - target: {fileID: 2425062823111519714, guid: 49c2577712b224f409a37c8af9efb3c0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2425062823111519714, guid: 49c2577712b224f409a37c8af9efb3c0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.1905884
+      objectReference: {fileID: 0}
+    - target: {fileID: 2425062823111519714, guid: 49c2577712b224f409a37c8af9efb3c0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2425062823111519714, guid: 49c2577712b224f409a37c8af9efb3c0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2425062823111519714, guid: 49c2577712b224f409a37c8af9efb3c0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2425062823111519714, guid: 49c2577712b224f409a37c8af9efb3c0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2425062823111519714, guid: 49c2577712b224f409a37c8af9efb3c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2425062823111519714, guid: 49c2577712b224f409a37c8af9efb3c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2425062823111519714, guid: 49c2577712b224f409a37c8af9efb3c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2425062823111519715, guid: 49c2577712b224f409a37c8af9efb3c0, type: 3}
+      propertyPath: m_Name
+      value: FemalePlayer
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 49c2577712b224f409a37c8af9efb3c0, type: 3}
 --- !u!1001 &1149631644
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14037,6 +14795,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -14110,7 +14872,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1153895548}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Desert_Kit_Sand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14144,6 +14906,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -14219,6 +14985,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 40
@@ -14291,7 +15061,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1192499512}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14326,6 +15096,10 @@ PrefabInstance:
     - target: {fileID: 1375530196496570, guid: 892659dbc7d1e4e178738dbf50cd4bd5, type: 3}
       propertyPath: m_Name
       value: island_bush_palm
+      objectReference: {fileID: 0}
+    - target: {fileID: 1375530196496570, guid: 892659dbc7d1e4e178738dbf50cd4bd5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4947090025357322, guid: 892659dbc7d1e4e178738dbf50cd4bd5, type: 3}
       propertyPath: m_RootOrder
@@ -14387,7 +15161,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1199003984}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14422,6 +15196,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -14497,6 +15275,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -14570,6 +15352,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -14645,6 +15431,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_dock
       objectReference: {fileID: 0}
+    - target: {fileID: 1932873321206794, guid: 0ab5bd23794f44ff192c537291179223, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4342666707088880, guid: 0ab5bd23794f44ff192c537291179223, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -14710,6 +15500,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -14783,7 +15577,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1232195349}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14818,6 +15612,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -14893,6 +15691,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -14966,6 +15768,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -15041,6 +15847,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -15114,6 +15924,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -15189,6 +16003,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -15262,6 +16080,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -15337,6 +16159,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -15409,7 +16235,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1277341592}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Desert_Kit_Paths (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15446,6 +16272,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -15521,6 +16351,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -15593,7 +16427,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1288466221}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Desert_Kit_Sphynx
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20426,6 +21260,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 667081811}
     m_Modifications:
+    - target: {fileID: 1000014225362746, guid: a41a0379b3d57cd47984f898fd2c7059, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012622637596, guid: a41a0379b3d57cd47984f898fd2c7059, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -20487,6 +21325,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1296116687}
   - component: {fileID: 1296116686}
+  - component: {fileID: 1296116688}
   m_Layer: 0
   m_Name: CM FreeLook1
   m_TagString: Untagged
@@ -20511,15 +21350,15 @@ MonoBehaviour:
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
   m_Priority: 10
-  m_StandbyUpdate: 2
-  m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
+  m_StandbyUpdate: 0
+  m_LookAt: {fileID: 127218851}
+  m_Follow: {fileID: 127218851}
   m_CommonLens: 1
   m_Lens:
-    FieldOfView: 40
+    FieldOfView: 60
     OrthographicSize: 10
     NearClipPlane: 0.1
-    FarClipPlane: 5000
+    FarClipPlane: 500
     Dutch: 0
     LensShift: {x: 0, y: 0}
   m_Transitions:
@@ -20532,12 +21371,12 @@ MonoBehaviour:
   m_YAxis:
     Value: 0.5
     m_SpeedMode: 0
-    m_MaxSpeed: 2
-    m_AccelTime: 0.2
+    m_MaxSpeed: 1
+    m_AccelTime: 0.1
     m_DecelTime: 0.1
-    m_InputAxisName: Mouse Y
+    m_InputAxisName: 
     m_InputAxisValue: 0
-    m_InvertInput: 0
+    m_InvertInput: 1
     m_MinValue: 0
     m_MaxValue: 1
     m_Wrap: 0
@@ -20548,7 +21387,7 @@ MonoBehaviour:
       m_LegacyHeadingDefinition: -1
       m_LegacyVelocityFilterStrength: -1
   m_YAxisRecentering:
-    m_enabled: 0
+    m_enabled: 1
     m_WaitTime: 1
     m_RecenteringTime: 2
     m_LegacyHeadingDefinition: -1
@@ -20556,12 +21395,12 @@ MonoBehaviour:
   m_XAxis:
     Value: 0
     m_SpeedMode: 0
-    m_MaxSpeed: 300
+    m_MaxSpeed: 700
     m_AccelTime: 0.1
     m_DecelTime: 0.1
     m_InputAxisName: Mouse X
     m_InputAxisValue: 0
-    m_InvertInput: 1
+    m_InvertInput: 0
     m_MinValue: -180
     m_MaxValue: 180
     m_Wrap: 1
@@ -20581,15 +21420,15 @@ MonoBehaviour:
     m_RecenteringTime: 2
     m_LegacyHeadingDefinition: -1
     m_LegacyVelocityFilterStrength: -1
-  m_BindingMode: 5
+  m_BindingMode: 4
   m_SplineCurvature: 0.2
   m_Orbits:
-  - m_Height: 4.5
-    m_Radius: 1.75
-  - m_Height: 2.5
-    m_Radius: 3
-  - m_Height: 0.4
-    m_Radius: 1.3
+  - m_Height: 4
+    m_Radius: 2
+  - m_Height: 2.7
+    m_Radius: 5
+  - m_Height: 0.15
+    m_Radius: 2
   m_LegacyHeadingBias: 3.4028235e+38
   m_Rigs:
   - {fileID: 1419875407}
@@ -20603,15 +21442,45 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1296116685}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.4485106, y: -4.4895735, z: -0.6937709}
+  m_LocalPosition: {x: -12.796547, y: 2.7, z: -3.8094115}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1419875408}
   - {fileID: 1676210869}
   - {fileID: 892109230}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1296116688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296116685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e501d18bb52cf8c40b1853ca4904654f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CollideAgainst:
+    serializedVersion: 2
+    m_Bits: 64
+  m_IgnoreTag: Player
+  m_TransparentLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_MinimumDistanceFromTarget: 0.1
+  m_AvoidObstacles: 1
+  m_DistanceLimit: 0
+  m_MinimumOcclusionTime: 0
+  m_CameraRadius: 0.1
+  m_Strategy: 0
+  m_MaximumEffort: 4
+  m_SmoothingTime: 0
+  m_Damping: 0.6
+  m_DampingWhenOccluded: 0.6
+  m_OptimalTargetDistance: 0
 --- !u!1001 &1315197501
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20622,6 +21491,10 @@ PrefabInstance:
     - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_Name
       value: island_crate (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4454744264546142, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_RootOrder
@@ -20711,7 +21584,7 @@ Transform:
   - {fileID: 1914503737}
   - {fileID: 1927898467}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1324595266
 PrefabInstance:
@@ -20723,6 +21596,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -20796,7 +21673,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1328463778}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20832,21 +21709,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Desert_Building_V4
       objectReference: {fileID: 0}
+    - target: {fileID: 198726, guid: e3deda9cbdf55484a80b96efb01909cd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 468444, guid: e3deda9cbdf55484a80b96efb01909cd, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 468444, guid: e3deda9cbdf55484a80b96efb01909cd, type: 3}
       propertyPath: m_LocalScale.x
-      value: 101.6
+      value: 105.8
       objectReference: {fileID: 0}
     - target: {fileID: 468444, guid: e3deda9cbdf55484a80b96efb01909cd, type: 3}
       propertyPath: m_LocalScale.y
-      value: 83.59999
+      value: 102.2
       objectReference: {fileID: 0}
     - target: {fileID: 468444, guid: e3deda9cbdf55484a80b96efb01909cd, type: 3}
       propertyPath: m_LocalScale.z
-      value: 93.899994
+      value: 104.4
       objectReference: {fileID: 0}
     - target: {fileID: 468444, guid: e3deda9cbdf55484a80b96efb01909cd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20902,6 +21783,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1503501194}
     m_Modifications:
+    - target: {fileID: 1000014225362746, guid: a41a0379b3d57cd47984f898fd2c7059, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012622637596, guid: a41a0379b3d57cd47984f898fd2c7059, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -20951,6 +21836,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -21026,6 +21915,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -21096,6 +21989,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 839484788}
     m_Modifications:
+    - target: {fileID: 1000011285132168, guid: b324ebca6c0fde34a993f348c9a1c464, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011208106806, guid: b324ebca6c0fde34a993f348c9a1c464, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -21210,6 +22107,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: balcony (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3022358360345038534, guid: e6f747a32df33b64cabe1e4c1ce11857, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6f747a32df33b64cabe1e4c1ce11857, type: 3}
 --- !u!4 &1357675472 stripped
@@ -21227,6 +22128,10 @@ PrefabInstance:
     - target: {fileID: 106322, guid: 14109c6f26a2be34c8ac4c0eb01f3aec, type: 3}
       propertyPath: m_Name
       value: Desert_Building_V3
+      objectReference: {fileID: 0}
+    - target: {fileID: 106322, guid: 14109c6f26a2be34c8ac4c0eb01f3aec, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 465504, guid: 14109c6f26a2be34c8ac4c0eb01f3aec, type: 3}
       propertyPath: m_RootOrder
@@ -21302,6 +22207,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -21376,6 +22285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -21448,7 +22361,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1370754408}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26288,6 +27201,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -26361,6 +27278,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -26436,6 +27357,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_bush_palm (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1375530196496570, guid: 892659dbc7d1e4e178738dbf50cd4bd5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4947090025357322, guid: 892659dbc7d1e4e178738dbf50cd4bd5, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -26510,6 +27435,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -26583,6 +27512,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -26688,14 +27621,14 @@ MonoBehaviour:
   m_LockStageInInspector: 00000000
   m_StreamingVersion: 20170927
   m_Priority: 10
-  m_StandbyUpdate: 2
+  m_StandbyUpdate: 0
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 40
+    FieldOfView: 60
     OrthographicSize: 10
     NearClipPlane: 0.1
-    FarClipPlane: 5000
+    FarClipPlane: 500
     Dutch: 0
     LensShift: {x: 0, y: 0}
   m_Transitions:
@@ -26713,8 +27646,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1419875406}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.4485106, y: 4.4895735, z: 0.6937709}
+  m_LocalRotation: {x: 0.24504551, y: 1.0332699e-15, z: -2.2876431e-17, w: 0.96951157}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 62290960}
@@ -26730,7 +27663,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1433650773}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26765,6 +27698,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -26840,6 +27777,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -26913,6 +27854,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -26988,6 +27933,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -27062,6 +28011,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -27134,7 +28087,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1472198965}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27153,7 +28106,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1479249296
 GameObject:
@@ -27164,7 +28117,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1479249297}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27256,6 +28209,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palm-1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3813580134335082295, guid: 738d1fd89fca58d4ba682561f57f2fc8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 738d1fd89fca58d4ba682561f57f2fc8, type: 3}
 --- !u!4 &1479568670 stripped
@@ -27272,7 +28229,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1488335252}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Buildings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27297,7 +28254,7 @@ Transform:
   - {fileID: 730021349}
   - {fileID: 1357675472}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1488828555
 PrefabInstance:
@@ -27309,6 +28266,10 @@ PrefabInstance:
     - target: {fileID: 2245210219892188125, guid: 390a35c513c1d1b4fa6003fb237f0b34, type: 3}
       propertyPath: m_Name
       value: cactus (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2245210219892188125, guid: 390a35c513c1d1b4fa6003fb237f0b34, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2245210219892686845, guid: 390a35c513c1d1b4fa6003fb237f0b34, type: 3}
       propertyPath: m_RootOrder
@@ -27384,6 +28345,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -27456,7 +28421,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1490231005}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27490,7 +28455,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1496030530}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27530,6 +28495,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -27603,7 +28572,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1503501194}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Desert_Kit_Structures
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27640,6 +28609,10 @@ PrefabInstance:
     - target: {fileID: 2245210219892188125, guid: 390a35c513c1d1b4fa6003fb237f0b34, type: 3}
       propertyPath: m_Name
       value: cactus
+      objectReference: {fileID: 0}
+    - target: {fileID: 2245210219892188125, guid: 390a35c513c1d1b4fa6003fb237f0b34, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2245210219892686845, guid: 390a35c513c1d1b4fa6003fb237f0b34, type: 3}
       propertyPath: m_RootOrder
@@ -27715,6 +28688,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -27788,6 +28765,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -27863,6 +28844,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -27936,6 +28921,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -28011,6 +29000,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -28084,6 +29077,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -28159,6 +29156,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -28232,6 +29233,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -28307,6 +29312,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -28380,6 +29389,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -28455,6 +29468,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -28528,6 +29545,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -28603,6 +29624,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Desert_SandPlateMedium (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012287201764, guid: 1de93a9fdb990db4ca7f2fe5c2cc7b59, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014091459346, guid: 1de93a9fdb990db4ca7f2fe5c2cc7b59, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -28652,6 +29677,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -28727,6 +29756,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -28801,6 +29834,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -28873,7 +29910,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1604051572}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Desert_Kit_Sand (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28904,7 +29941,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1604673280}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Desert_Kit_Temple
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28939,6 +29976,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -29014,6 +30055,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -29087,6 +30132,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -29162,6 +30211,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_crate (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4454744264546142, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -29223,6 +30276,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -29298,6 +30355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -29371,6 +30432,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -29446,6 +30511,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_crate_2
       objectReference: {fileID: 0}
+    - target: {fileID: 1163609636771650, guid: f5790d089661b42e6885abaf9b527037, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4281322700054384, guid: f5790d089661b42e6885abaf9b527037, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -29512,6 +30581,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_bush_palm (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1375530196496570, guid: 892659dbc7d1e4e178738dbf50cd4bd5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4947090025357322, guid: 892659dbc7d1e4e178738dbf50cd4bd5, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -29573,6 +30646,10 @@ PrefabInstance:
     - target: {fileID: 1528076046171058, guid: b927eb5baaeeb40dd921a69a3b8e51f3, type: 3}
       propertyPath: m_Name
       value: island_palm_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528076046171058, guid: b927eb5baaeeb40dd921a69a3b8e51f3, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4953265466779392, guid: b927eb5baaeeb40dd921a69a3b8e51f3, type: 3}
       propertyPath: m_RootOrder
@@ -29678,14 +30755,14 @@ MonoBehaviour:
   m_LockStageInInspector: 00000000
   m_StreamingVersion: 20170927
   m_Priority: 10
-  m_StandbyUpdate: 2
+  m_StandbyUpdate: 0
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 40
+    FieldOfView: 60
     OrthographicSize: 10
     NearClipPlane: 0.1
-    FarClipPlane: 5000
+    FarClipPlane: 500
     Dutch: 0
     LensShift: {x: 0, y: 0}
   m_Transitions:
@@ -29703,8 +30780,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1676210867}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.4485106, y: 4.4895735, z: 0.6937709}
+  m_LocalRotation: {x: 0.21699116, y: -0.00000001877896, z: 0.0000000041743276, w: 0.9761736}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2100885302}
@@ -29720,7 +30797,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1679192842}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29755,6 +30832,10 @@ PrefabInstance:
     - target: {fileID: 1528076046171058, guid: b927eb5baaeeb40dd921a69a3b8e51f3, type: 3}
       propertyPath: m_Name
       value: island_palm_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528076046171058, guid: b927eb5baaeeb40dd921a69a3b8e51f3, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4953265466779392, guid: b927eb5baaeeb40dd921a69a3b8e51f3, type: 3}
       propertyPath: m_RootOrder
@@ -29828,7 +30909,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1685878587}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29868,6 +30949,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -29943,6 +31028,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -30017,6 +31106,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -30089,7 +31182,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1703032659}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Desert_Kit_Paths
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30125,7 +31218,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1708362889}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Desert_Kit_Columns (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30161,6 +31254,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -30236,6 +31333,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -30310,6 +31411,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_crate (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4454744264546142, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -30372,6 +31477,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_crate (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4454744264546142, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -30433,6 +31542,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -30508,6 +31621,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -30582,6 +31699,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Desert_SandPlateMedium (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012287201764, guid: 1de93a9fdb990db4ca7f2fe5c2cc7b59, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014091459346, guid: 1de93a9fdb990db4ca7f2fe5c2cc7b59, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -30631,6 +31752,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -30706,6 +31831,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pyramid_Thin_Tip (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014058142462, guid: ab440feedacbd0d40aaac5abd4acd8fd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010945598816, guid: ab440feedacbd0d40aaac5abd4acd8fd, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -30767,6 +31896,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -30842,6 +31975,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -30912,6 +32049,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1708362889}
     m_Modifications:
+    - target: {fileID: 1000013553030096, guid: d6238962ede8add4b877e688a0620c24, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012789593826, guid: d6238962ede8add4b877e688a0620c24, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -30958,6 +32099,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1708362889}
     m_Modifications:
+    - target: {fileID: 1000011894741232, guid: a0304cd1c89ed5f47b1c609d88092942, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010998463236, guid: a0304cd1c89ed5f47b1c609d88092942, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -31064,6 +32209,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: palm-1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3813580134335082295, guid: 738d1fd89fca58d4ba682561f57f2fc8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 738d1fd89fca58d4ba682561f57f2fc8, type: 3}
 --- !u!4 &1771805854 stripped
@@ -31081,6 +32230,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -31152,6 +32305,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1503501194}
     m_Modifications:
+    - target: {fileID: 1000010736078000, guid: a02009fcc6168a84d8ba0808a16e31d2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014065311354, guid: a02009fcc6168a84d8ba0808a16e31d2, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -31198,6 +32355,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 855939969}
     m_Modifications:
+    - target: {fileID: 1000011151103506, guid: 2d30eb97c479d1541be03182e7e4e990, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011041737276, guid: 2d30eb97c479d1541be03182e7e4e990, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -31259,6 +32420,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -31332,7 +32497,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1785000586}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31364,6 +32529,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 667081811}
     m_Modifications:
+    - target: {fileID: 1000010780680120, guid: 3e21f0d87380e8a4ab812ed8ecaf90be, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012489837478, guid: 3e21f0d87380e8a4ab812ed8ecaf90be, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -31425,6 +32594,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -31500,6 +32673,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Desert_Obelisk_Stand
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010390738104, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012333492518, guid: 09c2ce84a75b3324fb5c689e5ac6ce7e, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -31549,6 +32726,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -31622,7 +32803,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1805818986}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trees (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31656,6 +32837,10 @@ PrefabInstance:
     - target: {fileID: 1000010285526238, guid: 847ad21e052823640b649f294605afb2, type: 3}
       propertyPath: m_Name
       value: Pyramid_Thin_Base (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010285526238, guid: 847ad21e052823640b649f294605afb2, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4000011488240504, guid: 847ad21e052823640b649f294605afb2, type: 3}
       propertyPath: m_RootOrder
@@ -31718,6 +32903,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -31793,6 +32982,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -31866,6 +33059,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -31941,6 +33138,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -32014,6 +33215,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -32090,7 +33295,7 @@ GameObject:
   - component: {fileID: 1827727042}
   - component: {fileID: 1827727041}
   - component: {fileID: 1827727040}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32186,6 +33391,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -32260,6 +33469,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_bush_palm
       objectReference: {fileID: 0}
+    - target: {fileID: 1375530196496570, guid: 892659dbc7d1e4e178738dbf50cd4bd5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4947090025357322, guid: 892659dbc7d1e4e178738dbf50cd4bd5, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -32321,6 +33534,10 @@ PrefabInstance:
     - target: {fileID: 1932873321206794, guid: 0ab5bd23794f44ff192c537291179223, type: 3}
       propertyPath: m_Name
       value: island_dock
+      objectReference: {fileID: 0}
+    - target: {fileID: 1932873321206794, guid: 0ab5bd23794f44ff192c537291179223, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4342666707088880, guid: 0ab5bd23794f44ff192c537291179223, type: 3}
       propertyPath: m_RootOrder
@@ -32387,6 +33604,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -32462,6 +33683,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -32536,6 +33761,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_canopy_slanted
       objectReference: {fileID: 0}
+    - target: {fileID: 1087813529480260, guid: 45cfc45f67722478b893ef7451c340b4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4808327371817080, guid: 45cfc45f67722478b893ef7451c340b4, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -32601,6 +33830,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -32672,6 +33905,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1071400422}
     m_Modifications:
+    - target: {fileID: 1000010572747236, guid: f159a1b75fe800545869a115d68acdcd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011556832164, guid: f159a1b75fe800545869a115d68acdcd, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -32721,6 +33958,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -32796,6 +34037,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -32866,6 +34111,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1708362889}
     m_Modifications:
+    - target: {fileID: 1000011035781986, guid: 3d609541b623cc24a85fcc89ee9fa9e6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011095560932, guid: 3d609541b623cc24a85fcc89ee9fa9e6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -32915,6 +34164,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -32990,6 +34243,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_crate_2
       objectReference: {fileID: 0}
+    - target: {fileID: 1163609636771650, guid: f5790d089661b42e6885abaf9b527037, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4281322700054384, guid: f5790d089661b42e6885abaf9b527037, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -33052,6 +34309,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 855939969}
     m_Modifications:
+    - target: {fileID: 1000011859241944, guid: 2f11a19ee587ed44ca4a72f6d3986f99, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011147253788, guid: 2f11a19ee587ed44ca4a72f6d3986f99, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -33113,6 +34374,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -33188,6 +34453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -33262,6 +34531,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_crate_2
       objectReference: {fileID: 0}
+    - target: {fileID: 1163609636771650, guid: f5790d089661b42e6885abaf9b527037, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4281322700054384, guid: f5790d089661b42e6885abaf9b527037, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -33326,7 +34599,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1910600952}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33360,7 +34633,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1911545574}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33395,6 +34668,10 @@ PrefabInstance:
     - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_Name
       value: island_crate
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4454744264546142, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_RootOrder
@@ -33473,7 +34750,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1919941337}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33508,6 +34785,10 @@ PrefabInstance:
     - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_Name
       value: island_crate (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4454744264546142, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_RootOrder
@@ -33570,6 +34851,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -33648,7 +34933,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1929642788}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trees
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33681,7 +34966,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1935651507}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33716,6 +35001,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -33787,6 +35076,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1040225491}
     m_Modifications:
+    - target: {fileID: 1000012089989546, guid: ce2146ce387403f49849aab35d406dbd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012181423232, guid: ce2146ce387403f49849aab35d406dbd, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -33833,6 +35126,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1962867882}
     m_Modifications:
+    - target: {fileID: 1000012423379628, guid: 6e659ebd79ad8c5408cd18c2a0e534eb, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012314331726, guid: 6e659ebd79ad8c5408cd18c2a0e534eb, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -33881,7 +35178,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1944975234}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33916,6 +35213,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -33989,7 +35290,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1962867882}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Desert_Kit_Boulders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34024,6 +35325,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -34099,6 +35404,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_crate
       objectReference: {fileID: 0}
+    - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4454744264546142, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -34169,6 +35478,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1288466221}
     m_Modifications:
+    - target: {fileID: 1000010572747236, guid: f159a1b75fe800545869a115d68acdcd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011556832164, guid: f159a1b75fe800545869a115d68acdcd, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -34218,6 +35531,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -34293,6 +35610,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -34367,6 +35688,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_crate (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4454744264546142, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -34425,6 +35750,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1604673280}
     m_Modifications:
+    - target: {fileID: 1000011151103506, guid: 2d30eb97c479d1541be03182e7e4e990, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011041737276, guid: 2d30eb97c479d1541be03182e7e4e990, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -34474,6 +35803,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -34549,6 +35882,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_crate_2
       objectReference: {fileID: 0}
+    - target: {fileID: 1163609636771650, guid: f5790d089661b42e6885abaf9b527037, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4281322700054384, guid: f5790d089661b42e6885abaf9b527037, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -34614,6 +35951,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -34689,6 +36030,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -34762,6 +36107,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -39637,6 +40986,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1604673280}
     m_Modifications:
+    - target: {fileID: 1000011859241944, guid: 2f11a19ee587ed44ca4a72f6d3986f99, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011147253788, guid: 2f11a19ee587ed44ca4a72f6d3986f99, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -39686,6 +41039,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -39759,7 +41116,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2035066946}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39794,6 +41151,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -39869,6 +41230,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -39942,6 +41307,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -40072,6 +41441,10 @@ PrefabInstance:
     - target: {fileID: 3022358360345038534, guid: e6f747a32df33b64cabe1e4c1ce11857, type: 3}
       propertyPath: m_Name
       value: balcony
+      objectReference: {fileID: 0}
+    - target: {fileID: 3022358360345038534, guid: e6f747a32df33b64cabe1e4c1ce11857, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6f747a32df33b64cabe1e4c1ce11857, type: 3}
@@ -44893,7 +46266,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2081807542}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44928,6 +46301,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -45098,7 +46475,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2096481304}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45195,8 +46572,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9384ab8608cdc3d479fe89cd51eed48f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_BindingMode: 5
-  m_FollowOffset: {x: 0, y: 2.5, z: -3}
+  m_BindingMode: 4
+  m_FollowOffset: {x: 0, y: 2.7, z: -5}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -45259,6 +46636,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -45334,6 +46715,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -45407,6 +46792,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -45482,6 +46871,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -45556,6 +46949,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: island_rock_4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -45628,7 +47025,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2120592713}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45662,7 +47059,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2125054729}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45697,6 +47094,10 @@ PrefabInstance:
     - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_Name
       value: island_rock_4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1636290138727790, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4596057382946870, guid: 7b1eb47b94ac14f5199f8656ef3ba5d6, type: 3}
       propertyPath: m_RootOrder
@@ -45770,7 +47171,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2135329098}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45804,7 +47205,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2139150750}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PATH (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45839,6 +47240,10 @@ PrefabInstance:
     - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_Name
       value: island_crate (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618629125841028, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4454744264546142, guid: 97317b2229d834d39bcf3972fdb5699a, type: 3}
       propertyPath: m_RootOrder

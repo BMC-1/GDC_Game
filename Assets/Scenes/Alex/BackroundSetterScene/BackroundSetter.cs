@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class BackroundSetter : MonoBehaviour
 {
 
@@ -22,6 +23,7 @@ public class BackroundSetter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
     }
 
     void SpawnTheBackround()
@@ -29,13 +31,15 @@ public class BackroundSetter : MonoBehaviour
 
         int numberOfLoops = 40;
 
-        float previousRotation = 0; ;
+        float previousRotation = 0;
 
         do
         {
             Vector3 positionToSpawn = this.transform.position + (this.transform.forward * radius);
 
             Transform backroundClone = Instantiate(backroundTransform, positionToSpawn, Quaternion.identity);
+
+            
 
             previousRotation = this.transform.rotation.eulerAngles.y;
 

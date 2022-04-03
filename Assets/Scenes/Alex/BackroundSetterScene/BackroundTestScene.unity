@@ -332,8 +332,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backroundTransform: {fileID: 2214463864383402281, guid: 9dd548e110f4b1042b58521d976aaa36, type: 3}
-  textureOfBackround: {fileID: 21300000, guid: ea21e7249d2de19448ef7795ee426588, type: 3}
-  distanceBetweenBackrounds: 10
+  textureOfBackround: {fileID: 21300000, guid: 3e8a161cf47614534a3aefe4f370e2a1, type: 3}
+  distanceBetweenBackrounds: 30
   radius: 50
 --- !u!4 &1296593971
 Transform:
