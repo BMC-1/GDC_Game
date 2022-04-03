@@ -8,6 +8,7 @@ public class InventoryBehaviour : MonoBehaviour
 
     [SerializeField] Transform itemFramesParent;
 
+    [SerializeField] QuickMessageDisplayer quickMessageDisplayer;
 
     int numberOfEmptyInventorySpaces;
     // Start is called before the first frame update
@@ -81,6 +82,8 @@ public class InventoryBehaviour : MonoBehaviour
         }
         else
         {
+            quickMessageDisplayer.ActivateTheDisplayTheQuickMessage("Full inventory");
+
             return false;
         }
     }
@@ -95,6 +98,8 @@ public class InventoryBehaviour : MonoBehaviour
             }
 
         }
+
+
         return false;
     }
 }

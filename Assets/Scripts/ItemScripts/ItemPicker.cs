@@ -6,7 +6,6 @@ using UnityEngine;
 public class ItemPicker : MonoBehaviour
 {
 
-     
 
     [SerializeField] TextMeshProUGUI pickUpMessage;
 
