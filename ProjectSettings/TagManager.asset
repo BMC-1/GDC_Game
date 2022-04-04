@@ -11,6 +11,7 @@ TagManager:
   - SpawnPoint
   - DilaogueBox
   - Pickable
+  - WaterTerrainBlock
   layers:
   - Default
   - TransparentFX
