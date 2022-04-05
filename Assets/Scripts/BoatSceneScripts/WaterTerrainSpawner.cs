@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class WaterTerrainSpawner : MonoBehaviour
 {
+    [SerializeField] BoatSpawner boatSpawner;
+
     [SerializeField] Transform terrainBlock;
     [SerializeField] Transform terrainBlockParent;
     [SerializeField] Transform startingTerrainSpawnPosition;
@@ -17,6 +19,8 @@ public class WaterTerrainSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        boatSpawner.SpawnTheShip(startingTerrainSpawnPosition.position);
+
         SpawnTheTerrainBlocks(startingTerrainSpawnPosition.position);
     }
 
