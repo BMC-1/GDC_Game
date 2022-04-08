@@ -5,6 +5,7 @@ using UnityEngine;
 public class WaterTerrainSpawner : MonoBehaviour
 {
     [SerializeField] BoatSpawner boatSpawner;
+    [SerializeField] SeaObsticleSpawner seaObsticleSpawner;
 
     [SerializeField] Transform terrainBlock;
     [SerializeField] Transform terrainBlockParent;
@@ -12,7 +13,10 @@ public class WaterTerrainSpawner : MonoBehaviour
 
     [SerializeField] int numberOfTerrainBlocksToSpawn;
 
-    //[SerializeField] float distanceBetweenTerrainBlocks;
+
+    [SerializeField] float distanceBetweenTerrainBlocks;
+
+    bool wasTheFirstTerrainBlockSpawned;
 
     public Transform firstTerrainBlockSpawned { get; set; }
     public Transform lastTerrainBlockSpawned { get; set; }
@@ -36,13 +40,24 @@ public class WaterTerrainSpawner : MonoBehaviour
 
         for(int i=0; i<numberOfTerrainBlocksToSpawn; i++)
         {
-            Transform terrainBlockClone = Instantiate(terrainBlock, terrainBlockPos, Quaternion.Euler(90, 0, 0));
+            Transform terrainBlockClone = Instantiate(terrainBlock, terrainBlockPos, Quaternion.identity);
+
+            if(wasTheFirstTerrainBlockSpawned==true)
+            {
+                seaObsticleSpawner.SpawnObsticles(terrainBlockClone);
+
+
+            }
+            else
+            {
+                wasTheFirstTerrainBlockSpawned = true;
+            }
 
             GetTheFirstOrLastSpawnedTerrainBlock(i, terrainBlockClone);
 
             terrainBlockClone.parent = terrainBlockParent;
 
-            terrainBlockPos.z += terrainBlock.localScale.y;
+            terrainBlockPos.z += distanceBetweenTerrainBlocks;
 
         }
     }

@@ -12,6 +12,7 @@ TagManager:
   - DilaogueBox
   - Pickable
   - WaterTerrainBlock
+  - SeaObsticle
   layers:
   - Default
   - TransparentFX

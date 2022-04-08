@@ -6,7 +6,7 @@ public class WaterTerrainMovement : MonoBehaviour
 {
     [SerializeField] float defaultSpeed;
 
-    float currentSpeed;
+    public float currentSpeed { get; set; }
     // Start is called before the first frame update
     void Start()
     {
