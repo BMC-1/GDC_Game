@@ -6,6 +6,11 @@ public class ShipDamageTrigger : MonoBehaviour
 {
     [SerializeField] string tagOfDamagingObjects;
 
+    [Header("counted in seconds")]
+    [SerializeField] float timeForDamageImmunityAfterDamage;
+
+    bool isThePlayerimmuneToDamage;
+
     BoatJumpingMotion boatJumpingMotion;
     
     HealthSystem healthSystem;
@@ -30,7 +35,13 @@ public class ShipDamageTrigger : MonoBehaviour
     {
         if(other.tag==tagOfDamagingObjects)
         {
-            healthSystem.DecreaseHealth(1);
+            if(isThePlayerimmuneToDamage==false)
+            {
+                healthSystem.DecreaseHealth(1);
+
+                StartCoroutine("StartDamageImmunityTimer");
+
+            }
         }
         else if(other.tag=="WaterTerrainBlock")
         {
@@ -43,6 +54,15 @@ public class ShipDamageTrigger : MonoBehaviour
         
     }
 
+    
+    IEnumerator StartDamageImmunityTimer()
+    {
+        isThePlayerimmuneToDamage = true;
+
+        yield return new WaitForSeconds(timeForDamageImmunityAfterDamage);
+
+        isThePlayerimmuneToDamage = false;
+    }
 
 
   

@@ -8,17 +8,20 @@ public class ShipMovement : MonoBehaviour
 
     [SerializeField] float[] minAndMaxXConstrain;
 
+    bool canTheboatMove=true;
+
     BoatJumpingMotion boatJumpingMotion;
     // Start is called before the first frame update
     void Start()
     {
+
         boatJumpingMotion = FindObjectOfType<BoatJumpingMotion>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(boatJumpingMotion.isTheBoatInTheAir==false)
+        if(boatJumpingMotion.isTheBoatInTheAir==false && canTheboatMove==true)
         {
             MoveThePlayer();
 
@@ -60,5 +63,10 @@ public class ShipMovement : MonoBehaviour
     
 
         return true;
+    }
+
+    public void DisableShipSideWaysMovement()
+    {
+        canTheboatMove = false;
     }
 }

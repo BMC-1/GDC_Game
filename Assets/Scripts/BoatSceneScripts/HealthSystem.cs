@@ -65,6 +65,8 @@ public class HealthSystem : MonoBehaviour
                     levelSpeedChanger.SetLevelSpeed(0);
 
                     levelSpeedChanger.StopTheTimerForSpeedChange();
+
+                    FindObjectOfType<ShipMovement>().DisableShipSideWaysMovement();
                 }
 
 
