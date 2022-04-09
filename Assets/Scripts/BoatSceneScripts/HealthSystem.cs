@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class HealthSystem : MonoBehaviour
 {
+    [SerializeField] LevelProgressionSystem levelProgressionSystem;
+
 
     [SerializeField] Transform uiPanel;
 
@@ -13,6 +15,8 @@ public class HealthSystem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
+
         levelSpeedChanger = FindObjectOfType<LevelSpeedChanger>();
 
         SpawnTheHealthUi(uiPanel.childCount);
@@ -48,7 +52,6 @@ public class HealthSystem : MonoBehaviour
 
     public void DecreaseHealth(int numberOfUiIconsToRemove)
     {
-        print("works");
 
         for(int i=0; i<numberOfUiIconsToRemove; i++)
         {
@@ -65,6 +68,8 @@ public class HealthSystem : MonoBehaviour
                     levelSpeedChanger.SetLevelSpeed(0);
 
                     levelSpeedChanger.StopTheTimerForSpeedChange();
+
+                    levelProgressionSystem.StopTheProgressionTimer();
 
                     FindObjectOfType<ShipMovement>().DisableShipSideWaysMovement();
                 }
