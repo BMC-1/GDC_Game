@@ -11,6 +11,8 @@ public class Timer : MonoBehaviour
 
     [SerializeField] TextMeshProUGUI uiTimer;
 
+    [SerializeField] LosingMessageDisplayer losingMessageDisplayer;
+
     TimeSpan timer;
 
     float currentTime;
@@ -42,7 +44,8 @@ public class Timer : MonoBehaviour
             yield return new WaitForSeconds(1);
         }
 
-        print("Game over");
+        losingMessageDisplayer.DisplayTheLosingUiPanel("" +
+            "The Guards found you wondering around the maze and arrested you");
     }
 
     void SetTheUiTimer()

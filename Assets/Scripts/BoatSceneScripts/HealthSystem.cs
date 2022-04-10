@@ -5,7 +5,7 @@ using UnityEngine;
 public class HealthSystem : MonoBehaviour
 {
     [SerializeField] LevelProgressionSystem levelProgressionSystem;
-
+    [SerializeField] LosingMessageDisplayer losingMessageDisplayer;
 
     [SerializeField] Transform uiPanel;
 
@@ -72,6 +72,8 @@ public class HealthSystem : MonoBehaviour
                     levelProgressionSystem.StopTheProgressionTimer();
 
                     FindObjectOfType<ShipMovement>().DisableShipSideWaysMovement();
+
+                    losingMessageDisplayer.DisplayTheLosingUiPanel("The ship shank");
                 }
 
 

@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class LosingMessageDisplayer : MonoBehaviour
 {
-    [SerializeField] Transform losingUiMessage;
+    [SerializeField] Transform losingUiPanel;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +17,13 @@ public class LosingMessageDisplayer : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void DisplayTheLosingUiPanel(string texToDisplay)
+    {
+        losingUiPanel.gameObject.SetActive(true);
+
+        losingUiPanel.GetComponentInChildren<TextMeshProUGUI>().text = texToDisplay;
     }
 
 
