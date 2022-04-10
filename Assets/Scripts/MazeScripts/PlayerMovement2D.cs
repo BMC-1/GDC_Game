@@ -8,8 +8,13 @@ public class PlayerMovement2D : MonoBehaviour
 
     [SerializeField] PlayerAnimationPlayer playerAnimationPlayer;
 
-    [SerializeField] int[] roationY;
-    
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
     void FixedUpdate()
     {
         MoveThePlayer();
@@ -23,25 +28,28 @@ public class PlayerMovement2D : MonoBehaviour
             if (Input.GetKey(KeyCode.W))
             {
                 this.transform.position += (Vector3)Vector2.up * Time.deltaTime * playerSpeed;
-                RotateThePlayerZ(90);
+
+                RotateThePlayer(90, "z");
             }
             else if (Input.GetKey(KeyCode.S))
             {
-                this.transform.position += (Vector3)Vector2.down * Time.deltaTime * playerSpeed;
-                RotateThePlayerZ(-90);
+                this.transform.position -= (Vector3)Vector2.up * Time.deltaTime * playerSpeed;
+
+                RotateThePlayer(270, "z");
             }
+
             if (Input.GetKey(KeyCode.A))
             {
-                this.transform.position += (Vector3)Vector2.left * Time.deltaTime * playerSpeed;
+                this.transform.position -= (Vector3)Vector2.right * Time.deltaTime * playerSpeed;
 
-                RotateThePlayerY(roationY[0]);
+                RotateThePlayer(180, "y");
 
             }
             else if (Input.GetKey(KeyCode.D))
             {
                 this.transform.position += (Vector3)Vector2.right * Time.deltaTime * playerSpeed;
 
-                RotateThePlayerY(roationY[1]);
+                RotateThePlayer(0, "y");
             }
 
             playerAnimationPlayer.SetTheMovingAnimation();
@@ -59,12 +67,17 @@ public class PlayerMovement2D : MonoBehaviour
         playerSpeed = 0;
     }
 
-    void RotateThePlayerY(int yRotation)
+    void RotateThePlayer(int rotation,string axisToRotate)
     {
-        this.transform.rotation = Quaternion.Euler(0, yRotation, 0);
-    }
-    void RotateThePlayerZ(int zRotation)
-    {
-        this.transform.rotation = Quaternion.Euler(0, 0,zRotation);
+        if(axisToRotate == "y")
+        {
+            this.transform.rotation = Quaternion.Euler(0, rotation, 0);
+
+        }
+        else
+        {
+            this.transform.rotation = Quaternion.Euler(0, 0, rotation);
+
+        }
     }
 }
