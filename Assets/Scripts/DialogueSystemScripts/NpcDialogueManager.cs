@@ -13,8 +13,7 @@ public class NpcDialogueManager : MonoBehaviour
     [SerializeField] DialogueChoicesHandler dialogueChoicesHandler;
 
 
-    [Header("Add this only when dialogues get changed after this dialogue ends ")]
-
+    
     [SerializeField] Transform dialogueBox;
 
     [Range(0.03f,1)]
