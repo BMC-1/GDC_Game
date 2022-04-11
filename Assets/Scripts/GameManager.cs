@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public static GameManager instance;
 
+    int sceneToLoad=0;
+
     [Header("Characters")] [SerializeField]
     private List<GameObject> characters = new List<GameObject>();
 
@@ -43,9 +45,13 @@ public class GameManager : MonoBehaviour
     {
         return spawnedChar;
     }
-    public void InstantiateCharacter()
+
+    public void ChangeScene()
     {
-        SceneManager.LoadSceneAsync(1);
+        sceneToLoad++;
+
+        SceneManager.LoadSceneAsync(sceneToLoad);
     }
+   
 
 }
