@@ -15,6 +15,7 @@ public class LevelProgressionSystem : MonoBehaviour
     [SerializeField] Image uiProgressionBar;
 
    
+    public bool hasTheGameEnded { get; set; }
     // Start is called before the first frame update
     void Start()
     {
@@ -40,6 +41,7 @@ public class LevelProgressionSystem : MonoBehaviour
             yield return new WaitForSeconds(progressionBarUpdatingRate);
         }
 
+        hasTheGameEnded = true;
         print("Arrived at destination");
     }
 
