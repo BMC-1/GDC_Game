@@ -5,7 +5,7 @@ using UnityEngine;
 public class BoxPickingEvent : MonoBehaviour
 {
 
-   
+    [SerializeField] EnviromentManager enviromentManager;
 
     [SerializeField] GameObject boxToPick;
 
@@ -13,7 +13,7 @@ public class BoxPickingEvent : MonoBehaviour
 
     [SerializeField] string messageToDisplayForPickingWrongBox;
 
-
+    
     DialogueChanger dialogueChanger;
     LosingMessageDisplayer losingMessageDisplayer;
     // Start is called before the first frame update
@@ -37,6 +37,9 @@ public class BoxPickingEvent : MonoBehaviour
             dialogueChanger.ChangeDialogues("Event");
 
             MakeTheBoxesNotToPickUnpickable();
+
+            enviromentManager.SpawnObjects();
+
         }
         else if(boxesNotToPick.Contains(pickedItem))
         {
