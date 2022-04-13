@@ -300,6 +300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9fb847063a53da44b7b25dc1be1ce49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneToLoad: 5
 --- !u!1 &193214342
 GameObject:
   m_ObjectHideFlags: 0
@@ -2643,19 +2644,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1035546576}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 180632067}
-        m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
-        m_MethodName: LoadNextScene
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1035546576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3447,7 +3436,6 @@ MonoBehaviour:
   characters:
   - {fileID: 9166527237286540313, guid: 6f716db468b84b647a5f25b80d21f6c6, type: 3}
   - {fileID: 2425062823111519715, guid: 49c2577712b224f409a37c8af9efb3c0, type: 3}
-  characterGender: male
   spawnedChar: {fileID: 0}
 --- !u!4 &1437572711
 Transform:

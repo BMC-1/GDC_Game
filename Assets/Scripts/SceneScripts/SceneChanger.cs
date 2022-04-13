@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class SceneChanger : MonoBehaviour
 {
-    int sceneToLoad = 0;
+    [SerializeField] int sceneToLoad = 3;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +22,12 @@ public class SceneChanger : MonoBehaviour
     {
         sceneToLoad++;
 
-        SceneManager.LoadSceneAsync(sceneToLoad);
+        SceneManager.LoadScene(sceneToLoad);
+    }
+
+    public void ReloadScene()
+    {
+        SceneManager.LoadScene(sceneToLoad);
     }
 
 

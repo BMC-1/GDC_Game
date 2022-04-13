@@ -23,4 +23,12 @@ public class SceneChangerTrigger : MonoBehaviour
             FindObjectOfType<SceneChanger>().LoadNextScene();
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.transform.tag == "Player")
+        {
+            FindObjectOfType<SceneChanger>().LoadNextScene();
+        }
+    }
 }

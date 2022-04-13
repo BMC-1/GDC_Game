@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fb6ee6c4ffe1ce43bcfc86434ecf44e, type: 3}
+  m_Name: StealOrGiveTreasure
+  m_EditorClassIdentifier: 
+  charactersTalking:
+  - characterName: Player
+    mainDialogueLines:
+    - I  have the treasure
+    choiceOneDialogues:
+    - 'This treasure is mine
+
+'
+    choiceTwoDialogues:
+    - 'Here you go
+
+'
+  - characterName: Assim
+    mainDialogueLines:
+    - "This treausre is wort millions,give it to me \n"
+    choiceOneDialogues:
+    - 'Very well
+
+'
+    choiceTwoDialogues:
+    - 'Very well
+
+'
+  choices:
+  - Steal treasure
+  - Give Treasure
