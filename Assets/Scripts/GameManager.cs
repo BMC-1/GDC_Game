@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
     private List<GameObject> characters = new List<GameObject>();
 
     [Header("Don't apply any changes")]
-    public string characterGender = "male";
+    string characterGender;
     public GameObject spawnedChar = null;
     
     void Awake()
