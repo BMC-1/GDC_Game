@@ -82,7 +82,11 @@ public class ItemPicker : MonoBehaviour
 
                 itemToPickUp.GetComponent<BoxCollider>().enabled = false;
 
-                boxPickingEvent.GenerateOutComeFromBoxPickingEvent(itemToPickUp.gameObject);
+                if(boxPickingEvent!=null)
+                {
+                    boxPickingEvent.GenerateOutComeFromBoxPickingEvent(itemToPickUp.gameObject);
+
+                }
 
                 ClosePickUpMessage();
             }

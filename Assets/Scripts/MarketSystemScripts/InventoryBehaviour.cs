@@ -91,7 +91,7 @@ public class InventoryBehaviour : MonoBehaviour
     public bool DoesItemExistInInvenotry(Sprite item)
     {
         for (int i = 0; i < itemFramesParent.childCount; i++)
-        {
+        { 
             if(itemFramesParent.GetChild(i).GetChild(0).GetComponent<Image>().sprite==item)
             {
                 return true;
@@ -101,5 +101,10 @@ public class InventoryBehaviour : MonoBehaviour
 
 
         return false;
+    }
+
+    public Transform ItemFramesParent()
+    {
+        return itemFramesParent;
     }
 }
