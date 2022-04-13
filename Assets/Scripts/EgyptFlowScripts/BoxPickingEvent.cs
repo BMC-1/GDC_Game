@@ -40,6 +40,10 @@ public class BoxPickingEvent : MonoBehaviour
 
             enviromentManager.SpawnObjects();
 
+            FindObjectOfType<InventoryBehaviour>().RemoveItemFromInventory(null);
+
+
+
         }
         else if(boxesNotToPick.Contains(pickedItem))
         {

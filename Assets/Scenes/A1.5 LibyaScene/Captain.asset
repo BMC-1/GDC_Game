@@ -10,14 +10,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6fb6ee6c4ffe1ce43bcfc86434ecf44e, type: 3}
-  m_Name: HasanAfterGettingTheCorrectBox
+  m_Name: Captain
   m_EditorClassIdentifier: 
   charactersTalking:
-  - characterName: Hassan
+  - characterName: Captain
     mainDialogueLines:
-    - 'It seems that you have collected
+    - 'The ship is badly damaged
 
-      the right box'
+      you need to find some parts to fix it'
+    - '5 fuel tanks
+
+      2 metal plates
+
+
+      bring them back to me when you
+      find them
+
+'
+    choiceOneDialogues: []
+    choiceTwoDialogues: []
+  - characterName: Player
+    mainDialogueLines:
+    - What is needed ?
     choiceOneDialogues: []
     choiceTwoDialogues: []
   choices: []
