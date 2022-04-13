@@ -11,9 +11,9 @@ public class NpcDialogueManager : MonoBehaviour
 
     [Header("Add this only when there are choices that lead to game loss")]
     [SerializeField] DialogueChoicesHandler dialogueChoicesHandler;
+    [Header("Add this only dialogues change after this npcs talk")]
+    [SerializeField] DialogueChanger dialogueChanger;
 
-
-    
     [SerializeField] Transform dialogueBox;
 
     [Range(0.03f,1)]
@@ -155,6 +155,10 @@ public class NpcDialogueManager : MonoBehaviour
                         {
                             dialogueChoicesHandler.CheckIfChoiceIsWrong(buttonChoiceText);
 
+                        }
+                        if(dialogueChanger!=null)
+                        {
+                            dialogueChanger.ChangeDialogues(this.name);
                         }
 
                     }

@@ -9,11 +9,11 @@ public class DialogueChoicesHandler : MonoBehaviour
 
     [SerializeField] string[] losingMessageForWrongChoices;
 
-    [SerializeField] LosingMessageDisplayer losingMessageDisplayer;
+    LosingMessageDisplayer losingMessageDisplayer;
     // Start is called before the first frame update
     void Start()
     {
-        
+        losingMessageDisplayer = FindObjectOfType<LosingMessageDisplayer>();
     }
 
     // Update is called once per frame
