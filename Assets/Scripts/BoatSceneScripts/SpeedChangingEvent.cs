@@ -26,7 +26,6 @@ public class SpeedChangingEvent : MonoBehaviour
     {
         if(boat!=null && destinationCity!=null)
         {
-            print(Vector3.Distance(boat.transform.position, destinationCity.transform.position));
             CheckIfBoatIsCloseToCity();
         }
         

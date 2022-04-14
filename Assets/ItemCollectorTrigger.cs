@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class ItemCollectorTrigger : MonoBehaviour
 {
-    [SerializeField] ItemCollector itemCollector;
+    ItemCollector itemCollector;
     // Start is called before the first frame update
     void Start()
     {
+        itemCollector = FindObjectOfType<ItemCollector>();
     }
 
     // Update is called once per frame

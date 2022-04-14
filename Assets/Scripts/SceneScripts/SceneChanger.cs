@@ -20,14 +20,22 @@ public class SceneChanger : MonoBehaviour
 
     public void LoadNextScene()
     {
-        sceneToLoad++;
-
-        SceneManager.LoadScene(sceneToLoad);
+       
+       sceneToLoad++;
+   
+       SceneManager.LoadScene(sceneToLoad);
     }
 
     public void ReloadScene()
     {
         SceneManager.LoadScene(sceneToLoad);
+    }
+
+    public void RestartTheGame()
+    {
+        SceneManager.LoadScene(0);
+
+        sceneToLoad = 1;
     }
 
 

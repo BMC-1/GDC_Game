@@ -7,7 +7,7 @@ public class InstructionSetterTrigger : MonoBehaviour
     [TextArea]
     [SerializeField] string instructionMessage;
 
-
+    bool wasTheInstructionUpdated;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,8 +30,14 @@ public class InstructionSetterTrigger : MonoBehaviour
 
     void UpdateTheMessageBox()
     {
-        FindObjectOfType<InstructionMessageDisplayer>().SetIntructionMessage(instructionMessage);
+        if(wasTheInstructionUpdated==false)
+        {
+            FindObjectOfType<InstructionMessageDisplayer>().SetIntructionMessage(instructionMessage);
 
-        print(instructionMessage);
+            print(instructionMessage);
+
+            wasTheInstructionUpdated = true;
+        }
+       
     }
 }

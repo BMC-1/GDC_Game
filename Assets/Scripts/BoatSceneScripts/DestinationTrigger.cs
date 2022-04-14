@@ -26,6 +26,8 @@ public class DestinationTrigger : MonoBehaviour
         if(other.tag=="Player")
         {
             levelSpeedChanger.SetLevelSpeed(0);
+
+            FindObjectOfType<WinningScreenDisplayer>().DisplayWinningScreen();
         }
         
     }

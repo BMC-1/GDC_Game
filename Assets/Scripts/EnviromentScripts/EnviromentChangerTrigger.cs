@@ -32,6 +32,9 @@ public class EnviromentChangerTrigger : MonoBehaviour
 
     public void ActivateTrigger()
     {
+
+        print("works");
+
         this.GetComponent<BoxCollider>().enabled = true;
     }
 

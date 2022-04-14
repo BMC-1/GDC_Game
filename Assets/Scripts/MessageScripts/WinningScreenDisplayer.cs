@@ -25,6 +25,6 @@ public class WinningScreenDisplayer : MonoBehaviour
     {
         isTheWinningScreenShown = true;
 
-        //winningScreenUi.gameObject.SetActive(true);
+        winningScreenUi.gameObject.SetActive(true);
     }
 }
