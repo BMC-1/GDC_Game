@@ -15,17 +15,16 @@ MonoBehaviour:
   charactersTalking:
   - characterName: Player
     mainDialogueLines:
-    - 'I brought the box that you asked
-
-      now it is your turn to return the
-      favor
+    - 'I brought the box that you asked for.
 
 '
+    - Thank you
     choiceOneDialogues: []
     choiceTwoDialogues: []
   - characterName: Assim
     mainDialogueLines:
-    - 'Dont worry i will
+    - 'Now it is my turn to help you.
+
 
 '
     choiceOneDialogues: []

@@ -20,6 +20,8 @@ public class StoryMessageDisplayer : MonoBehaviour
     {
         playerController = FindObjectOfType<PlayerController>();
 
+        print(playerController);
+
         StartCoroutine("DisplayTheStory");
     }
 
@@ -35,7 +37,11 @@ public class StoryMessageDisplayer : MonoBehaviour
 
         isTheStoryBeingDisplayed = true;
 
-        playerController.canThePlayerMove = false;
+        if(playerController!=null)
+        {
+            playerController.canThePlayerMove = false;
+
+        }
 
         foreach (char letter in storyToDisplay)
         {
@@ -53,7 +59,11 @@ public class StoryMessageDisplayer : MonoBehaviour
         if(isTheStoryBeingDisplayed==false && Input.GetKeyDown(KeyCode.Mouse0))
         {
 
-            playerController.canThePlayerMove = true;
+            if (playerController != null)
+            {
+                playerController.canThePlayerMove = true;
+
+            }
 
             storyTellingUi.gameObject.SetActive(false);
 

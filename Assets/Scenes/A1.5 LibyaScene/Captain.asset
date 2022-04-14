@@ -20,11 +20,13 @@ MonoBehaviour:
       you need to find some parts to fix it'
     - '5 fuel tanks
 
-      2 metal plates
+      2 Iron bars
 
 
-      bring them back to the yellow point
-      next to me when you find them
+      Once you collect material
+
+      go
+      over the chess to store them
 
 '
     choiceOneDialogues: []

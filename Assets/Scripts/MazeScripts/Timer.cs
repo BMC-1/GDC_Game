@@ -45,7 +45,7 @@ public class Timer : MonoBehaviour
         }
 
         losingMessageDisplayer.DisplayTheLosingUiPanel("" +
-            "The Guards found you wondering around the maze and arrested you");
+            "You got lost in the maze trying to find the treasure");
     }
 
     void SetTheUiTimer()

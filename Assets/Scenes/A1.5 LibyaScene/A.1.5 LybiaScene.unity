@@ -2442,7 +2442,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4423895146491306, guid: b44415eef131de742a4190453fc4d68e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.359486
+      value: 7.932
       objectReference: {fileID: 0}
     - target: {fileID: 4423895146491306, guid: b44415eef131de742a4190453fc4d68e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3461,15 +3461,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4682952893640444, guid: f274f0fb5e5bc294ca9a0ff4cf1f0ff7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.4665222
+      value: -3.475
       objectReference: {fileID: 0}
     - target: {fileID: 4682952893640444, guid: f274f0fb5e5bc294ca9a0ff4cf1f0ff7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.341484
+      value: 7.929
       objectReference: {fileID: 0}
     - target: {fileID: 4682952893640444, guid: f274f0fb5e5bc294ca9a0ff4cf1f0ff7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14.134842
+      value: 14.146
       objectReference: {fileID: 0}
     - target: {fileID: 4682952893640444, guid: f274f0fb5e5bc294ca9a0ff4cf1f0ff7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8689,7 +8689,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4383882971595202, guid: e1154cf6ac27b2f45b4ae35582e7e363, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 21.83
+      value: 21.533
       objectReference: {fileID: 0}
     - target: {fileID: 4383882971595202, guid: e1154cf6ac27b2f45b4ae35582e7e363, type: 3}
       propertyPath: m_LocalPosition.z
@@ -37738,7 +37738,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4303765770703250, guid: 9f21020355643c74c88002634abcdabd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 21.78
+      value: 21.717
       objectReference: {fileID: 0}
     - target: {fileID: 4303765770703250, guid: 9f21020355643c74c88002634abcdabd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -46777,11 +46777,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3d88ed9d69456c8428a658037fec891d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 42.9
+      value: 42.974
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3d88ed9d69456c8428a658037fec891d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 122.04
+      value: 121.952
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3d88ed9d69456c8428a658037fec891d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -49973,9 +49973,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   storyTellingUi: {fileID: 1233795344}
   speedOfLettersToAppear: 0.03
-  storyToDisplay: 'You sucesfully got out of Egypt. However the ship got damaged
-    and ended up in Lybia.The captain of the ship got injured and it is your job
-    to fix and drive the ship to Italy
+  storyToDisplay: 'You were supposed to land in Italy after leaving Egypt. However,
+    the boat got damaged on your way there, and you stopped at the closest place
+    you could find, Libya.
 
 '
 --- !u!4 &1625041446
@@ -50465,7 +50465,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1636514043}
   m_LocalRotation: {x: -0, y: 0.5382252, z: -0, w: 0.8428011}
-  m_LocalPosition: {x: -17.4, y: -0.23000002, z: -4.68}
+  m_LocalPosition: {x: -17.4, y: -0.73, z: -4.68}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 0}

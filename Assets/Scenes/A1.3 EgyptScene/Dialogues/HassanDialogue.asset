@@ -26,7 +26,9 @@ MonoBehaviour:
   - characterName: Hassan
     mainDialogueLines:
     - Yours truly
-    - 'The boxes are upstairs pick up the one Assim told you '
+    - 'The boxes are upstairs.
+
+      Pick up the one Assim told you '
     choiceOneDialogues: []
     choiceTwoDialogues: []
   choices: []

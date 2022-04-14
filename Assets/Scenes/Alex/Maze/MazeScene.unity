@@ -1037,7 +1037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3f634795866a094cac78cd0c6c5094e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxTimeInSeconds: 300
+  maxTimeInSeconds: 120
   uiTimer: {fileID: 322867185}
   losingMessageDisplayer: {fileID: 1010959969}
 --- !u!4 &248099401

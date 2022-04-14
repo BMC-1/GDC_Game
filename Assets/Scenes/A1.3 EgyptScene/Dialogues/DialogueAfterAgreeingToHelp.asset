@@ -15,7 +15,7 @@ MonoBehaviour:
   charactersTalking:
   - characterName: Assim
     mainDialogueLines:
-    - You still havent found the treasure
+    - You still havent found the treasure ?
     choiceOneDialogues: []
     choiceTwoDialogues: []
   - characterName: Player

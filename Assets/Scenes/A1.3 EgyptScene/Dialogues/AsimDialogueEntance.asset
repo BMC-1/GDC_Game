@@ -15,20 +15,25 @@ MonoBehaviour:
   charactersTalking:
   - characterName: Player
     mainDialogueLines:
-    - Is this Assim
-    - I am here to find a way to get out of Egypt
+    - 'Hey Assim, I finally made it
+
+      to Egypt.'
+    - Thank you for willing to help me.
     choiceOneDialogues:
-    - I will do it
+    - I will do it.
     choiceTwoDialogues:
-    - "I wont do it \n"
-  - characterName: Assim
-    mainDialogueLines:
-    - 'Yes this is Assim,What do you want
+    - 'I wont do it.
 
 '
-    - If you help me to find a treasure i will show you a way out
+  - characterName: Assim
+    mainDialogueLines:
+    - 'Glad to hear that.
+
+'
+    - "I have some tasks that need \nto be done before I help you.\nWill you help
+      me ?"
     choiceOneDialogues:
-    - 'Excellent go to the pyramid and find me the treasure
+    - 'Excellent go to the pyramid and find me the treasure.
 
 '
     choiceTwoDialogues:
@@ -36,5 +41,5 @@ MonoBehaviour:
 
 '
   choices:
-  - i will do it
-  - Dont have time to help
+  - Yes
+  - No

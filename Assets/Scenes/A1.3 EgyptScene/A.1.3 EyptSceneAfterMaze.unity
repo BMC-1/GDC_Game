@@ -6441,8 +6441,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   storyTellingUi: {fileID: 857619736}
   speedOfLettersToAppear: 0.03
-  storyToDisplay: 'You succesfully found the hidden  treasure and got out of the
-    pyramid wth out being scene.
+  storyToDisplay: 'You successfully  found the hidden treasure, and found your way
+    out of the maze
+
 
 '
 --- !u!4 &458135210
@@ -11796,8 +11797,8 @@ MonoBehaviour:
   boxesNotToPick:
   - {fileID: 1436290294}
   - {fileID: 485927235}
-  messageToDisplayForPickingWrongBox: Hassan saw you picked the wrong box and asked
-    you to leave
+  messageToDisplayForPickingWrongBox: You picked the wrong box and Hassan accused
+    you of stealing one of his boxes
 --- !u!4 &782400043
 Transform:
   m_ObjectHideFlags: 0

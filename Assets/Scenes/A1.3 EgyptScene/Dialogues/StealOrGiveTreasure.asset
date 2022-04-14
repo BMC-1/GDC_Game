@@ -24,17 +24,30 @@ MonoBehaviour:
     - 'Here you go
 
 '
+    - 'Alright
+
+'
   - characterName: Assim
     mainDialogueLines:
-    - "This treausre is wort millions,give it to me \n"
+    - 'This treausre is worth thousands,
+
+      Thank you for bringining it to me
+
+'
     choiceOneDialogues:
-    - 'Very well
+    - 'Nice.
 
 '
     choiceTwoDialogues:
-    - 'Very well
+    - "Your next task is to go to the market place\nand search for Hassan who will
+      be hidding \nin a building.\n"
+    - 'He will have a box
+
+      upstairs with a star on it.
+
+      Bring it to be
 
 '
   choices:
   - Steal treasure
-  - Give Treasure
+  - Give treasure
