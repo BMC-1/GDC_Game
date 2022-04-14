@@ -21,6 +21,7 @@ public class UI_Manager : MonoBehaviour
         optionsBtn.onClick.AddListener(GoToOption);
         creditsBtn.onClick.AddListener(GoToCredits);
         quitBtn.onClick.AddListener(QuitGame);
+        
     }
     
     void GoToGameScene()
@@ -42,4 +43,5 @@ public class UI_Manager : MonoBehaviour
     {
         Application.Quit();
     }
+    
 }
