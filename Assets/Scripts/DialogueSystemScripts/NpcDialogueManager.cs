@@ -98,6 +98,12 @@ public class NpcDialogueManager : MonoBehaviour
     {
         dialogueBox.gameObject.SetActive(activationState);
 
+        if(activationState==false)
+        {
+            FindObjectOfType<PlayerController>().canThePlayerMove = true;
+
+        }
+
     }
 
     IEnumerator DisplayConversation()
@@ -164,7 +170,6 @@ public class NpcDialogueManager : MonoBehaviour
                             dialogueChanger.ChangeDialogues(this.name);
                         }
 
-                        FindObjectOfType<PlayerController>().canThePlayerMove = true;
 
 
                     }

@@ -9,6 +9,7 @@ public class WaterTerrainSpawner : MonoBehaviour
     [SerializeField] LevelProgressionSystem levelProgressionSystem;
     [SerializeField] DestinationCitySpawner destinationCitySpawner;
 
+
     [SerializeField] Transform terrainBlock;
     [SerializeField] Transform terrainBlockParent;
     [SerializeField] Transform startingTerrainSpawnPosition;
@@ -54,10 +55,8 @@ public class WaterTerrainSpawner : MonoBehaviour
                 }
                 else
                 {
-                    if(destinationCitySpawner.wasTheDestinationCitySpawned==false)
-                    {
-                        destinationCitySpawner.SpawnTheDestinationCity(terrainBlockClone);
-                    }
+                    destinationCitySpawner.SpawnTheDestinationCity(terrainBlockClone);
+                    
                 }
 
 

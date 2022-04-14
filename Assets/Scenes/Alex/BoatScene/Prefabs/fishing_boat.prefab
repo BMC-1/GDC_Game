@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: -5404762590273797931}
   m_Layer: 0
   m_Name: fishing_boat
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69,7 +69,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06a07f81f9b401545a4723edb98aa782, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boatSpeed: 1.5
+  boatSpeed: 3
   minAndMaxXConstrain:
   - -1.47
   - 1.47
@@ -86,7 +86,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagOfDamagingObjects: SeaObsticle
-  timeForDamageImmunityAfterDamage: 2
+  timeForDamageImmunityAfterDamage: 0.5
 --- !u!65 &4723670056656323526
 BoxCollider:
   m_ObjectHideFlags: 0

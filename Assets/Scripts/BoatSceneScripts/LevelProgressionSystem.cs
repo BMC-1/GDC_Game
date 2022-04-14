@@ -11,9 +11,11 @@ public class LevelProgressionSystem : MonoBehaviour
     [Header("Rate in seconds")]
     [SerializeField] float progressionBarUpdatingRate;
 
+    [SerializeField] LevelSpeedChanger levelSpeedChanger;
 
     [SerializeField] Image uiProgressionBar;
 
+    [SerializeField] float speedToSetToBoatAfterThePorgressionBarFills;
    
     public bool hasTheGameEnded { get; set; }
     // Start is called before the first frame update
@@ -41,8 +43,11 @@ public class LevelProgressionSystem : MonoBehaviour
             yield return new WaitForSeconds(progressionBarUpdatingRate);
         }
 
+        levelSpeedChanger.StopTheTimerForSpeedChange();
+
         hasTheGameEnded = true;
-        print("Arrived at destination");
+
+
     }
 
     void IncreaseTheProgressionBar(float currentTimePassed)

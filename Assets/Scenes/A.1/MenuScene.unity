@@ -441,7 +441,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9fb847063a53da44b7b25dc1be1ce49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: 5
+  sceneToLoad: 1
 --- !u!1 &193214342
 GameObject:
   m_ObjectHideFlags: 0
@@ -1568,7 +1568,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 460, y: -603.8466}
+  m_AnchoredPosition: {x: 460, y: -525}
   m_SizeDelta: {x: 920, y: 130}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &618734780
@@ -2546,7 +2546,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 460, y: -434.4233}
+  m_AnchoredPosition: {x: 460, y: -395}
   m_SizeDelta: {x: 920, y: 130}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1013588859
@@ -2983,7 +2983,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 460, y: -773.2699}
+  m_AnchoredPosition: {x: 460, y: -655}
   m_SizeDelta: {x: 920, y: 130}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1154471846
@@ -3103,7 +3103,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 460, y: -942.69324}
+  m_AnchoredPosition: {x: 460, y: -785}
   m_SizeDelta: {x: 920, y: 130}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1188673690
@@ -3650,7 +3650,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CHRYSTI
+  m_text: 'CHRISTY
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a8c289a18207d534ebb391afe95bc070, type: 2}
   m_sharedMaterial: {fileID: -7246780611832111057, guid: a8c289a18207d534ebb391afe95bc070, type: 2}
@@ -3683,7 +3685,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535

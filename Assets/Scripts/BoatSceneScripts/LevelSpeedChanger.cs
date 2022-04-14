@@ -8,6 +8,8 @@ public class LevelSpeedChanger : MonoBehaviour
 
     [SerializeField] float speedToAdd;
     [SerializeField] float secondsToPassForSpeedChange;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -39,4 +41,8 @@ public class LevelSpeedChanger : MonoBehaviour
     {
         StopCoroutine("TimerForSpeedChange");
     }
+
+
+
+   
 }
