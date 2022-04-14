@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class ItemCollector : MonoBehaviour
@@ -33,13 +34,19 @@ public class ItemCollector : MonoBehaviour
         {
             for(int j=0; j<inventoryBehaviour.ItemFramesParent().childCount; j++)
             {
-                if(inventoryBehaviour.ItemFramesParent().GetChild(j)== itemsToCollect[i])
+                print(inventoryBehaviour.ItemFramesParent().GetChild(j).GetChild(0).GetComponent<Sprite>());
+
+                if(inventoryBehaviour.ItemFramesParent().GetChild(j).GetChild(0).GetComponent<Image>().sprite== itemsToCollect[i])
                 {
                     amountToCollect[i]--;
 
                     inventoryBehaviour.RemoveItemFromInventory(itemsToCollect[i]);
+
                 }
             }
+
+            CheckIfAllItemsWhereCollected();
+
         }
     }
 
@@ -53,7 +60,7 @@ public class ItemCollector : MonoBehaviour
             }
         }
 
-        print("All items collected");
+        FindObjectOfType<SceneChanger>().LoadNextScene();
     }
 
     void GetTheInventortyBehaviour()

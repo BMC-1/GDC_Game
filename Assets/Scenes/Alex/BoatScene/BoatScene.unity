@@ -286,6 +286,71 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 171541396}
   m_CullTransparentMesh: 1
+--- !u!1001 &176357348
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4156181894120768193, guid: 8058d37e7000b7c4483629e993700601, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4156181894120768193, guid: 8058d37e7000b7c4483629e993700601, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -1.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 4156181894120768193, guid: 8058d37e7000b7c4483629e993700601, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4156181894120768193, guid: 8058d37e7000b7c4483629e993700601, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4156181894120768193, guid: 8058d37e7000b7c4483629e993700601, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4156181894120768193, guid: 8058d37e7000b7c4483629e993700601, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4156181894120768193, guid: 8058d37e7000b7c4483629e993700601, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4156181894120768193, guid: 8058d37e7000b7c4483629e993700601, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4156181894120768193, guid: 8058d37e7000b7c4483629e993700601, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4156181894120768193, guid: 8058d37e7000b7c4483629e993700601, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4156181894120768193, guid: 8058d37e7000b7c4483629e993700601, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4156181894120768193, guid: 8058d37e7000b7c4483629e993700601, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4156181894120768193, guid: 8058d37e7000b7c4483629e993700601, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4156181894120939233, guid: 8058d37e7000b7c4483629e993700601, type: 3}
+      propertyPath: m_Name
+      value: Water4Advanced
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8058d37e7000b7c4483629e993700601, type: 3}
 --- !u!1 &213648062
 GameObject:
   m_ObjectHideFlags: 0
@@ -826,11 +891,11 @@ MonoBehaviour:
   seaObsticleSpawner: {fileID: 580884359}
   levelProgressionSystem: {fileID: 1183884783}
   destinationCitySpawner: {fileID: 1257774523}
-  terrainBlock: {fileID: 4156181894120768193, guid: 8058d37e7000b7c4483629e993700601, type: 3}
+  terrainBlock: {fileID: 2798050750725334438, guid: 796c216eaa05c994384004b4fa141d5d, type: 3}
   terrainBlockParent: {fileID: 1269088194}
   startingTerrainSpawnPosition: {fileID: 1616021000}
-  numberOfTerrainBlocksToSpawn: 20
-  distanceBetweenTerrainBlocks: 18
+  numberOfTerrainBlocksToSpawn: 8
+  distanceBetweenTerrainBlocks: 15
 --- !u!4 &411920474
 Transform:
   m_ObjectHideFlags: 0
@@ -846,6 +911,80 @@ Transform:
   - {fileID: 1616021000}
   m_Father: {fileID: 0}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &436736363
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 436736365}
+  - component: {fileID: 436736364}
+  m_Layer: 0
+  m_Name: Water4AdvancedReflectionSceneCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!20 &436736364
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436736363}
+  m_Enabled: 0
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 1}
+  m_projectionMatrixMode: 0
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967279
+  m_RenderingPath: 1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &436736365
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436736363}
+  m_LocalRotation: {x: 0.1331076, y: 0.650269, z: 0.116997086, w: -0.7387451}
+  m_LocalPosition: {x: 246.69904, y: -92.36003, z: -20.85865}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &462730660
 GameObject:
@@ -1110,7 +1249,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   seaObsticle: {fileID: 8790327434401934912, guid: 626a61f6ce554664dad5bbe8e291791a, type: 3}
   distanceBetweenObsticles: 2
-  minAndMaxNumberOfObsticlesPerSeaBlock: 0200000004000000
+  minAndMaxNumberOfObsticlesPerSeaBlock: 0200000003000000
 --- !u!4 &580884360
 Transform:
   m_ObjectHideFlags: 0
@@ -1788,80 +1927,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8638494935299595110, guid: 6c6c61659286a9d40b1031d01631f3af, type: 3}
   m_PrefabInstance: {fileID: 1470856914}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1160579735
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1160579737}
-  - component: {fileID: 1160579736}
-  m_Layer: 0
-  m_Name: Water4AdvancedReflectionSceneCamera
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!20 &1160579736
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1160579735}
-  m_Enabled: 0
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 1}
-  m_projectionMatrixMode: 0
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967279
-  m_RenderingPath: 1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &1160579737
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1160579735}
-  m_LocalRotation: {x: 0.10576012, y: 0.8606085, z: 0.45660132, w: -0.1992059}
-  m_LocalPosition: {x: 6.2476454, y: -10.92953, z: 6.5887756}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1183884782
 GameObject:
   m_ObjectHideFlags: 0
