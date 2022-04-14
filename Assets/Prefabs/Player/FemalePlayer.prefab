@@ -1454,6 +1454,7 @@ GameObject:
   - component: {fileID: 5662445759938410144}
   - component: {fileID: 6082796227848819047}
   - component: {fileID: 1540401542516188196}
+  - component: {fileID: 4999287209545206013}
   m_Layer: 0
   m_Name: FemaleCharacter
   m_TagString: Untagged
@@ -1599,6 +1600,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   instructionUiPanel: {fileID: 6216635083739036444}
   instructionInfoBox: {fileID: 476777009934552565}
+--- !u!114 &4999287209545206013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3271552986522962708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eb645d7cca4ab844970e9f6d054f6bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinsAmount: 0
+  coinsUi: {fileID: 951120304239913978}
 --- !u!1 &3360403675799365711
 GameObject:
   m_ObjectHideFlags: 0
@@ -4132,8 +4147,23 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3058622132561704283, guid: edcd9a409609ef541ab8cb7de1a3d3e4, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -744
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edcd9a409609ef541ab8cb7de1a3d3e4, type: 3}
+--- !u!114 &951120304239913978 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3058622131771065965, guid: edcd9a409609ef541ab8cb7de1a3d3e4, type: 3}
+  m_PrefabInstance: {fileID: 2828654736658230679}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &951120304955501837 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3058622132422819994, guid: edcd9a409609ef541ab8cb7de1a3d3e4, type: 3}

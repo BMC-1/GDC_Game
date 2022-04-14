@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: ShopItems 3
   m_EditorClassIdentifier: 
   items:
-  - name: 
-    price: 0
-    image: {fileID: 0}
-  - name: 
-    price: 0
-    image: {fileID: 0}
-  - name: 
-    price: 0
-    image: {fileID: 0}
+  - name: Ring
+    price: 220
+    image: {fileID: 21300000, guid: 970324311431c794ca338446ea889948, type: 3}
+  - name: Scroll
+    price: 190
+    image: {fileID: 21300000, guid: db427fab3e94daf4caa704d9314a77a1, type: 3}
+  - name: Logs
+    price: 20
+    image: {fileID: 21300000, guid: f8a9cfc721a20ce409c3d743e9b251bc, type: 3}

@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: ShopItems 2
   m_EditorClassIdentifier: 
   items:
-  - name: 
-    price: 0
-    image: {fileID: 0}
-  - name: 
-    price: 0
-    image: {fileID: 0}
-  - name: 
-    price: 0
-    image: {fileID: 0}
+  - name: Axe
+    price: 100
+    image: {fileID: 21300000, guid: 172774604c1bee84185a69041576525b, type: 3}
+  - name: Coins
+    price: 40
+    image: {fileID: 21300000, guid: 3676a0b185daeb54fb257f700ba7ead4, type: 3}
+  - name: IronBar
+    price: 80
+    image: {fileID: 21300000, guid: 3e4fcc84a0ac95b429c56452575f6021, type: 3}
