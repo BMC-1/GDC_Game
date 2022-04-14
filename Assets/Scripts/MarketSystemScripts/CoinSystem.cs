@@ -49,4 +49,6 @@ public class CoinSystem : MonoBehaviour
         coinsUi.text = coinsAmount.ToString();
     }
 
+
+
 }

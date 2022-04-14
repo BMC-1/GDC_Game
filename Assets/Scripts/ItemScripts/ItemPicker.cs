@@ -80,7 +80,11 @@ public class ItemPicker : MonoBehaviour
 
                 itemToPickUp.GetComponent<MeshRenderer>().enabled = false;
 
-                itemToPickUp.GetComponent<BoxCollider>().enabled = false;
+                foreach(BoxCollider boxCollider in itemToPickUp.GetComponents<BoxCollider>())
+                {
+                    boxCollider.enabled = false;
+                }
+                
 
                 if(boxPickingEvent!=null)
                 {

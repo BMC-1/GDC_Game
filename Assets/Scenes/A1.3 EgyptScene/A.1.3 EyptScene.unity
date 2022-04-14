@@ -17567,7 +17567,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!1 &1295156364
 GameObject:
@@ -35102,7 +35102,7 @@ GameObject:
   - component: {fileID: 1827727042}
   - component: {fileID: 1827727041}
   - component: {fileID: 1827727040}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -36,7 +36,6 @@ public class InventoryBehaviour : MonoBehaviour
 
             if (itemFrame.GetComponent<Image>().sprite == null)
             {
-                print(itemFrame.GetComponent<Image>().sprite);
 
                 itemFrame.GetComponent<Image>().sprite = itemImage;
 

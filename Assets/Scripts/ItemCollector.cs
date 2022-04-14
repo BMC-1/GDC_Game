@@ -34,7 +34,7 @@ public class ItemCollector : MonoBehaviour
         {
             for(int j=0; j<inventoryBehaviour.ItemFramesParent().childCount; j++)
             {
-                print(inventoryBehaviour.ItemFramesParent().GetChild(j).GetChild(0).GetComponent<Sprite>());
+                //print(inventoryBehaviour.ItemFramesParent().GetChild(j).GetChild(0).GetComponent<Sprite>());
 
                 if(inventoryBehaviour.ItemFramesParent().GetChild(j).GetChild(0).GetComponent<Image>().sprite== itemsToCollect[i])
                 {

@@ -40,7 +40,12 @@ public class RespawnableItemBehaviour : MonoBehaviour
     {
         this.GetComponent<MeshRenderer>().enabled = true;
 
-        this.GetComponent<BoxCollider>().enabled = true;
+        //this.GetComponent<BoxCollider>().enabled = true;
+
+        foreach(BoxCollider boxCollider in GetComponents<BoxCollider>())
+        {
+            boxCollider.enabled = true;
+        }
     }
 
 
