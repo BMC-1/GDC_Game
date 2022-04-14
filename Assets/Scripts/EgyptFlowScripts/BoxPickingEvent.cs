@@ -14,6 +14,7 @@ public class BoxPickingEvent : MonoBehaviour
     [SerializeField] string messageToDisplayForPickingWrongBox;
 
     
+
     DialogueChanger dialogueChanger;
     LosingMessageDisplayer losingMessageDisplayer;
     // Start is called before the first frame update
@@ -42,7 +43,8 @@ public class BoxPickingEvent : MonoBehaviour
 
             FindObjectOfType<InventoryBehaviour>().RemoveItemFromInventory(null);
 
-
+            FindObjectOfType<InstructionMessageDisplayer>().SetIntructionMessage("" +
+                "Go back to Assim");
 
         }
         else if(boxesNotToPick.Contains(pickedItem))

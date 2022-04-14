@@ -8,13 +8,11 @@ public class InstructionMessageDisplayer : MonoBehaviour
 
     [SerializeField] Transform instructionUiPanel;
 
-    [SerializeField] Transform tabUiMessage;
+    [SerializeField] Transform instructionInfoBox;
 
-    [SerializeField] string startingInstructionMessage;
     // Start is called before the first frame update
     void Start()
     {
-        SetIntructionMessage(startingInstructionMessage);
     }
 
     // Update is called once per frame
@@ -30,12 +28,14 @@ public class InstructionMessageDisplayer : MonoBehaviour
     {
         instructionUiPanel.gameObject.SetActive(!instructionUiPanel.gameObject.activeInHierarchy);
 
-        tabUiMessage.gameObject.SetActive(!instructionUiPanel.gameObject.activeInHierarchy);
+        instructionInfoBox.gameObject.SetActive(!instructionUiPanel.gameObject.activeInHierarchy);
     }
 
     public void SetIntructionMessage(string instunctionMessage)
     {
-        instructionUiPanel.GetComponentInChildren<TextMeshProUGUI>().text = instunctionMessage;
+        instructionInfoBox.GetComponentInChildren<TextMeshProUGUI>().text = instunctionMessage;
+
+        
     }
 
     

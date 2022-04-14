@@ -28,6 +28,7 @@ public class NpcDialogueManager : MonoBehaviour
     bool wasChoicesShown;
     bool isAConversationActive;
 
+
     // Start is called before the first frame update
 
 
@@ -46,6 +47,8 @@ public class NpcDialogueManager : MonoBehaviour
     {
         if(other.transform.parent.tag=="Player")
         {
+            FindObjectOfType<PlayerController>().canThePlayerMove = false;
+
             ResetDialogue();
 
             SetMainDialogue();
@@ -161,7 +164,11 @@ public class NpcDialogueManager : MonoBehaviour
                             dialogueChanger.ChangeDialogues(this.name);
                         }
 
+                        FindObjectOfType<PlayerController>().canThePlayerMove = true;
+
+
                     }
+
 
                 }
             }
