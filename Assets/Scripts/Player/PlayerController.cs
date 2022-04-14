@@ -8,9 +8,13 @@ public class PlayerController : MonoBehaviour
      private Transform cam;
      
      [Header("Player Speed")]
-     public float speed = 2.2f;
+      float speed = 2.2f;
 
-     [Header("Gravity Jumping")]
+    [SerializeField] float walkingSpeed;
+
+    [SerializeField] float runningSpeed;
+
+    [Header("Gravity Jumping")]
      public float gravity = -9.81f;
      public float jumpHeight = 2;
      public float lowJumpMultiplier = 4.5f;
@@ -81,7 +85,7 @@ public class PlayerController : MonoBehaviour
                 //Run functionality
                 if (Input.GetButton("Run") && isGrounded && direction.magnitude >= 0.01f)
                 {
-                    speed = 3.8f;
+                    speed = runningSpeed;
                     isRunning = true;
                     animator.SetBool(StaticHelper.Running, true);
                     animator.SetBool(StaticHelper.Jumping, false);
@@ -90,7 +94,7 @@ public class PlayerController : MonoBehaviour
                 {
                     isRunning = false;
                     animator.SetBool(StaticHelper.Running, false);
-                    speed = 2.2f;
+                    speed = walkingSpeed;
                 }
 
                 //Gravity functionality
