@@ -30,7 +30,6 @@ public class DialogueChoicesHandler : MonoBehaviour
 
             if(choiceText==wrongChoices[i])
             {
-                print("works");
 
                 losingMessageDisplayer.DisplayTheLosingUiPanel(losingMessageForWrongChoices[i]);
 

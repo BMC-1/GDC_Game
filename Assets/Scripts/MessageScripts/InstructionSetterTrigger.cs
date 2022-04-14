@@ -24,7 +24,7 @@ public class InstructionSetterTrigger : MonoBehaviour
     {
         if(other.transform.parent.tag=="Player")
         {
-            Invoke("UpdateTheMessageBox", 1f);
+            Invoke("UpdateTheMessageBox", 0.5f);
         }
     }
 
@@ -32,5 +32,6 @@ public class InstructionSetterTrigger : MonoBehaviour
     {
         FindObjectOfType<InstructionMessageDisplayer>().SetIntructionMessage(instructionMessage);
 
+        print(instructionMessage);
     }
 }

@@ -26,8 +26,7 @@ public class EnviromentChangerTrigger : MonoBehaviour
 
             enviromentManager.DestroyObjects();
 
-            Destroy(this.gameObject);
-
+            Invoke("DestoryObject",1f);
         }
     }
 
@@ -35,5 +34,11 @@ public class EnviromentChangerTrigger : MonoBehaviour
     {
         this.GetComponent<BoxCollider>().enabled = true;
     }
-  
+
+    void DestoryObject()
+    {
+        Destroy(this.gameObject);
+
+    }
+
 }

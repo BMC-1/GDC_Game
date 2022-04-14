@@ -13,16 +13,20 @@ public class StoryMessageDisplayer : MonoBehaviour
     [SerializeField] string storyToDisplay;
 
     bool isTheStoryBeingDisplayed;
+
+    PlayerController playerController;
     // Start is called before the first frame update
     void Start()
     {
+        playerController = FindObjectOfType<PlayerController>();
+
         StartCoroutine("DisplayTheStory");
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        CloseTheStoryBox();
     }
 
     IEnumerator DisplayTheStory()
@@ -31,23 +35,27 @@ public class StoryMessageDisplayer : MonoBehaviour
 
         isTheStoryBeingDisplayed = true;
 
+        playerController.canThePlayerMove = false;
+
         foreach (char letter in storyToDisplay)
         {
-            storyTellingUi.GetComponent<TextMeshProUGUI>().text += letter;
+            storyTellingUi.GetComponentInChildren<TextMeshProUGUI>().text += letter;
 
             yield return new WaitForSeconds(speedOfLettersToAppear);
         }
+
+        isTheStoryBeingDisplayed = false;
 
     }
 
     void CloseTheStoryBox()
     {
-        if(isTheStoryBeingDisplayed==true && Input.GetKeyDown(KeyCode.Mouse0))
+        if(isTheStoryBeingDisplayed==false && Input.GetKeyDown(KeyCode.Mouse0))
         {
-            isTheStoryBeingDisplayed = false;
+
+            playerController.canThePlayerMove = true;
 
             storyTellingUi.gameObject.SetActive(false);
-
 
         }
     }
