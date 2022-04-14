@@ -9,6 +9,10 @@ TagManager:
   - Quest_Finish
   - PoliceCaught
   - SpawnPoint
+  - DilaogueBox
+  - Pickable
+  - WaterTerrainBlock
+  - SeaObsticle
   layers:
   - Default
   - TransparentFX
