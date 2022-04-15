@@ -10,14 +10,12 @@ public class GameManager : MonoBehaviour
     /// Initializing the player gender to the scene and keep track of that object on all scenes
     /// </summary>
     public static GameManager instance;
-
     
-
     [Header("Characters")] [SerializeField]
     private List<GameObject> characters = new List<GameObject>();
 
     [Header("Don't apply any changes")]
-    string characterGender;
+    public string characterGender = "male";
     public GameObject spawnedChar = null;
     
     void Awake()
@@ -32,14 +30,17 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void OnValueChangeCharacters(string _characterGender)
-    {
-        characterGender = _characterGender;
-    }
-
     public void CharacterSpawn(Transform spawnPoint)
     {
-        spawnedChar = Instantiate(characterGender == "male" ? characters[0] : characters[1], spawnPoint.transform.position, Quaternion.Euler(0,0,0));
+        if (characterGender == "male")
+        {
+            spawnedChar = Instantiate(characters[0], spawnPoint.transform.position, Quaternion.Euler(0, 0, 0));
+        }
+        else if(characterGender == "female")
+        {
+            spawnedChar = Instantiate(characters[1], spawnPoint.transform.position, Quaternion.Euler(0,0,0));
+        }
+      
     }
     public GameObject InitCharacter()
     {

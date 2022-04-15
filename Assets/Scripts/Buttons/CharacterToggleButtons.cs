@@ -12,22 +12,16 @@ public class CharacterToggleButtons : MonoBehaviour
     {
         AddBehaviour();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    
     void AddBehaviour()
     {
-
-        toggles[0].onValueChanged.AddListener(delegate {
-            FindObjectOfType<GameManager>().OnValueChangeCharacters("male");
+        toggles[0].onValueChanged.AddListener(delegate
+        {
+            GameManager.instance.characterGender = "male";
         });
 
         toggles[1].onValueChanged.AddListener(delegate {
-            FindObjectOfType<GameManager>().OnValueChangeCharacters("female");
+            GameManager.instance.characterGender = "female";
         });
     }
 
