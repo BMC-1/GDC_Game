@@ -20,6 +20,7 @@ public class Dialogue : ScriptableObject
     [Serializable]
     public class CharactersConversation
     {
+
         [Header("Start------------------------------------------------------------------------------")]
         public string characterName;
 
@@ -34,6 +35,8 @@ public class Dialogue : ScriptableObject
         [Header("Tertiary Dialogue (optional)")]
         [TextArea]
         public List<string> choiceTwoDialogues = new List<string>();
+
+
 
         List<string> activeDialogueLines;
 

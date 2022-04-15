@@ -6,6 +6,9 @@ public class WaterTerrainSpawner : MonoBehaviour
 {
     [SerializeField] BoatSpawner boatSpawner;
     [SerializeField] SeaObsticleSpawner seaObsticleSpawner;
+    [SerializeField] LevelProgressionSystem levelProgressionSystem;
+    [SerializeField] DestinationCitySpawner destinationCitySpawner;
+
 
     [SerializeField] Transform terrainBlock;
     [SerializeField] Transform terrainBlockParent;
@@ -20,6 +23,8 @@ public class WaterTerrainSpawner : MonoBehaviour
 
     public Transform firstTerrainBlockSpawned { get; set; }
     public Transform lastTerrainBlockSpawned { get; set; }
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -44,7 +49,15 @@ public class WaterTerrainSpawner : MonoBehaviour
 
             if(wasTheFirstTerrainBlockSpawned==true)
             {
-                seaObsticleSpawner.SpawnObsticles(terrainBlockClone);
+                if(levelProgressionSystem.hasTheGameEnded==false)
+                {
+                    seaObsticleSpawner.SpawnObsticles(terrainBlockClone);
+                }
+                else
+                {
+                    destinationCitySpawner.SpawnTheDestinationCity(terrainBlockClone);
+                    
+                }
 
 
             }

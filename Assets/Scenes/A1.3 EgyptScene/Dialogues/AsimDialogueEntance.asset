@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fb6ee6c4ffe1ce43bcfc86434ecf44e, type: 3}
+  m_Name: AsimDialogueEntance
+  m_EditorClassIdentifier: 
+  charactersTalking:
+  - characterName: Player
+    mainDialogueLines:
+    - 'Hey Assim, I finally made it
+
+      to Egypt.'
+    - Thank you for willing to help me.
+    choiceOneDialogues:
+    - I will do it.
+    choiceTwoDialogues:
+    - 'I wont do it.
+
+'
+  - characterName: Assim
+    mainDialogueLines:
+    - 'Glad to hear that.
+
+'
+    - "I have some tasks that need \nto be done before I help you.\nWill you help
+      me ?"
+    choiceOneDialogues:
+    - 'Excellent go to the pyramid and find me the treasure.
+
+'
+    choiceTwoDialogues:
+    - 'Ok then
+
+'
+  choices:
+  - Yes
+  - No

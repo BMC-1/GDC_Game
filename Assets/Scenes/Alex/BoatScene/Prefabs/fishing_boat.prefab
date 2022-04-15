@@ -15,9 +15,10 @@ GameObject:
   - component: {fileID: 4723670056656323526}
   - component: {fileID: 224782486914236651}
   - component: {fileID: 1538550485118681768}
+  - component: {fileID: -5404762590273797931}
   m_Layer: 0
   m_Name: fishing_boat
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68,7 +69,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06a07f81f9b401545a4723edb98aa782, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boatSpeed: 4
+  boatSpeed: 3
   minAndMaxXConstrain:
   - -1.47
   - 1.47
@@ -85,7 +86,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagOfDamagingObjects: SeaObsticle
-  timeForDamageImmunityAfterDamage: 2
+  timeForDamageImmunityAfterDamage: 0.5
 --- !u!65 &4723670056656323526
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -97,7 +98,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.11, y: 1, z: 1.89}
+  m_Size: {x: 0.69, y: 1, z: 1.52}
   m_Center: {x: 0, y: 0.46, z: 0}
 --- !u!54 &224782486914236651
 Rigidbody:
@@ -128,6 +129,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpingForce: 500
+--- !u!114 &-5404762590273797931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8905816176398871400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce8f8722e9561064ead7d3dae490aca9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 60
+  minAndMaxRotation:
+  - -20
+  - 20
 --- !u!1 &8905816176398871406
 GameObject:
   m_ObjectHideFlags: 0

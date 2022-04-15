@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class SeaObsticleSpawner : MonoBehaviour
 {
+
+  
+
     [SerializeField] Transform seaObsticle;
 
     [SerializeField] float distanceBetweenObsticles;

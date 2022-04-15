@@ -15,12 +15,18 @@ public class ItemPicker : MonoBehaviour
     Transform itemToPickUp;
 
     InventoryBehaviour inventoryBehaviour;
+
+     BoxPickingEvent boxPickingEvent;
     // Start is called before the first frame update
     void Start()
     {
+        if(FindObjectOfType<BoxPickingEvent>())
+        {
+            boxPickingEvent = FindObjectOfType<BoxPickingEvent>();
+        }
+
         inventoryBehaviour = FindObjectOfType<InventoryBehaviour>();
 
-        pickUpMessage.text = "";
     }
 
     // Update is called once per frame
@@ -66,11 +72,25 @@ public class ItemPicker : MonoBehaviour
             {
                 inventoryBehaviour.AddItemToInventory(itemToPickUp.GetComponent<PickableItem>().itemToPick);
 
-                itemToPickUp.GetComponent<RespawnableItemBehaviour>().ActivateStartTheRespondTimer();
+                if (itemToPickUp.GetComponent<RespawnableItemBehaviour>())
+                {
+                    itemToPickUp.GetComponent<RespawnableItemBehaviour>().ActivateStartTheRespondTimer();
+
+                }
 
                 itemToPickUp.GetComponent<MeshRenderer>().enabled = false;
 
-                itemToPickUp.GetComponent<BoxCollider>().enabled = false;
+                foreach(BoxCollider boxCollider in itemToPickUp.GetComponents<BoxCollider>())
+                {
+                    boxCollider.enabled = false;
+                }
+                
+
+                if(boxPickingEvent!=null)
+                {
+                    boxPickingEvent.GenerateOutComeFromBoxPickingEvent(itemToPickUp.gameObject);
+
+                }
 
                 ClosePickUpMessage();
             }

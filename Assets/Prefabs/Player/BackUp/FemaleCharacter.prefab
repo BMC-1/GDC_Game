@@ -2005,7 +2005,7 @@ CharacterController:
   serializedVersion: 2
   m_Height: 1.84
   m_Radius: 0.25
-  m_SlopeLimit: 35
+  m_SlopeLimit: 50
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
@@ -2022,6 +2022,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 150651d7e2a35324e9e3275652aa61fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkingSpeed: 0
+  runningSpeed: 0
   gravity: -9.81
   jumpHeight: 0.7
   lowJumpMultiplier: 4.5

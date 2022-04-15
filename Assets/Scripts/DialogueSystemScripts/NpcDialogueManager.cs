@@ -9,6 +9,11 @@ public class NpcDialogueManager : MonoBehaviour
 {
     [SerializeField] Dialogue dialogue;
 
+    [Header("Add this only when there are choices that lead to game loss")]
+    [SerializeField] DialogueChoicesHandler dialogueChoicesHandler;
+    [Header("Add this only dialogues change after this npcs talk")]
+    [SerializeField] DialogueChanger dialogueChanger;
+
     [SerializeField] Transform dialogueBox;
 
     [Range(0.03f,1)]
@@ -16,11 +21,21 @@ public class NpcDialogueManager : MonoBehaviour
 
     Coroutine displayDialogue;
 
+
+    string buttonChoiceText="";
+
     bool isALineBeingShown;
     bool wasChoicesShown;
     bool isAConversationActive;
+
+
     // Start is called before the first frame update
-  
+
+
+    private void Start()
+    {
+
+    }
 
     // Update is called once per frame
     void LateUpdate()
@@ -32,6 +47,8 @@ public class NpcDialogueManager : MonoBehaviour
     {
         if(other.transform.parent.tag=="Player")
         {
+            FindObjectOfType<PlayerController>().canThePlayerMove = false;
+
             ResetDialogue();
 
             SetMainDialogue();
@@ -80,6 +97,12 @@ public class NpcDialogueManager : MonoBehaviour
     void ActivateOrDeactivateDialogueBox(bool activationState)
     {
         dialogueBox.gameObject.SetActive(activationState);
+
+        if(activationState==false)
+        {
+            FindObjectOfType<PlayerController>().canThePlayerMove = true;
+
+        }
 
     }
 
@@ -137,9 +160,20 @@ public class NpcDialogueManager : MonoBehaviour
                     {
                         ActivateOrDeactivateDialogueBox(false);
 
-                        
+                        if(dialogueChoicesHandler != null)
+                        {
+                            dialogueChoicesHandler.CheckIfChoiceIsWrong(buttonChoiceText);
+
+                        }
+                        if(dialogueChanger!=null)
+                        {
+                            dialogueChanger.ChangeDialogues(this.name);
+                        }
+
+
 
                     }
+
 
                 }
             }
@@ -158,13 +192,13 @@ public class NpcDialogueManager : MonoBehaviour
 
             dialogueBox.GetChild(3).GetChild(i).name = i.ToString();
 
-            dialogueBox.GetChild(3).GetChild(i).GetComponentInChildren<TextMeshProUGUI>().text = dialogue.choices[i];
+            dialogueBox.GetChild(3).GetChild(i).GetComponentInChildren<TextMeshProUGUI>().text = dialogue.choices[index];
 
             dialogueBox.GetChild(3).GetChild(i).GetComponent<Button>().onClick.RemoveAllListeners();
 
             dialogueBox.GetChild(3).GetChild(i).GetComponent<Button>().onClick.AddListener(delegate 
             { 
-                ChangeDialogue(index);
+                ChangeDialogue(index,dialogue.choices[index]);
                 
             });
 
@@ -172,7 +206,7 @@ public class NpcDialogueManager : MonoBehaviour
         }
     }
 
-    private void ChangeDialogue(int index)
+    private void ChangeDialogue(int index,string buttonChoiceText)
     {
 
         dialogue.currentSpeakerIndex = 0;
@@ -191,10 +225,12 @@ public class NpcDialogueManager : MonoBehaviour
             dialogueBox.GetChild(3).GetChild(i).gameObject.SetActive(false);
         }
 
+        this.buttonChoiceText = buttonChoiceText;
+
         displayDialogue = StartCoroutine("DisplayConversation");
     }
 
-    private void SetMainDialogue()
+    void SetMainDialogue()
     {
         foreach (Dialogue.CharactersConversation charactersConversation in dialogue.charactersTalking)
         {
@@ -204,7 +240,11 @@ public class NpcDialogueManager : MonoBehaviour
     }
 
 
+    public void ChangeDialogue(Dialogue newDialogue)
+    {
+        dialogue = newDialogue;
 
+    }
 
 
 

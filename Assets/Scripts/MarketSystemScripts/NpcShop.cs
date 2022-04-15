@@ -26,13 +26,18 @@ public class NpcShop : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        inventoryBehaviour = FindObjectOfType<InventoryBehaviour>();
-
-        coinSystem = FindObjectOfType<CoinSystem>();
+       Invoke("GetTheCoinAndInventorySystem",1f);
 
         SetTheBuyingAndSellingButtons();
 
         SetTheBuyingOrSellingOption(true);
+    }
+
+    private void GetTheCoinAndInventorySystem()
+    {
+        inventoryBehaviour = FindObjectOfType<InventoryBehaviour>();
+
+        coinSystem = FindObjectOfType<CoinSystem>();
     }
 
     // Update is called once per frame
@@ -109,9 +114,13 @@ public class NpcShop : MonoBehaviour
         {
             if(inventoryBehaviour.AreThereEmptySlots()==true)
             {
-                inventoryBehaviour.AddItemToInventory(item.image);
+                if(item.price<coinSystem.CoinsAmount())
+                {
+                    inventoryBehaviour.AddItemToInventory(item.image);
 
-                coinSystem.RemoveCoins(item.price);
+                    coinSystem.RemoveCoins(item.price);
+                }
+           
 
                 print("works purchase");
             }

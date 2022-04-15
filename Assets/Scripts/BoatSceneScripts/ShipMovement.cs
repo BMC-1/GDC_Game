@@ -10,10 +10,12 @@ public class ShipMovement : MonoBehaviour
 
     bool canTheboatMove=true;
 
+    ShipRotation shipRotation;
     BoatJumpingMotion boatJumpingMotion;
     // Start is called before the first frame update
     void Start()
     {
+        shipRotation = FindObjectOfType<ShipRotation>();
 
         boatJumpingMotion = FindObjectOfType<BoatJumpingMotion>();
     }
@@ -37,7 +39,13 @@ public class ShipMovement : MonoBehaviour
 
             if (CanTheBoatMoveToPos(futurePos))
             {
-                this.transform.position -= transform.right * boatSpeed * Time.deltaTime;
+                shipRotation.RotateTheShip(-1);
+
+                if(shipRotation.CurrentRotation()<0)
+                {
+                    this.transform.position -= Vector3.right * boatSpeed * Time.deltaTime;
+
+                }
 
             }
         }
@@ -47,10 +55,19 @@ public class ShipMovement : MonoBehaviour
 
             if(CanTheBoatMoveToPos(futurePos))
             {
-                this.transform.position += transform.right * boatSpeed * Time.deltaTime;
+                shipRotation.RotateTheShip(1);
 
+                if (shipRotation.CurrentRotation() > 0)
+                {
+                    this.transform.position += Vector3.right * boatSpeed * Time.deltaTime;
+
+                }
             }
 
+        }
+        else
+        {
+            shipRotation.ResetShipsRotation();
         }
     }
 

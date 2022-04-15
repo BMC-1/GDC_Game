@@ -28,6 +28,7 @@ public class TreasureTrigger : MonoBehaviour
 
             playerMovement2D.SetPlayerSpeedToZero();
 
+            FindObjectOfType<SceneChanger>().LoadNextScene();
             
         }
     }
