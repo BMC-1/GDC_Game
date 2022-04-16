@@ -81,15 +81,15 @@ public class NpcDialogueManager : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        ResetDialogue();
+        //ResetDialogue();
 
-        ActivateOrDeactivateDialogueBox(false);
+        //ActivateOrDeactivateDialogueBox(false);
 
-        StopCoroutine(displayDialogue);
+        //StopCoroutine(displayDialogue);
 
-        displayDialogue = null;
+        //displayDialogue = null;
 
-        isAConversationActive = false;
+        //isAConversationActive = false;
 
 
     }
@@ -100,7 +100,7 @@ public class NpcDialogueManager : MonoBehaviour
 
         if(activationState==false)
         {
-            FindObjectOfType<PlayerController>().canThePlayerMove = true;
+           FindObjectOfType<PlayerController>().canThePlayerMove = true;
 
         }
 
@@ -109,7 +109,8 @@ public class NpcDialogueManager : MonoBehaviour
     IEnumerator DisplayConversation()
     {
         dialogueBox.GetChild(1).GetComponent<TextMeshProUGUI>().text = "";
-       
+
+        dialogueBox.transform.GetChild(4).gameObject.SetActive(false);
 
         dialogueBox.GetChild(2).GetComponent<TextMeshProUGUI>().text = dialogue.charactersTalking[dialogue.currentSpeakerIndex].characterName;
 
@@ -124,6 +125,9 @@ public class NpcDialogueManager : MonoBehaviour
         }
 
         isALineBeingShown = false;
+
+        dialogueBox.transform.GetChild(4).gameObject.SetActive(true);
+
     }
 
     void ContinueTheConversation()
@@ -170,8 +174,18 @@ public class NpcDialogueManager : MonoBehaviour
                             dialogueChanger.ChangeDialogues(this.name);
                         }
 
+                        ResetDialogue();
+
+                        ActivateOrDeactivateDialogueBox(false);
+
+                        StopCoroutine(displayDialogue);
+
+                        displayDialogue = null;
+
+                        isAConversationActive = false;
 
 
+                        dialogueBox.transform.GetChild(4).gameObject.SetActive(false);
                     }
 
 
@@ -182,9 +196,10 @@ public class NpcDialogueManager : MonoBehaviour
 
     private void SetChoicesToButtons(bool buttonsState)
     {
-        
+        dialogueBox.transform.GetChild(4).gameObject.SetActive(false);
 
-        for(int i=0; i<dialogue.choices.Count; i++)
+
+        for (int i=0; i<dialogue.choices.Count; i++)
         {
             int index = i;
 
