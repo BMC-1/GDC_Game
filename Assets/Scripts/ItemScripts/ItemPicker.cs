@@ -32,27 +32,45 @@ public class ItemPicker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        PickUpItem();
+        if(itemToPickUp!=null)
+        {
+            print(itemToPickUp);
+
+            PickUpItem();
+        }
+       
     }
 
     private void OnTriggerStay(Collider other)
     {
-        DisplayPickMessage(other);
+        if(other.tag=="Pickable")
+        {
+            DisplayPickMessage(other);
 
-        itemToPickUp = other.transform;
+            itemToPickUp = other.transform;
+        }
+      
 
     }
 
     private void OnTriggerExit(Collider other)
     {
-        ClosePickUpMessage();
+        if (other.tag == "Pickable")
+        {
+            ClosePickUpMessage();
+
+            itemToPickUp = null;
+        }
+
+       
+
     }
 
     void DisplayPickMessage(Collider other)
     {
         if (other.tag == "Pickable")
         {
-            pickUpMessage.text = messageToDisplay + ":" + other.name;
+            pickUpMessage.text = messageToDisplay;
 
         }
     }

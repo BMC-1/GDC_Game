@@ -1,11 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using TMPro;
 using UnityEngine;
 
 public class ItemCollector : MonoBehaviour
 {
+
     [SerializeField] Sprite[] itemsToCollect;
+
+    [SerializeField] Transform itemToCollectUi;
 
     [SerializeField] int[] amountToCollect;
 
@@ -38,9 +42,15 @@ public class ItemCollector : MonoBehaviour
 
                 if(inventoryBehaviour.ItemFramesParent().GetChild(j).GetChild(0).GetComponent<Image>().sprite== itemsToCollect[i])
                 {
-                    amountToCollect[i]--;
+                    if (amountToCollect[i]>0)
+                    {
+                        amountToCollect[i]--;
 
-                    inventoryBehaviour.RemoveItemFromInventory(itemsToCollect[i]);
+                        itemToCollectUi.GetChild(i).GetComponentInChildren<TextMeshProUGUI>().text = amountToCollect[i].ToString();
+
+                        inventoryBehaviour.RemoveItemFromInventory(itemsToCollect[i]);
+                    }
+                   
 
                 }
             }
@@ -69,5 +79,24 @@ public class ItemCollector : MonoBehaviour
 
         print(inventoryBehaviour);
 
+        SetTheUiForTheCollectItems();
+
+    }
+
+   
+
+    void SetTheUiForTheCollectItems()
+    {
+        for(int i=0; i<itemsToCollect.Length; i++)
+        {
+
+            itemToCollectUi.GetChild(i).gameObject.SetActive(true);
+
+            itemToCollectUi.GetChild(i).GetComponentInChildren<Image>().sprite = itemsToCollect[i];
+
+
+            itemToCollectUi.GetChild(i).GetComponentInChildren<TextMeshProUGUI>().text = amountToCollect[i].ToString();
+
+        }
     }
 }

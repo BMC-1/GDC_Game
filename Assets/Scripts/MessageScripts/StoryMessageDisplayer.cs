@@ -5,7 +5,9 @@ using UnityEngine;
 
 public class StoryMessageDisplayer : MonoBehaviour
 {
-    [SerializeField] Transform storyTellingUi; 
+    [SerializeField] Transform storyTellingUi;
+
+    [SerializeField] Transform continueButtonMessage;
 
     [SerializeField] float speedOfLettersToAppear;
 
@@ -13,6 +15,7 @@ public class StoryMessageDisplayer : MonoBehaviour
     [SerializeField] string storyToDisplay;
 
     bool isTheStoryBeingDisplayed;
+
 
     PlayerController playerController;
     // Start is called before the first frame update
@@ -52,11 +55,12 @@ public class StoryMessageDisplayer : MonoBehaviour
 
         isTheStoryBeingDisplayed = false;
 
+        continueButtonMessage.gameObject.SetActive(true);
     }
 
     void CloseTheStoryBox()
     {
-        if(isTheStoryBeingDisplayed==false && Input.GetKeyDown(KeyCode.Mouse0))
+        if(isTheStoryBeingDisplayed==false && Input.GetKeyDown(KeyCode.Mouse0) && storyTellingUi.gameObject.activeInHierarchy==true)
         {
 
             if (playerController != null)
@@ -66,6 +70,8 @@ public class StoryMessageDisplayer : MonoBehaviour
             }
 
             storyTellingUi.gameObject.SetActive(false);
+
+            
 
         }
     }

@@ -13,6 +13,10 @@ TagManager:
   - Pickable
   - WaterTerrainBlock
   - SeaObsticle
+  - SandGround
+  - WoodGround
+  - GrassGround
+  - RockGround
   layers:
   - Default
   - TransparentFX
